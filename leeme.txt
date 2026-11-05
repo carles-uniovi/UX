@@ -1,0 +1,40 @@
+T2 - ADWEB: SITIO WEB PERSONAL
+Carles Valladares García (UO319242)
+
+Diseño
+Sitio estático de cinco páginas con navegación, estilos y tema comunes.
+HTML organiza el contenido; CSS adapta el diseño a móvil y escritorio;
+JavaScript añade el tema claro/oscuro y los reproductores en diálogo.
+
+Carpetas y archivos
+- index.html, trayectoria.html, hobbies.html, intereses.html y contacto.html.
+- css/: estilos; js/: selector de tema y reproducción multimedia.
+- img/: fotografías e iconos; docs/media/: canciones MP3 y tráileres MP4.
+- docs/: enunciado y planes; work/: muestras de paletas de color.
+- documentacion.md: detalles; img/contacto/: créditos y licencia de iconos.
+
+Ejecución y uso
+Abrir index.html en un navegador moderno, conservando las carpetas.
+También puede servirse por HTTP desde esta carpeta:
+  python -m http.server 8000 --bind 127.0.0.1
+Abrir http://127.0.0.1:8000/ y detener el servidor con Ctrl+C.
+Recorrer las páginas, cambiar el tema desde la cabecera y abrir canciones
+o tráileres en Intereses. Al cerrar el diálogo se detiene la reproducción.
+
+Herramientas y versiones
+HTML5, CSS (Grid, Flexbox y anidamiento nativo) y JavaScript sin frameworks.
+No hay dependencias, backend ni compilación. Python 3 es solo una opción
+de servidor; versión disponible en la revisión: 3.14.4.
+El navegador debe admitir dialog, anidamiento CSS, MP3 y MP4.
+
+Consideraciones y entrega
+El tema se guarda en localStorage cuando el navegador lo permite.
+Los recursos multimedia están incluidos; deben conservar sus rutas.
+Los créditos y la licencia de los iconos están en img/contacto/.
+docs/plan/ distingue prompts documentados de reconstrucciones posteriores.
+URL pública: https://156.35.98.48/t2/index.html
+Las webs están desplegadas en la máquina virtual de Windows, en la
+dirección IP https://156.35.98.48/, accesible desde la red de Uniovi.
+Portada: https://156.35.98.48/ (acceso mediante VPN universitaria).
+El despliegue debe coincidir con el ZIP y permanecer sin cambios tras
+la fecha de entrega: 05/10/2026 a las 17:00, según entrega.pdf.

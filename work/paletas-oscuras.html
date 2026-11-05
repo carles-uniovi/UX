@@ -1,0 +1,75 @@
+<div id="paletas-personal">
+  <style>
+    #paletas-personal .palette-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1.25rem; }
+    #paletas-personal article { min-width: 0; }
+    #paletas-personal .palette-name { margin: 0 0 0.6rem; }
+    #paletas-personal .sample { background: var(--site-bg); color: var(--site-text); padding: 1.25rem; border-radius: 0.75rem; font: 400 0.95rem/1.6 system-ui, sans-serif; overflow-wrap: anywhere; }
+    #paletas-personal .sample h3 { font-size: 1.4rem; line-height: 1.3; font-weight: 500; color: var(--site-text); margin: 0 0 0.7rem; }
+    #paletas-personal .sample .nav-example { color: var(--site-accent); margin: 0 0 1.25rem; }
+    #paletas-personal .sample section { background: var(--site-surface); padding: 1rem; border-radius: 0.6rem; }
+    #paletas-personal .sample h4 { color: var(--site-accent); font-size: 1rem; font-weight: 500; margin: 0 0 0.75rem; }
+    #paletas-personal .sample p { margin: 0; }
+    #paletas-personal .sample .name { font-weight: 500; margin-bottom: 0.3rem; }
+    #paletas-personal .tokens { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; margin: 1rem 0 0; }
+    #paletas-personal .tokens dt { color: var(--site-text); font-size: 0.8rem; }
+    #paletas-personal .tokens dd { margin: 0; color: var(--site-text); font: 400 0.85rem/1.5 ui-monospace, monospace; }
+  </style>
+  <div class="palette-grid">
+    <article>
+      <h3 class="palette-name">1. Azul noche · sobria</h3>
+      <div class="sample" aria-label="Paleta azul noche" style="--site-bg:#0F172A;--site-surface:#1E293B;--site-text:#E2E8F0;--site-accent:#7DD3FC">
+        <h3>Web Personal</h3>
+        <p class="nav-example">Sobre mí · Hobbies · Intereses</p>
+        <section><h4>Música</h4><p class="name">Robe</p><p>Uno de los artistas a los que vuelvo cuando me apetece escuchar música con calma.</p></section>
+        <dl class="tokens"><div><dt>Fondo</dt><dd data-token="bg">#0F172A</dd></div><div><dt>Secciones</dt><dd data-token="surface">#1E293B</dd></div><div><dt>Texto</dt><dd data-token="text">#E2E8F0</dd></div><div><dt>Acento</dt><dd data-token="accent">#7DD3FC</dd></div></dl>
+      </div>
+    </article>
+    <article>
+      <h3 class="palette-name">2. Grafito y lavanda · creativa</h3>
+      <div class="sample" aria-label="Paleta grafito y lavanda" style="--site-bg:#18181B;--site-surface:#27272A;--site-text:#F4F4F5;--site-accent:#C4B5FD">
+        <h3>Web Personal</h3>
+        <p class="nav-example">Sobre mí · Hobbies · Intereses</p>
+        <section><h4>Música</h4><p class="name">Robe</p><p>Uno de los artistas a los que vuelvo cuando me apetece escuchar música con calma.</p></section>
+        <dl class="tokens"><div><dt>Fondo</dt><dd data-token="bg">#18181B</dd></div><div><dt>Secciones</dt><dd data-token="surface">#27272A</dd></div><div><dt>Texto</dt><dd data-token="text">#F4F4F5</dd></div><div><dt>Acento</dt><dd data-token="accent">#C4B5FD</dd></div></dl>
+      </div>
+    </article>
+    <article>
+      <h3 class="palette-name">3. Bosque y salvia · tranquila</h3>
+      <div class="sample" aria-label="Paleta bosque y salvia" style="--site-bg:#14201B;--site-surface:#21332B;--site-text:#EDF2E8;--site-accent:#A3D9A5">
+        <h3>Web Personal</h3>
+        <p class="nav-example">Sobre mí · Hobbies · Intereses</p>
+        <section><h4>Música</h4><p class="name">Robe</p><p>Uno de los artistas a los que vuelvo cuando me apetece escuchar música con calma.</p></section>
+        <dl class="tokens"><div><dt>Fondo</dt><dd data-token="bg">#14201B</dd></div><div><dt>Secciones</dt><dd data-token="surface">#21332B</dd></div><div><dt>Texto</dt><dd data-token="text">#EDF2E8</dd></div><div><dt>Acento</dt><dd data-token="accent">#A3D9A5</dd></div></dl>
+      </div>
+    </article>
+    <article>
+      <h3 class="palette-name">4. Carbón y melocotón · cálida</h3>
+      <div class="sample" aria-label="Paleta carbon y melocoton" style="--site-bg:#211B19;--site-surface:#332924;--site-text:#F5EDE4;--site-accent:#FDBA8C">
+        <h3>Web Personal</h3>
+        <p class="nav-example">Sobre mí · Hobbies · Intereses</p>
+        <section><h4>Música</h4><p class="name">Robe</p><p>Uno de los artistas a los que vuelvo cuando me apetece escuchar música con calma.</p></section>
+        <dl class="tokens"><div><dt>Fondo</dt><dd data-token="bg">#211B19</dd></div><div><dt>Secciones</dt><dd data-token="surface">#332924</dd></div><div><dt>Texto</dt><dd data-token="text">#F5EDE4</dd></div><div><dt>Acento</dt><dd data-token="accent">#FDBA8C</dd></div></dl>
+      </div>
+    </article>
+  </div>
+  <script>
+    (() => {
+      const root = document.getElementById('paletas-personal');
+      const labels = { bg: 'Fondo', surface: 'Secciones', text: 'Texto', accent: 'Acento' };
+      root.querySelectorAll('.sample').forEach(sample => {
+        const state = Object.fromEntries(Object.keys(labels).map(key => [key, sample.style.getPropertyValue('--site-' + key).trim()]));
+        function render() {
+          Object.keys(labels).forEach(key => {
+            sample.style.setProperty('--site-' + key, state[key]);
+            sample.querySelector('[data-token="' + key + '"]').textContent = state[key].toUpperCase();
+          });
+        }
+        render();
+        if (globalThis.Tweak) {
+          const tweak = new globalThis.Tweak({ container: sample, onChange: render });
+          Object.keys(labels).forEach(key => tweak.addColorPicker(state, key, { label: labels[key], reference: '--site-' + key }));
+        }
+      });
+    })();
+  </script>
+</div>
