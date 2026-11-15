@@ -1,10 +1,13 @@
-name: Publish PaginaPersonal to GitHub Pages
+name: Publish personal website versions to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
-      - 'PaginaPersonal/**'
+      - 'Web Personal/PaginaPersonal/**'
+      - 'Web Personal/PaginaPersonal-V2/**'
+      - 'Web Personal/PaginaPersonal-V3/**'
+      - 'Web Personal/scripts/build-pages.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -26,12 +29,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Build and check all available versions
+        run: python "Web Personal/scripts/build-pages.py"
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload personal website
+      - name: Upload versioned websites
         uses: actions/upload-pages-artifact@v4
         with:
-          path: PaginaPersonal
+          path: 'Web Personal/.pages-site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

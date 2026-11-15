@@ -4,6 +4,8 @@ Segunda versión del sitio de Carles Valladares García, UO319242, para Experien
 
 ## Abrir
 
+Dirección de publicación: <https://carles-uniovi.github.io/UX/v2/>. V1 se conserva en `/UX/v1/`; la portada `/UX/` permite elegir versión. Configuración y comprobaciones en la [guía de GitHub Pages](../docs/publicacion-pages.md).
+
 Abre [index.html](index.html) en un navegador. No requiere instalación ni compilación. Los tráileres de YouTube necesitan conexión; para reproducirlos incrustados, sirve esta carpeta por HTTP:
 
 ```powershell
@@ -67,10 +69,12 @@ Las páginas generadas se entregan listas para usar; Python solo es una herramie
 - [Funcionamiento y pruebas del buscador](docs/buscador.md).
 - [Resultados de verificación y comprobaciones manuales pendientes](docs/verificacion.md).
 - [Preparación de las pruebas de usabilidad de la tanda 2](docs/usabilidad-tanda2.md).
+- [Comparativa y propuesta de herramientas para mirada y mapas de calor](docs/herramientas-tanda2.md).
+- [Plantilla rellenable de seguimiento de tareas y participantes](docs/plantilla-seguimiento-tanda2.md).
 - [Revisión de la interfaz a partir de las capturas](docs/revision-interfaz.md).
 - [Tráileres de YouTube y opciones de accesibilidad](docs/youtube.md).
 
-No se ha publicado ni desplegado esta versión. La validación W3C devuelve cero errores en los 18 HTML y en la hoja CSS; las advertencias CSS están documentadas. Estos resultados no equivalen a una puntuación nueva de Lighthouse ni a conformidad WCAG AAA. Faltan subtítulos y transcripciones verificados del contenido multimedia y una fotografía real del autor.
+La publicación se gestiona con el workflow de GitHub Pages del repositorio, conservando cada versión en su propia ruta. La validación W3C devuelve cero errores en los 18 HTML y en la hoja CSS; las advertencias CSS están documentadas. Estos resultados no equivalen a una puntuación nueva de Lighthouse ni a conformidad WCAG AAA. Faltan subtítulos y transcripciones verificados del contenido multimedia y una fotografía real del autor.
 
 ## Recursos
 
