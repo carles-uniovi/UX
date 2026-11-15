@@ -2,6 +2,8 @@
 
 Protocolo preparado para las pruebas requeridas en `../../enunciado.md`. No contiene resultados ni participantes ficticios. La ejecución con usuarios será posterior a la revisión manual de V2.
 
+Documentos de apoyo: [comparativa y propuesta de herramientas](herramientas-tanda2.md), con prioridad a opciones gratuitas, y [plantilla rellenable de seguimiento](plantilla-seguimiento-tanda2.md), con fichas de sesión, registro cronológico, evidencias y resumen estadístico. Se ha elegido GazeRecorder online para el piloto en los tres dispositivos, usando la dirección de publicación `https://carles-uniovi.github.io/UX/v2/`; todavía no se incorpora seguimiento a V2 ni se han recogido datos.
+
 ## Tarea para entregar al participante
 
 > Quieres escuchar la canción de Gavina.mp3 que Carles ha incluido en su web. Averigua cómo se titula y dímelo cuando la encuentres.
@@ -25,6 +27,8 @@ El sitio no incluye seguimiento externo ni registra participantes automáticamen
 3. Observar y anotar rutas, dudas, errores y comentarios. Verificar que ambas herramientas de seguimiento siguen activas.
 4. Detener el tiempo cuando el participante diga la respuesta correcta o abandone. Registrar finalización o abandono de forma explícita. No inventar un tiempo de éxito si abandona.
 5. Pedir qué le resultó difícil, qué mejoraría y una valoración del sitio de 0 a 10. Comprobar que las grabaciones y mapas se guardaron correctamente.
+
+La tarea mide la identificación del título: no exige reproducir el audio. Conservar por separado recorrido ocular, mapa ocular y mapa de clics/toques. Registrar también si el cuestionario posterior se completa, para calcular el porcentaje solicitado en el enunciado además del porcentaje de éxito en la tarea.
 
 ## Registro por participante
 
