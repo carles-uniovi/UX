@@ -1,0 +1,16 @@
+PÁGINA PERSONAL V2 — Carles Valladares García — UO319242
+
+Abre index.html. No necesita instalar dependencias ni compilar.
+Opcional: desde esta carpeta, ejecuta:
+python -m http.server 8000 --bind 127.0.0.1
+Después visita http://127.0.0.1:8000/ y detén el servidor con Ctrl+C.
+
+HTML organiza el contenido estático de forma semántica. CSS plano permite
+compartir diseño adaptable, colores y foco sin bibliotecas. JavaScript incorpora
+tema, menú móvil, copia de correo y búsqueda local mediante mejoras progresivas.
+El contenido, las traducciones, la navegación y los medios siguen accesibles sin
+JavaScript; el buscador ofrece como alternativa el mapa y la versión de lectura.
+
+Python estándar genera los HTML y el índice al mantener el proyecto; no es
+necesario para visitar el sitio. No se usan frameworks, backend ni base de datos.
+Consulta README.md y docs/ para las mejoras, pruebas y limitaciones de la V2.

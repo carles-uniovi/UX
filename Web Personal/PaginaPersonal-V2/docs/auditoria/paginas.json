@@ -1,0 +1,240 @@
+[
+  {
+    "file": "ayuda.html",
+    "sha256": "84d698b32c0632c2a32be4253ea42d490d2f1e348e4a80e538616aa351f33146",
+    "language": "es",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "buscar.html",
+    "sha256": "1478bd3d527be7600d583b909dae69fdb0a09d799b38023ddeab1f9e29730812",
+    "language": "es",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "contacto.html",
+    "sha256": "8c8d3b892457b54a294d67ed381b374cfd53da0e205dcc20341a25419c0e899c",
+    "language": "es",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 19,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "hobbies.html",
+    "sha256": "a39a971699bea7b9d7355fc38f551b4940c008a1beb73c07ae0c75735b659ba7",
+    "language": "es",
+    "h1_count": 1,
+    "images": 8,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "index.html",
+    "sha256": "465e513945b125ec2cc6dc132cefada9983a320b39b359c6f3e349bd3622af9e",
+    "language": "es",
+    "h1_count": 1,
+    "images": 1,
+    "anchors": 17,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en",
+      "ca"
+    ]
+  },
+  {
+    "file": "intereses.html",
+    "sha256": "dfbd7119e3fc86565cfc2c0cf5381fe7e2ebd7c5ae74d977cd6fc0ef5300b5d0",
+    "language": "es",
+    "h1_count": 1,
+    "images": 9,
+    "anchors": 23,
+    "media_links": 5,
+    "dialogs": 1,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "lectura.html",
+    "sha256": "0a3edb8e00d69b610eb514ea2ed917c4a355bc1991a281624916546e3abdfaae",
+    "language": "es",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 42,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en",
+      "ca"
+    ]
+  },
+  {
+    "file": "mapa.html",
+    "sha256": "403d3109b756a76d86ecd7e5607c8699bc0b4c8d5f538e16e0bc9d4c44fd1bd6",
+    "language": "es",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 56,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "trayectoria.html",
+    "sha256": "961d3d0914a31790db7057de41ca9035308be3d9526f36cf9a2c34d849af15e5",
+    "language": "es",
+    "h1_count": 1,
+    "images": 3,
+    "anchors": 18,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "en"
+    ]
+  },
+  {
+    "file": "en/ayuda.html",
+    "sha256": "14de10e0313279c8f82baeda5dbaf42712fe982520d6140a1c08abf0d54a4d0b",
+    "language": "en",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/buscar.html",
+    "sha256": "137b9ed4b666d454c40bdb462a1006d96f97419fbfd11696f6b588879ae1881d",
+    "language": "en",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/contacto.html",
+    "sha256": "f21426722d4f90d57fc365c9e7d612d6f10746b50f3a8bc6d61534ffb6734420",
+    "language": "en",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 19,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/hobbies.html",
+    "sha256": "dd82f68c667bcfa04c022859ab11121febf3e878d5752e2ab49c2a85185b0c63",
+    "language": "en",
+    "h1_count": 1,
+    "images": 8,
+    "anchors": 16,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/index.html",
+    "sha256": "d4baca6464173126df989eba89c9ecb7fdb57c105079a5747e745a04916b0ba0",
+    "language": "en",
+    "h1_count": 1,
+    "images": 1,
+    "anchors": 17,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es",
+      "ca"
+    ]
+  },
+  {
+    "file": "en/intereses.html",
+    "sha256": "e3ead4369d582ea56833a05bae07dc4ed22fd8909776d76ac6284cfb56cb5726",
+    "language": "en",
+    "h1_count": 1,
+    "images": 9,
+    "anchors": 23,
+    "media_links": 5,
+    "dialogs": 1,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/lectura.html",
+    "sha256": "3841ddf4b3610b8fe31a2497411e4eab013e69ab2c2f02a7f46093e3d4ccccb6",
+    "language": "en",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 42,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es",
+      "ca"
+    ]
+  },
+  {
+    "file": "en/mapa.html",
+    "sha256": "217f01ceb169d3cae48fbe8da201abda3576f4f31c08f7abe46fcfbfc1fe32e9",
+    "language": "en",
+    "h1_count": 1,
+    "images": 0,
+    "anchors": 56,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  },
+  {
+    "file": "en/trayectoria.html",
+    "sha256": "2554198e18042e76b139c02f7cabb83c23d45b353fe79f654a8369075c361f47",
+    "language": "en",
+    "h1_count": 1,
+    "images": 3,
+    "anchors": 18,
+    "media_links": 0,
+    "dialogs": 0,
+    "part_languages": [
+      "es"
+    ]
+  }
+]

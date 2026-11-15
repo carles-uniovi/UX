@@ -1,0 +1,787 @@
+{
+  "date": "2026-11-14",
+  "html_files": 18,
+  "html_errors": 0,
+  "html_warnings": 0,
+  "css": {
+    "validity": "true",
+    "errorcount": "0",
+    "warningcount": "128"
+  },
+  "css_warning_types": {
+    "no-background-color": 31,
+    "css-variable": 3,
+    "no-color": 3,
+    "redefinition": 91
+  },
+  "css_warnings": [
+    {
+      "line": "38",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "39",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "46",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "52",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "66",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "77",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "79",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "82",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "85",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "86",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "89",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "90",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "102",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "104",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "106",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "107",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "107",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "112",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable"
+    },
+    {
+      "line": "115",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "118",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "125",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable"
+    },
+    {
+      "line": "126",
+      "level": "2",
+      "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-color"
+    },
+    {
+      "line": "132",
+      "level": "2",
+      "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-color"
+    },
+    {
+      "line": "139",
+      "level": "2",
+      "message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-color"
+    },
+    {
+      "line": "140",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "143",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "150",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "166",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "171",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "177",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "179",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "180",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "183",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "184",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "184",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "185",
+      "level": "2",
+      "message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.",
+      "type": "no-background-color"
+    },
+    {
+      "line": "188",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "192",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable"
+    },
+    {
+      "line": "193",
+      "level": "2",
+      "message": "Redefinition of “display”",
+      "type": "redefinition"
+    },
+    {
+      "line": "193",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "195",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "196",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "199",
+      "level": "2",
+      "message": "Redefinition of “width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "199",
+      "level": "2",
+      "message": "Redefinition of “width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "199",
+      "level": "2",
+      "message": "Redefinition of “width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "201",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "201",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "201",
+      "level": "2",
+      "message": "Redefinition of “padding-block”",
+      "type": "redefinition"
+    },
+    {
+      "line": "202",
+      "level": "2",
+      "message": "Redefinition of “font-size”",
+      "type": "redefinition"
+    },
+    {
+      "line": "205",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "205",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "206",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "206",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "207",
+      "level": "2",
+      "message": "Redefinition of “align-items”",
+      "type": "redefinition"
+    },
+    {
+      "line": "207",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "211",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "212",
+      "level": "2",
+      "message": "Redefinition of “margin-bottom”",
+      "type": "redefinition"
+    },
+    {
+      "line": "212",
+      "level": "2",
+      "message": "Redefinition of “margin-left”",
+      "type": "redefinition"
+    },
+    {
+      "line": "212",
+      "level": "2",
+      "message": "Redefinition of “margin-top”",
+      "type": "redefinition"
+    },
+    {
+      "line": "212",
+      "level": "2",
+      "message": "Redefinition of “margin-right”",
+      "type": "redefinition"
+    },
+    {
+      "line": "212",
+      "level": "2",
+      "message": "Redefinition of “transform”",
+      "type": "redefinition"
+    },
+    {
+      "line": "213",
+      "level": "2",
+      "message": "Redefinition of “aspect-ratio”",
+      "type": "redefinition"
+    },
+    {
+      "line": "214",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "214",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "215",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "215",
+      "level": "2",
+      "message": "Redefinition of “gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "216",
+      "level": "2",
+      "message": "Redefinition of “padding-bottom”",
+      "type": "redefinition"
+    },
+    {
+      "line": "216",
+      "level": "2",
+      "message": "Redefinition of “padding-left”",
+      "type": "redefinition"
+    },
+    {
+      "line": "216",
+      "level": "2",
+      "message": "Redefinition of “padding-top”",
+      "type": "redefinition"
+    },
+    {
+      "line": "216",
+      "level": "2",
+      "message": "Redefinition of “padding-right”",
+      "type": "redefinition"
+    },
+    {
+      "line": "216",
+      "level": "2",
+      "message": "Redefinition of “height”",
+      "type": "redefinition"
+    },
+    {
+      "line": "217",
+      "level": "2",
+      "message": "Redefinition of “height”",
+      "type": "redefinition"
+    },
+    {
+      "line": "220",
+      "level": "2",
+      "message": "Redefinition of “padding-left”",
+      "type": "redefinition"
+    },
+    {
+      "line": "221",
+      "level": "2",
+      "message": "Redefinition of “left”",
+      "type": "redefinition"
+    },
+    {
+      "line": "225",
+      "level": "2",
+      "message": "Redefinition of “grid-template-columns”",
+      "type": "redefinition"
+    },
+    {
+      "line": "243",
+      "level": "2",
+      "message": "Redefinition of “color-scheme”",
+      "type": "redefinition"
+    },
+    {
+      "line": "243",
+      "level": "2",
+      "message": "Redefinition of “color-scheme”",
+      "type": "redefinition"
+    },
+    {
+      "line": "244",
+      "level": "2",
+      "message": "Redefinition of “background-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "245",
+      "level": "2",
+      "message": "Redefinition of “color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "247",
+      "level": "2",
+      "message": "Redefinition of “display”",
+      "type": "redefinition"
+    },
+    {
+      "line": "248",
+      "level": "2",
+      "message": "Redefinition of “width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "248",
+      "level": "2",
+      "message": "Redefinition of “padding-top”",
+      "type": "redefinition"
+    },
+    {
+      "line": "249",
+      "level": "2",
+      "message": "Redefinition of “max-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "249",
+      "level": "2",
+      "message": "Redefinition of “max-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-left-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-right-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-left-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-right-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-left-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-right-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-left-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-right-radius”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “column-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “row-gap”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-color”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-style”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-top-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-right-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-bottom-width”",
+      "type": "redefinition"
+    },
+    {
+      "line": "0",
+      "level": "2",
+      "message": "Redefinition of “border-left-width”",
+      "type": "redefinition"
+    }
+  ]
+}

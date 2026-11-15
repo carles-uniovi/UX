@@ -1,0 +1,581 @@
+[
+  {
+    "file": "Metrica-WebPersonal-IA-v2-UO319242.xlsx",
+    "sha256": "11763450f984902432f5c9f90ca3a0fdd52ce1feab30e055d56e72c21626941a",
+    "sheets": [
+      {
+        "name": "Autoevaluación",
+        "criteria": [
+          {
+            "C14": "1.1 Comprensibilidad global del sitio Web: mapa, migas, etc.",
+            "D14": "7",
+            "G14": "Ausencia de migas para la navegación, pero la simpleza de la web hace dificil perderse."
+          },
+          {
+            "C15": "1.2 Mecanismos de ayuda y retroalimentación en línea",
+            "D15": "0",
+            "G15": "No hay."
+          },
+          {
+            "C16": "1.3 Aspectos estéticos de las interfaces",
+            "D16": "7",
+            "G16": "Limpio para la vista pero simple y poco llamativo."
+          },
+          {
+            "C17": "1.4 Adaptabilidad a dispositivos móviles medido con herramientas",
+            "D17": "6",
+            "G17": "El contenido se adapta automáticamente al tamaño móvil, pero es evidente que no se desarrollo la interfaz móvil concienciadamente."
+          },
+          {
+            "C18": "1.5 Internacionalización: Usa varios idiomas",
+            "D18": "0",
+            "G18": "No hay."
+          },
+          {
+            "C19": "1.6 Enlaces a redes sociales",
+            "D19": "0",
+            "G19": "No hay."
+          },
+          {
+            "C21": "2.1 Accesibilidad solamente con teclado sin uso de ratón",
+            "D21": "0",
+            "G21": "Solo se puede tabular y usar enter."
+          },
+          {
+            "C22": "2.2 Navegación eliminando todos los elementos gráficos",
+            "D22": "0",
+            "G22": "No se puede navegar."
+          },
+          {
+            "C23": "2.3 Comprobación automática de accesibilidad con herramientas",
+            "D23": "9",
+            "G23": "Una sola alerta de Link redundante con la herramienta WAVE"
+          },
+          {
+            "C25": "3.1 Calidad del buscador",
+            "D25": "0",
+            "G25": "No hay."
+          },
+          {
+            "C26": "3.2 Facilidad de navegación",
+            "D26": "9",
+            "G26": "La simpleza de la web hace que sea fácilmente navegable con el header."
+          },
+          {
+            "C28": "4.1 Información sobre las aficiones",
+            "D28": "10",
+            "G28": "Completas y claras."
+          },
+          {
+            "C29": "4.2 Información sobre formación y experiencia laboral",
+            "D29": "8",
+            "G29": "Formación bien estructurada, pero carece de trayectoria laboral."
+          },
+          {
+            "C30": "4.3 Información de contacto",
+            "D30": "10",
+            "G30": "Información completa, incluyendo enlaces personales y escolares."
+          },
+          {
+            "C31": "4.4 Contacto con personas que avalan a la persona",
+            "D31": "0",
+            "G31": "No hay."
+          },
+          {
+            "C33": "5.1 Ausencia de Deficiencias y Errores",
+            "D33": "10",
+            "G33": "No hay errores."
+          },
+          {
+            "C34": "5.2 Validación de estándar HTML",
+            "D34": "10",
+            "G34": "No hay errores con el validador W3C."
+          },
+          {
+            "C35": "5.3 Validación de estándar CSS",
+            "D35": "10",
+            "G35": "No hay errores con el validador W3C."
+          },
+          {
+            "C36": "5.4 Fecha de última actualización",
+            "D36": "0",
+            "G36": "No tiene."
+          },
+          {
+            "C38": "6.1 Rendimiento medido con herramientas",
+            "D38": "10",
+            "G38": "Puntuación 100 de rendimiento con Lighthouse."
+          },
+          {
+            "C39": "6.2 Tiempo de carga del sitio Web",
+            "D39": "10",
+            "G39": "Carga rápida (0,2s First Contentful Paint)."
+          }
+        ]
+      },
+      {
+        "name": "Evaluación-IA",
+        "criteria": [
+          {
+            "C14": "1.1 Comprensibilidad global del sitio Web: mapa, migas, etc.",
+            "D14": "9",
+            "G14": "GPT-6",
+            "I14": "La navegación es sencilla e intuitiva, con un menú común y una indicación de la sección actual. No dispone de mapa del sitio ni migas de pan, aunque su estructura simple no los hace necesarios."
+          },
+          {
+            "C15": "1.2 Mecanismos de ayuda y retroalimentación en línea",
+            "D15": "6",
+            "G15": "GPT-6",
+            "I15": "Existen indicadores visuales al interactuar con enlaces y botones, además de mensajes relacionados con la reproducción multimedia. Sin embargo, no dispone de mecanismos de ayuda específicos."
+          },
+          {
+            "C16": "1.3 Aspectos estéticos de las interfaces",
+            "D16": "8",
+            "G16": "GPT-6",
+            "I16": "Presenta un diseño limpio y consistente, con colores uniformes, contenido organizado en tarjetas y posibilidad de alternar entre modo claro y oscuro."
+          },
+          {
+            "C17": "1.4 Adaptabilidad a dispositivos móviles medido con herramientas",
+            "D17": "8",
+            "G17": "GPT-6",
+            "I17": "El código incorpora un diseño responsive con Flexbox, Grid y media queries que reorganizan los elementos según el tamaño de pantalla. El menú puede ocupar demasiado espacio vertical en pantallas pequeñas."
+          },
+          {
+            "C18": "1.5 Internacionalización: Usa varios idiomas",
+            "D18": "0",
+            "G18": "GPT-6",
+            "I18": "La web está desarrollada principalmente en castellano, con algunas expresiones en valenciano. No dispone de traducciones completas ni de un selector de idiomas."
+          },
+          {
+            "C19": "1.6 Enlaces a redes sociales",
+            "D19": "6",
+            "G19": "GPT-6",
+            "I19": "Incluye enlaces a dos perfiles de GitHub en la sección de contacto, pero no ofrece enlaces a otras redes sociales, como LinkedIn o Instagram."
+          },
+          {
+            "C21": "2.1 Accesibilidad solamente con teclado sin uso de ratón",
+            "D21": "3",
+            "G21": "GPT-6",
+            "I21": "Aunque es posible desplazarse entre elementos mediante la tecla Tab, la interacción con teclado resulta limitada y no se garantiza una navegación completamente funcional sin ratón."
+          },
+          {
+            "C22": "2.2 Navegación eliminando todos los elementos gráficos",
+            "D22": "2",
+            "G22": "GPT-6",
+            "I22": "Aunque la información textual permanece disponible, el modo lectura impide navegar correctamente entre las distintas secciones, dificultando considerablemente el uso de la web."
+          },
+          {
+            "C23": "2.3 Comprobación automática de accesibilidad con herramientas",
+            "D23": "7",
+            "G23": "GPT-6",
+            "I23": "La revisión automática básica del código no detecta imágenes sin texto alternativo y muestra un contraste adecuado en los colores principales. No obstante, se observan carencias como la ausencia de subtítulos en los vídeos y de enlaces para saltar al contenido."
+          },
+          {
+            "C25": "3.1 Calidad del buscador",
+            "D25": "0",
+            "G25": "GPT-6",
+            "I25": "La web no dispone de ningún buscador interno, por lo que los usuarios deben localizar la información manualmente mediante las diferentes secciones."
+          },
+          {
+            "C26": "3.2 Facilidad de navegación",
+            "D26": "6",
+            "G26": "GPT-6",
+            "I26": "La navegación es sencilla gracias a un menú visible y consistente en todas las páginas. Sin embargo, presenta limitaciones en la navegación mediante teclado y en el modo lectura, lo que dificulta su uso en determinadas circunstancias."
+          },
+          {
+            "C28": "4.1 Información sobre las aficiones",
+            "D28": "7",
+            "G28": "GPT-6",
+            "I28": "La web presenta diferentes aficiones e intereses personales, acompañados de imágenes y contenido multimedia. Sin embargo, las descripciones son bastante superficiales y ofrecen poca información sobre la experiencia personal."
+          },
+          {
+            "C29": "4.2 Información sobre formación y experiencia laboral",
+            "D29": "4",
+            "G29": "GPT-6",
+            "I29": "Se presenta la trayectoria académica, indicando las universidades y estudios realizados. Sin embargo, no se proporciona información sobre experiencia laboral, competencias profesionales o proyectos desarrollados"
+          },
+          {
+            "C30": "4.3 Información de contacto",
+            "D30": "8",
+            "G30": "GPT-6",
+            "I30": "Dispone de una sección de contacto claramente identificada, con correos electrónicos personales y universitarios, además de enlaces a GitHub. No ofrece otros medios de contacto, como un formulario o LinkedIn."
+          },
+          {
+            "C31": "4.4 Contacto con personas que avalan a la persona",
+            "D31": "0",
+            "G31": "GPT-6",
+            "I31": "No se incluyen referencias personales, académicas o profesionales, ni información de contacto de personas que puedan avalar la trayectoria del autor."
+          },
+          {
+            "C33": "5.1 Ausencia de Deficiencias y Errores",
+            "D33": "5",
+            "G33": "GPT-6",
+            "I33": "No se detectan errores estructurales importantes, pero existen errores ortográficos y limitaciones de navegación y accesibilidad que afectan a la experiencia del usuario."
+          },
+          {
+            "C34": "5.2 Validación de estándar HTML",
+            "D34": "10",
+            "G34": "GPT-6",
+            "I34": "La web supera la validación oficial de HTML del W3C sin presentar errores ni advertencias, cumpliendo con el estándar."
+          },
+          {
+            "C35": "5.3 Validación de estándar CSS",
+            "D35": "10",
+            "G35": "GPT-6",
+            "I35": "La hoja de estilos supera la validación oficial de CSS del W3C sin errores ni advertencias, demostrando un correcto cumplimiento del estándar."
+          },
+          {
+            "C36": "5.4 Fecha de última actualización",
+            "D36": "0",
+            "G36": "GPT-6",
+            "I36": "La web no muestra ninguna fecha de última actualización, impidiendo al usuario conocer cuándo se revisaron o modificaron los contenidos."
+          },
+          {
+            "C38": "6.1 Rendimiento medido con herramientas",
+            "D38": "10",
+            "G38": "GPT-6",
+            "I38": "La web obtiene una puntuación de 100/100 en Lighthouse, demostrando un rendimiento excelente y una correcta optimización de los recursos."
+          },
+          {
+            "C39": "6.2 Tiempo de carga del sitio Web",
+            "D39": "10",
+            "G39": "GPT-6",
+            "I39": "Lighthouse registra tiempos de 0,2 segundos tanto para el First Contentful Paint (FCP) como para el Largest Contentful Paint (LCP), indicando una carga visual extremadamente rápida."
+          }
+        ]
+      },
+      {
+        "name": "Calibración-IA",
+        "criteria": [
+          {
+            "C10": "1.1 Comprensibilidad global del sitio Web: mapa, migas, etc.",
+            "E10": "7",
+            "L10": "Yo creo que podría haber hecho mejor los contrastes de elementos para una mejor lectura de la web."
+          },
+          {
+            "C11": "1.2 Mecanismos de ayuda y retroalimentación en línea",
+            "E11": "0",
+            "L11": "Diferente comprensión sobre los \"mecanismos de ayuda\"."
+          },
+          {
+            "C12": "1.3 Aspectos estéticos de las interfaces",
+            "E12": "7",
+            "L12": "-"
+          },
+          {
+            "C13": "1.4 Adaptabilidad a dispositivos móviles medido con herramientas",
+            "E13": "6",
+            "L13": "La IA no le ha dado tanta relevancia al tamaño del menú en móviles, cosa que yo si, ya que este está presente en todas las pantallas."
+          },
+          {
+            "C14": "1.5 Internacionalización: Usa varios idiomas",
+            "E14": "0",
+            "L14": "-"
+          },
+          {
+            "C15": "1.6 Enlaces a redes sociales",
+            "E15": "0",
+            "L15": "No he contado ni github ni el correo como \"red social\"."
+          },
+          {
+            "C17": "2.1 Accesibilidad solamente con teclado sin uso de ratón",
+            "E17": "0",
+            "L17": "-"
+          },
+          {
+            "C18": "2.2 Navegación eliminando todos los elementos gráficos",
+            "E18": "0",
+            "L18": "-"
+          },
+          {
+            "C19": "2.3 Comprobación automática de accesibilidad con herramientas",
+            "E19": "9",
+            "L19": "La IA ha reconocido carencia de subtitulos en videos, cosa que yo no tuve en cuenta."
+          },
+          {
+            "C21": "3.1 Calidad del buscador",
+            "E21": "0",
+            "L21": "-"
+          },
+          {
+            "C22": "3.2 Facilidad de navegación",
+            "E22": "9",
+            "L22": "La IA tuvo en cuenta la navegación en modo lectura y sin ratón, cosa que yo solo valoré en el propio apartado."
+          },
+          {
+            "C24": "4.1 Información sobre las aficiones",
+            "E24": "10",
+            "L24": "La IA quería que me explayase más, pero mantengo mi visión de no saturar de información."
+          },
+          {
+            "C25": "4.2 Información sobre formación y experiencia laboral",
+            "E25": "8",
+            "L25": "La IA ha perjudicado considerablemente la falta de información sobre la experiencia laboral."
+          },
+          {
+            "C26": "4.3 Información de contacto",
+            "E26": "10",
+            "L26": "La IA señala la falta de más formas de contacto, como Linkedin. Pero como no uso más no lo vi necesariol."
+          },
+          {
+            "C27": "4.4 Contacto con personas que avalan a la persona",
+            "E27": "0",
+            "L27": "-"
+          },
+          {
+            "C29": "5.1 Ausencia de Deficiencias y Errores",
+            "E29": "10",
+            "L29": "La IA entendió las frases en valenciano como faltas ortográficas y por tanto \"errores\"."
+          },
+          {
+            "C30": "5.2 Validación de estándar HTML",
+            "E30": "10",
+            "L30": "-"
+          },
+          {
+            "C31": "5.3 Validación de estándar CSS",
+            "E31": "10",
+            "L31": "-"
+          },
+          {
+            "C32": "5.4 Fecha de última actualización",
+            "E32": "0",
+            "L32": "-"
+          },
+          {
+            "C34": "6.1 Rendimiento medido con herramientas",
+            "E34": "10",
+            "L34": "-"
+          },
+          {
+            "C35": "6.2 Tiempo de carga del sitio Web",
+            "E35": "10",
+            "L35": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "Valladares-García-Carles_Tanda1-UO294768-Evaluador.xlsx",
+    "sha256": "42cb048789272e738bb79a62214b252f6fabc8954bda55eff987b6114c70b45a",
+    "sheets": [
+      {
+        "name": "WebPersonal",
+        "criteria": [
+          {
+            "C15": "1.1 Comprensibilidad global del sitio Web: mapa, migas, etc.",
+            "D15": "10"
+          },
+          {
+            "C16": "1.2 Mecanismos de ayuda y retroalimentación en línea",
+            "D16": "0",
+            "G16": "Falta página de asistencia"
+          },
+          {
+            "C17": "1.3 Aspectos estéticos de las interfaces",
+            "D17": "8",
+            "G17": "En la página de Trayectoria los h2 no siguen la pauta de colores \"morado\" de las demás páginas (discontinuidad estética)"
+          },
+          {
+            "C18": "1.4 Adaptabilidad a dispositivos móviles medido con herramientas",
+            "D18": "10"
+          },
+          {
+            "C19": "1.5 Internacionalización: Usa varios idiomas",
+            "D19": "0",
+            "G19": "No hay"
+          },
+          {
+            "C20": "1.6 Enlaces a redes sociales",
+            "D20": "5",
+            "G20": "Está la de GitHub pero no hay más"
+          },
+          {
+            "C22": "2.1 Accesibilidad solamente con teclado sin uso de ratón",
+            "D22": "10"
+          },
+          {
+            "C23": "2.2 Navegación eliminando todos los elementos gráficos",
+            "D23": "8.5",
+            "G23": "En Google > Modo Lectura."
+          },
+          {
+            "C24": "2.3 Comprobación automática de accesibilidad con herramientas",
+            "D24": "10",
+            "G24": "Google Lighthouse + Firefox Adaptabilidad"
+          },
+          {
+            "C26": "3.1 Calidad del buscador",
+            "D26": "0",
+            "G26": "No hay buscador en la página"
+          },
+          {
+            "C27": "3.2 Facilidad de navegación",
+            "D27": "10"
+          },
+          {
+            "C29": "4.1 Información sobre las aficiones",
+            "D29": "10"
+          },
+          {
+            "C30": "4.2 Información sobre formación y experiencia laboral",
+            "D30": "0",
+            "G30": "Contenido por añadir"
+          },
+          {
+            "C31": "4.3 Información de contacto",
+            "D31": "10"
+          },
+          {
+            "C32": "4.4 Contacto con personas que avalan a la persona",
+            "D32": "0",
+            "G32": "Contenido por añadir"
+          },
+          {
+            "C34": "5.1 Ausencia de Deficiencias y Errores",
+            "D34": "10"
+          },
+          {
+            "C35": "5.2 Validación de estándar HTML",
+            "D35": "10"
+          },
+          {
+            "C36": "5.3 Validación de estándar CSS",
+            "D36": "10"
+          },
+          {
+            "C37": "5.4 Fecha de última actualización",
+            "D37": "0",
+            "G37": "Contenido por añadir"
+          },
+          {
+            "C39": "6.1 Rendimiento medido con herramientas",
+            "D39": "10",
+            "G39": "En modo móvil tiene un rendimiento del 98 (Google Lighthouse)"
+          },
+          {
+            "C40": "6.2 Tiempo de carga del sitio Web",
+            "D40": "10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ValladaresGarcia-Carles-Tanda1_UO294013-Evaluador.xlsx",
+    "sha256": "0022d23711813d12335971604aed1de02dab4bcee9f38e5b3aa5173f8e2f9072",
+    "sheets": [
+      {
+        "name": "WebPersonal",
+        "criteria": [
+          {
+            "C15": "1.1 Comprensibilidad global del sitio Web: mapa, migas, etc.",
+            "D15": "3",
+            "G15": "No hay migas. Se puede consultar en el menú de navegación en qué pantalla se está, aunque no es \"sticky\"."
+          },
+          {
+            "C16": "1.2 Mecanismos de ayuda y retroalimentación en línea",
+            "D16": "0",
+            "G16": "No hay menú integrado de ayuda (ni pestaña dedicada ni menú de ayuda en línea). Aunque se trate de un sitio web básico, es necesario que haya."
+          },
+          {
+            "C17": "1.3 Aspectos estéticos de las interfaces",
+            "D17": "6",
+            "G17": "La paleta de colores es consistente y la presentación aceptable. Choca la excesiva sencillez de algunas pantallas."
+          },
+          {
+            "C18": "1.4 Adaptabilidad a dispositivos móviles medido con herramientas",
+            "D18": "8",
+            "G18": "(A través de Google Lighthouse) La web se puede consultar perfectamente en dispositivos móviles. El menú de navegación se descuadra ligeramente y creo que se podrían haber adaptado mejor algunos componentes."
+          },
+          {
+            "C19": "1.5 Internacionalización: Usa varios idiomas",
+            "D19": "0",
+            "G19": "No."
+          },
+          {
+            "C20": "1.6 Enlaces a redes sociales",
+            "D20": "9",
+            "G20": "GitHub + correo, tanto corporativo como personal."
+          },
+          {
+            "C22": "2.1 Accesibilidad solamente con teclado sin uso de ratón",
+            "D22": "8",
+            "G22": "Se puede navegar perfectamente usando únicamente el teclado."
+          },
+          {
+            "C23": "2.2 Navegación eliminando todos los elementos gráficos",
+            "D23": "1",
+            "G23": "(Utilizando el modo lectura de Chrome) Muy difícil consultar los contenidos de la web. Se permite \"leer\" página por página los contenidos, y las imágenes tienen texto alternativo. No se puede navegar entre pestañas."
+          },
+          {
+            "C24": "2.3 Comprobación automática de accesibilidad con herramientas",
+            "D24": "10",
+            "G24": "100% de accesibilidad con Lighthouse y ningún error con aChecker AAA."
+          },
+          {
+            "C26": "3.1 Calidad del buscador",
+            "D26": "0",
+            "G26": "No hay buscador."
+          },
+          {
+            "C27": "3.2 Facilidad de navegación",
+            "D27": "7",
+            "G27": "Los menús de navegación son claros, solo hay un nivel de profundidad por lo que es sencillo. Las pestañas son accesibles solo por una vía."
+          },
+          {
+            "C29": "4.1 Información sobre las aficiones",
+            "D29": "10",
+            "G29": "Hay dos pestañas que reparten hobbies e intereses, con los contenidos muy bien estructurados."
+          },
+          {
+            "C30": "4.2 Información sobre formación y experiencia laboral",
+            "D30": "10",
+            "G30": "Hay una seción dedicada a la trayectoria."
+          },
+          {
+            "C31": "4.3 Información de contacto",
+            "D31": "10",
+            "G31": "Dos direcciones de correo y dos cuentas de GitHub distintas en la página dedicada de contacto."
+          },
+          {
+            "C32": "4.4 Contacto con personas que avalan a la persona",
+            "D32": "0",
+            "G32": "No hay contacto de nadie más en la web."
+          },
+          {
+            "C34": "5.1 Ausencia de Deficiencias y Errores",
+            "D34": "5",
+            "G34": "Existen errores tipográficos en la web."
+          },
+          {
+            "C35": "5.2 Validación de estándar HTML",
+            "D35": "10",
+            "G35": "No hay ningún error ni advertencia con el validador del W3C."
+          },
+          {
+            "C36": "5.3 Validación de estándar CSS",
+            "D36": "1",
+            "G36": "Hasta un total de 41 advertencias, la mayoría de ellas evitables con un CSS más cuidado."
+          },
+          {
+            "C37": "5.4 Fecha de última actualización",
+            "D37": "0",
+            "G37": "No figura."
+          },
+          {
+            "C39": "6.1 Rendimiento medido con herramientas",
+            "D39": "8",
+            "G39": "94% con Google Lighthouse."
+          },
+          {
+            "C40": "6.2 Tiempo de carga del sitio Web",
+            "D40": "9",
+            "G40": "El sitio carga rápidamente en general. El cambio entre modo claro/oscuro (un extra a tener en cuenta) es inmediato."
+          }
+        ]
+      }
+    ]
+  }
+]

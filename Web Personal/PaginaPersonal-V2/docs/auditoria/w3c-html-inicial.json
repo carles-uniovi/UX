@@ -1,0 +1,296 @@
+[
+  {
+    "file": "ayuda.html",
+    "sha256": "84d698b32c0632c2a32be4253ea42d490d2f1e348e4a80e538616aa351f33146",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "buscar.html",
+    "sha256": "1478bd3d527be7600d583b909dae69fdb0a09d799b38023ddeab1f9e29730812",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "contacto.html",
+    "sha256": "8c8d3b892457b54a294d67ed381b374cfd53da0e205dcc20341a25419c0e899c",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "hobbies.html",
+    "sha256": "a39a971699bea7b9d7355fc38f551b4940c008a1beb73c07ae0c75735b659ba7",
+    "response": {
+      "version": "26.11.14",
+      "messages": [],
+      "language": "es"
+    }
+  },
+  {
+    "file": "index.html",
+    "sha256": "465e513945b125ec2cc6dc132cefada9983a320b39b359c6f3e349bd3622af9e",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "intereses.html",
+    "sha256": "f3ab1e3a7f95b8c860249b6a0ad0a63d999decbe4ded553ac55e49ec65b66254",
+    "response": {
+      "version": "26.11.14",
+      "messages": [
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 1087,
+          "firstColumn": 904,
+          "message": "Bad value “docs/media/Robe - Del Tiempo Perdido.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "etras.</p><a class=\"media-trigger\" href=\"docs/media/Robe - Del Tiempo Perdido.mp3\" data-media-type=\"audio\" data-media-title=\"Robe · Del Tiempo Perdido\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 184
+        },
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 1893,
+          "firstColumn": 1712,
+          "message": "Bad value “docs/media/gavina.mp3 - SOTA EL CEL.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "a día.</p><a class=\"media-trigger\" href=\"docs/media/gavina.mp3 - SOTA EL CEL.mp3\" data-media-type=\"audio\" data-media-title=\"Gavina.mp3 · SOTA EL CEL\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 182
+        },
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 2719,
+          "firstColumn": 2524,
+          "message": "Bad value “docs/media/Las Petunias - Marcelo Criminal.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "cales.</p><a class=\"media-trigger\" href=\"docs/media/Las Petunias - Marcelo Criminal.mp3\" data-media-type=\"audio\" data-media-title=\"Las Petunias · Marcelo Criminal\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 196
+        }
+      ]
+    }
+  },
+  {
+    "file": "lectura.html",
+    "sha256": "062df3839ca7a69a341e11063e40bbfd1e3492fb3cc0b27fb85c1b3411551fe1",
+    "response": {
+      "version": "26.11.14",
+      "messages": [
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 3830,
+          "firstColumn": 3780,
+          "message": "Bad value “docs/media/Robe - Del Tiempo Perdido.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "etras.</p><a href=\"docs/media/Robe - Del Tiempo Perdido.mp3\">Escuch",
+          "hiliteStart": 10,
+          "hiliteLength": 51
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 4047,
+          "firstColumn": 3998,
+          "message": "Bad value “docs/media/gavina.mp3 - SOTA EL CEL.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "a día.</p><a href=\"docs/media/gavina.mp3 - SOTA EL CEL.mp3\">Escuch",
+          "hiliteStart": 10,
+          "hiliteLength": 50
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 4257,
+          "firstColumn": 4201,
+          "message": "Bad value “docs/media/Las Petunias - Marcelo Criminal.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "cales.</p><a href=\"docs/media/Las Petunias - Marcelo Criminal.mp3\">Escuch",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        },
+        {
+          "type": "info",
+          "lastLine": 8,
+          "lastColumn": 295,
+          "firstColumn": 271,
+          "subType": "warning",
+          "message": "Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.",
+          "extract": "/h1></div><article class=\"reading\"><nav c",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "language": "es"
+    }
+  },
+  {
+    "file": "mapa.html",
+    "sha256": "403d3109b756a76d86ecd7e5607c8699bc0b4c8d5f538e16e0bc9d4c44fd1bd6",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "trayectoria.html",
+    "sha256": "961d3d0914a31790db7057de41ca9035308be3d9526f36cf9a2c34d849af15e5",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/ayuda.html",
+    "sha256": "14de10e0313279c8f82baeda5dbaf42712fe982520d6140a1c08abf0d54a4d0b",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/buscar.html",
+    "sha256": "137b9ed4b666d454c40bdb462a1006d96f97419fbfd11696f6b588879ae1881d",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/contacto.html",
+    "sha256": "f21426722d4f90d57fc365c9e7d612d6f10746b50f3a8bc6d61534ffb6734420",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/hobbies.html",
+    "sha256": "dd82f68c667bcfa04c022859ab11121febf3e878d5752e2ab49c2a85185b0c63",
+    "response": {
+      "version": "26.11.14",
+      "messages": [],
+      "language": "en"
+    }
+  },
+  {
+    "file": "en/index.html",
+    "sha256": "d4baca6464173126df989eba89c9ecb7fdb57c105079a5747e745a04916b0ba0",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/intereses.html",
+    "sha256": "79097580e0eed1603f6d4fe9abe1653fe1adc6bdd06c8b802be8e46dc682d876",
+    "response": {
+      "version": "26.11.14",
+      "messages": [
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 1054,
+          "firstColumn": 868,
+          "message": "Bad value “../docs/media/Robe - Del Tiempo Perdido.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "yrics.</p><a class=\"media-trigger\" href=\"../docs/media/Robe - Del Tiempo Perdido.mp3\" data-media-type=\"audio\" data-media-title=\"Robe · Del Tiempo Perdido\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 187
+        },
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 1862,
+          "firstColumn": 1678,
+          "message": "Bad value “../docs/media/gavina.mp3 - SOTA EL CEL.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": " life.</p><a class=\"media-trigger\" href=\"../docs/media/gavina.mp3 - SOTA EL CEL.mp3\" data-media-type=\"audio\" data-media-title=\"Gavina.mp3 · SOTA EL CEL\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 185
+        },
+        {
+          "type": "error",
+          "lastLine": 8,
+          "lastColumn": 2683,
+          "firstColumn": 2485,
+          "message": "Bad value “../docs/media/Las Petunias - Marcelo Criminal.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "tions.</p><a class=\"media-trigger\" href=\"../docs/media/Las Petunias - Marcelo Criminal.mp3\" data-media-type=\"audio\" data-media-title=\"Las Petunias · Marcelo Criminal\" target=\"_blank\" rel=\"noopener noreferrer\"><svg w",
+          "hiliteStart": 10,
+          "hiliteLength": 199
+        }
+      ]
+    }
+  },
+  {
+    "file": "en/lectura.html",
+    "sha256": "b5e16ad88196da04caeafb6b416a05fff2812ce80d95e582a85a7c3ab11f56af",
+    "response": {
+      "version": "26.11.14",
+      "messages": [
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 3659,
+          "firstColumn": 3606,
+          "message": "Bad value “../docs/media/Robe - Del Tiempo Perdido.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "yrics.</p><a href=\"../docs/media/Robe - Del Tiempo Perdido.mp3\">Listen",
+          "hiliteStart": 10,
+          "hiliteLength": 54
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 3875,
+          "firstColumn": 3823,
+          "message": "Bad value “../docs/media/gavina.mp3 - SOTA EL CEL.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": " life.</p><a href=\"../docs/media/gavina.mp3 - SOTA EL CEL.mp3\">Listen",
+          "hiliteStart": 10,
+          "hiliteLength": 53
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 4077,
+          "firstColumn": 4018,
+          "message": "Bad value “../docs/media/Las Petunias - Marcelo Criminal.mp3” for attribute “href” on element “a”: Illegal character in path segment. Space is not allowed.",
+          "extract": "tions.</p><a href=\"../docs/media/Las Petunias - Marcelo Criminal.mp3\">Listen",
+          "hiliteStart": 10,
+          "hiliteLength": 60
+        },
+        {
+          "type": "info",
+          "lastLine": 8,
+          "lastColumn": 279,
+          "firstColumn": 255,
+          "subType": "warning",
+          "message": "Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.",
+          "extract": "/h1></div><article class=\"reading\"><nav c",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "language": "en"
+    }
+  },
+  {
+    "file": "en/mapa.html",
+    "sha256": "217f01ceb169d3cae48fbe8da201abda3576f4f31c08f7abe46fcfbfc1fe32e9",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  },
+  {
+    "file": "en/trayectoria.html",
+    "sha256": "2554198e18042e76b139c02f7cabb83c23d45b353fe79f654a8369075c361f47",
+    "response": {
+      "version": "26.11.14",
+      "messages": []
+    }
+  }
+]
