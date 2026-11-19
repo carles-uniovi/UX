@@ -244,9 +244,23 @@ mark { background: var(--soft); color: var(--accent); font-weight: 700; }
     background: #fff;
     color: #000;
   }
-  .site-header, .site-footer, .media-dialog, .skip-link, .copy-email { display: none; }
+  .site-header, .site-footer, .media-dialog, .skip-link, .copy-email, #ux-study-dialog { display: none; }
   main { width: 100%; padding: 0; }
   .reading, .reading p { max-width: none; }
   .reading > section { break-inside: auto; }
   h2, h3, h4 { break-after: avoid; }
 }
+
+/* Controles presentes únicamente en sesiones del estudio. */
+#ux-study-dialog {
+  width: min(34rem, calc(100% - 2rem));
+  padding: 1.5rem;
+  border: 2px solid var(--border);
+  border-radius: .75rem;
+  background: var(--surface);
+  color: var(--text);
+}
+#ux-study-dialog::backdrop { background: rgb(0 0 0 / 55%); }
+#ux-study-dialog button { margin: .5rem .5rem 0 0; }
+.ux-study-controls { flex-basis: 100%; }
+.ux-study-controls p { margin-bottom: .5rem; }
