@@ -51,16 +51,16 @@ INTERESTS = [
         ('las-petunias', 'Las Petunias', 'las-petunias.jpg', ('Otro de los nombres que me gusta escuchar y compartir cuando hablamos de recomendaciones musicales.', 'Another name I enjoy listening to and sharing when we talk about music recommendations.'), 'Las Petunias - Marcelo Criminal.mp3', 'Marcelo Criminal'),
     ]),
     ('peliculas', ('Películas', 'Films'), [
-        ('spider-verse', 'Spider-Man: Into the Spider-Verse', 'spiderman.png', ('Me llama la atención su estilo visual y la manera en que lleva la energía del cómic a la animación.', 'I am drawn to its visual style and the way it brings the energy of comics to animation.'), 'https://www.youtube.com/watch?v=g4Hbz2jLxvQ', ('Tráiler oficial', 'Official trailer')),
-        ('scott-pilgrim', 'Scott Pilgrim vs. the World', 'scott-pilgrim.jpg', ('Disfruto de su mezcla de humor, música y referencias a los videojuegos, con una personalidad visual muy marcada.', 'I enjoy its mix of humour, music and video game references, with a very distinctive visual personality.'), 'https://www.youtube.com/watch?v=7wd5KEaOtm4', ('Tráiler oficial', 'Official trailer')),
+        ('spider-verse', 'Spider-Man: Into the Spider-Verse', 'spiderman.png', ('Me llama la atención su estilo visual y la manera en que lleva la energía del cómic a la animación.', 'The visual style appeals to me. It brings the energy of comics to animation.'), 'https://www.youtube.com/watch?v=g4Hbz2jLxvQ', ('Tráiler oficial', 'Official trailer')),
+        ('scott-pilgrim', 'Scott Pilgrim vs. the World', 'scott-pilgrim.jpg', ('Disfruto de su mezcla de humor, música y referencias a los videojuegos, con una personalidad visual muy marcada.', 'This film combines the humour, music and video game references I enjoy, with a distinctive visual style.'), 'https://www.youtube.com/watch?v=7wd5KEaOtm4', ('Tráiler oficial', 'Official trailer')),
     ]),
     ('series', ('Series', 'TV series'), [
-        ('doctor-who', 'Doctor Who', 'dr.who.jpg', ('Me gusta dejarme llevar por sus aventuras y por la posibilidad de encontrar algo distinto en cada viaje.', 'I enjoy getting carried away by its adventures and the chance of finding something different on every journey.')),
+        ('doctor-who', 'Doctor Who', 'dr.who.jpg', ('Me gusta dejarme llevar por sus aventuras y por la posibilidad de encontrar algo distinto en cada viaje.', 'The adventures and the chance to find something different on each journey appeal to me.')),
         ('brooklyn-99', 'Brooklyn Nine-Nine', 'brooklyn99.jpg', ('Una comedia a la que recurrir para desconectar, reírme y pasar un rato con sus personajes.', 'A comedy I turn to when I want to unwind, laugh and spend some time with its characters.')),
     ]),
     ('animanga', ('Anime y manga', 'Anime and manga'), [
-        ('ousama-ranking', 'Ousama Ranking', 'osama-ranking.jpg', ('Me atraen su sensibilidad y su manera de contar una aventura que invita a conectar con los personajes.', 'I like its sensitivity and the way it tells an adventure that encourages a connection with its characters.')),
-        ('jojo', 'JoJo’s Bizarre Adventure', 'jojo.webp', ('Me divierten su imaginación, sus situaciones extravagantes y ese estilo tan particular que lo hace reconocible.', 'I enjoy its imagination, extravagant situations and distinctive, instantly recognisable style.')),
+        ('ousama-ranking', 'Ousama Ranking', 'osama-ranking.jpg', ('Me atraen su sensibilidad y su manera de contar una aventura que invita a conectar con los personajes.', 'Its sensitive storytelling draws me into the adventure and helps me connect with the characters.')),
+        ('jojo', 'JoJo’s Bizarre Adventure', 'jojo.webp', ('Me divierten su imaginación, sus situaciones extravagantes y ese estilo tan particular que lo hace reconocible.', 'The imagination, extravagant situations and distinctive style make this series fun for me.')),
     ]),
 ]
 
