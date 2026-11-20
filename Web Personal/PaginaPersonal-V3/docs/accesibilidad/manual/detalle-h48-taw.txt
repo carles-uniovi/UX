@@ -1,0 +1,16 @@
+Fuente: detalle de TAW solicitado con autorización del autor y apartado facilitado por él en el chat el 20/11/2026.
+Página analizada: https://carles-uniovi.github.io/UX/v3/en/intereses.html
+Configuración: WCAG 2.1 AAA.
+
+1.3.1 - Información y relaciones
+Tipología: Estructura y semántica.
+Comprobación: Simulación listas ordenadas mediante el uso de párrafos.
+Técnica: H48.
+Resultado: Falla.
+Incidencias: 1.
+Línea: 6.
+
+Referencia primaria de la técnica:
+https://www.w3.org/WAI/WCAG21/Techniques/html/H48
+
+Se conserva el texto significativo del informe. Se omiten las direcciones de imágenes de seguimiento y la URL privada del correo.

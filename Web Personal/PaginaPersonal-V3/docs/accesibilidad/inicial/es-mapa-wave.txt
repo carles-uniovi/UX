@@ -1,0 +1,421 @@
+URL: https://carles-uniovi.github.io/UX/v3/mapa.html
+Captured UTC: 2026-11-20T05:03:29.440Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/mapa.html
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/mapa.html
+  - button "WAVE this page again" [active]
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "4"
+      - text: Alerts
+      - text: "2"
+      - text: Features
+      - text: "20"
+      - text: Structure
+      - text: "16"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 9.9 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "4 Alerts" [level=3]:
+        - checkbox "4 Alerts" [checked]
+        - generic: 4 Alerts
+      - list:
+        - heading "2 Redundant link Reference" [level=4]:
+          - checkbox "2 Redundant link" [checked]
+          - generic: 2 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Redundant link 2"
+        - heading "2 Redundant title text Reference" [level=4]:
+          - checkbox "2 Redundant title text" [checked]
+          - generic: 2 Redundant title text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant title text 1"
+          - img "Redundant title text 2"
+      - heading "2 Features" [level=3]:
+        - checkbox "2 Features" [checked]
+        - generic: 2 Features
+      - list:
+        - heading "2 Language Reference" [level=4]:
+          - checkbox "2 Language" [checked]
+          - generic: 2 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+      - heading "20 Structural Elements" [level=3]:
+        - checkbox "20 Structural Elements" [checked]
+        - generic: 20 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "6 Heading level 2 Reference" [level=4]:
+          - checkbox "6 Heading level 2" [checked]
+          - generic: 6 Heading level 2
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 2 1"
+          - img "Heading level 2 2"
+          - img "Heading level 2 3"
+          - img "Heading level 2 4"
+          - img "Heading level 2 5"
+          - img "Heading level 2 6"
+        - heading "1 Ordered list Reference" [level=4]:
+          - checkbox "1 Ordered list" [checked]
+          - generic: 1 Ordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Ordered list 1"
+        - heading "6 Unordered list Reference" [level=4]:
+          - checkbox "6 Unordered list" [checked]
+          - generic: 6 Unordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Unordered list 1"
+          - img "Unordered list 2"
+          - img "Unordered list 3"
+          - img "Unordered list 4"
+          - img "Unordered list 5"
+          - img "Unordered list 6"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "3 Navigation Reference" [level=4]:
+          - checkbox "3 Navigation" [checked]
+          - generic: 3 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+          - img "Navigation 3"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "16 ARIA" [level=3]:
+        - checkbox "16 ARIA" [checked]
+        - generic: 16 ARIA
+      - list:
+        - heading "4 ARIA Reference" [level=4]:
+          - checkbox "4 ARIA" [checked]
+          - generic: 4 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1"
+          - img "ARIA 2"
+          - img "ARIA 3"
+          - img "ARIA 4"
+        - heading "6 ARIA label Reference" [level=4]:
+          - checkbox "6 ARIA label" [checked]
+          - generic: 6 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+        - heading "1 ARIA tabindex Reference" [level=4]:
+          - checkbox "1 ARIA tabindex" [checked]
+          - generic: 1 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+        - heading "4 ARIA hidden Reference" [level=4]:
+          - checkbox "4 ARIA hidden" [checked]
+          - generic: 4 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*es*"
+  - iframe [id="report"]:
+    - link "Saltar al contenido":
+      - /url: "#contenido"
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Inicio":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Inicio
+      - 'link "ARIA: ARIA hidden Buscar ALERTS: Redundant title text"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Buscar
+        - 'button "ALERTS: Redundant title text"'
+      - 'link "EN: English"':
+        - /url: en/mapa.html
+        - 'button "FEATURES: Language"'
+        - generic: "*en*"
+        - text: EN
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"EN: English\"*"
+      - button "Activar modo oscuro":
+        - text: ◐
+        - button
+        - generic: Modo oscuro
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Activar modo oscuro\"*"
+      - button "Menú":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menú
+        - 'button "ALERTS: Redundant title text"'
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menú\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - navigation "Ruta de navegación":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - list:
+          - 'button "STRUCTURAL ELEMENTS: Ordered list"'
+          - link "Inicio":
+            - /url: index.html
+          - text: /Mapa del sitio
+          - 'button "ARIA: ARIA"'
+          - text: "*aria-current=\"page\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Ruta de navegación \"*"
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Mapa del sitio" [level=1]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+        - text: Mapa del sitio
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Sobre mí ALERTS: Redundant link" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - 'link "Sobre mí ALERTS: Redundant link"':
+          - /url: index.html
+          - text: Sobre mí
+          - 'button "ALERTS: Redundant link"'
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "Sobre mí":
+          - /url: index.html#page-title
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Trayectoria" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - link "Trayectoria":
+          - /url: trayectoria.html
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "Grado en Matemáticas · Universitat de València":
+          - /url: trayectoria.html#uv-title
+        - link "Grado en Informática · Universitat Politècnica de València":
+          - /url: trayectoria.html#upv-title
+        - link "Máster en Ingeniería Web · Universidad de Oviedo":
+          - /url: trayectoria.html#uniovi-title
+        - link "Medicarama · Prácticas de empresa":
+          - /url: trayectoria.html#medicarama
+        - link "V2c · Experiencia laboral":
+          - /url: trayectoria.html#v2c
+        - 'link "Proyecto: mi web personal"':
+          - /url: trayectoria.html#proyectos
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Aficiones" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - link "Aficiones":
+          - /url: hobbies.html
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "Fire Emblem Fortune’s Wave":
+          - /url: hobbies.html#fire-emblem
+        - link "Baldur’s Gate 3":
+          - /url: hobbies.html#baldurs-gate
+        - link "League of Legends":
+          - /url: hobbies.html#league-of-legends
+        - link "Mundos de fantasía":
+          - /url: hobbies.html#mundos-fantasia
+        - link "Tardes con amigos":
+          - /url: hobbies.html#tardes-amigos
+        - link "Algo de teatro":
+          - /url: hobbies.html#algo-teatro
+        - link "Practicarlo":
+          - /url: hobbies.html#practicar-judo
+        - link "Enseñarlo":
+          - /url: hobbies.html#ensenar-judo
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Intereses" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - link "Intereses":
+          - /url: intereses.html
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "Robe":
+          - /url: intereses.html#robe
+        - link "Gavina.mp3":
+          - /url: intereses.html#gavina
+        - link "Las Petunias":
+          - /url: intereses.html#las-petunias
+        - 'link "Spider-Man: Into the Spider-Verse"':
+          - /url: intereses.html#spider-verse
+        - link "Scott Pilgrim vs. the World":
+          - /url: intereses.html#scott-pilgrim
+        - link "Doctor Who":
+          - /url: intereses.html#doctor-who
+        - link "Brooklyn Nine-Nine":
+          - /url: intereses.html#brooklyn-99
+        - link "Ousama Ranking":
+          - /url: intereses.html#ousama-ranking
+        - link "JoJo’s Bizarre Adventure":
+          - /url: intereses.html#jojo
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Contacto" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - link "Contacto":
+          - /url: contacto.html
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "Personal · Correo personal · GitHub personal":
+          - /url: contacto.html#personal
+        - link "Universidad · Correo universitario · GitHub de la Universidad":
+          - /url: contacto.html#universidad
+        - link "LinkedIn · Carles Valladares García":
+          - /url: contacto.html#linkedin
+        - link "Persona de referencia · LinkedIn":
+          - /url: contacto.html#referencias
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Ayuda" [level=2]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+        - link "Ayuda":
+          - /url: ayuda.html
+      - list:
+        - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+        - link "¿Cómo encuentro un contenido?":
+          - /url: ayuda.html#encontrar
+        - link "¿Cómo funciona el buscador?":
+          - /url: ayuda.html#buscador
+        - link "¿Puedo usar solo el teclado?":
+          - /url: ayuda.html#teclado
+        - link "¿Cómo leo sin imágenes ni distracciones?":
+          - /url: ayuda.html#lectura
+        - link "¿Cómo cambio el idioma o el tema?":
+          - /url: ayuda.html#idioma
+        - link "¿Cómo escucho música o veo los vídeos?":
+          - /url: ayuda.html#multimedia
+        - link "¿Algo no funciona?":
+          - /url: ayuda.html#problemas
+      - paragraph:
+        - link "Buscar en todo el sitio":
+          - /url: buscar.html
+        - text: ·
+        - link "Versión de lectura":
+          - /url: lectura.html
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Actualizado:"
+        - time: 20 de noviembre de 2026
+      - navigation "Ayuda y accesibilidad":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Ayuda":
+          - /url: ayuda.html
+        - 'link "Mapa del sitio ARIA: ARIA *aria-current=\"page\"*"':
+          - /url: mapa.html
+          - text: Mapa del sitio
+          - 'button "ARIA: ARIA"'
+          - generic: "*aria-current=\"page\"*"
+        - link "Lectura":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Ayuda y accesibilidad\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

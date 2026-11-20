@@ -1,0 +1,14 @@
+Browser tab: 7, Title: "Intereses · Carles Valladares García", URL: "https://carles-uniovi.github.io/UX/v3/intereses.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 61-74
+~						59 container caption-window-1
+~							60 text I'll leave you alone
++							61 text  Trevor
++							62 text  now
++							63 text  you
++							64 text  know
++							65 text this
++							66 text  one girl with hair
++							67 text  like
++							68 text  this
+The focused UI element is 30 checkbox Description: Subtítulos activados, Value: 1

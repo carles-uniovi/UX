@@ -40,13 +40,17 @@ node scripts/validate-local.cjs
 node scripts/audit-lighthouse.cjs
 ```
 
-Las pruebas arrancan y cierran sus propios servidores locales. No envían código a validadores externos ni registran sesiones de participantes. La comprobación multimedia automatizada verifica controles y cierre, sin acreditar subtítulos o reproducción de servicios externos.
+Las pruebas locales arrancan y cierran sus propios servidores y no registran sesiones de participantes. La comprobación multimedia automatizada verifica controles y cierre. La evaluación externa con TAW, AChecker y WAVE se realiza sobre las URL públicas y se documenta por separado, junto con la revisión manual de contenido.
+
+Las tres herramientas devuelven cero errores automáticos en las 18 páginas; WAVE también devuelve cero errores de contraste. Se documentan sus advertencias y los 30 criterios no verificados de TAW. Las alternativas multimedia pendientes impiden declarar conformidad WCAG AAA.
 
 ## Documentación
 
 - [Análisis y mejoras aplicadas](docs/mejoras-v3.md).
 - [Verificación y alcance de los resultados](docs/verificacion-v3.md).
 - [Revisión de los 21 criterios de la métrica](docs/autoevaluacion-v3.md).
+- [Estudio de accesibilidad con TAW, AChecker y WAVE](docs/accesibilidad-v3.md).
+- [Informe de accesibilidad en PDF](output/pdf/UO319242-Informe-accesibilidad-web-personal-V3.pdf).
 - [Funcionamiento y pruebas del buscador](docs/buscador-v3.md).
 - [Resultados técnicos y capturas](docs/auditoria-v3/resultado-tecnico.json).
 

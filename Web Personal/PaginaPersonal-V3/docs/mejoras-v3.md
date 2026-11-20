@@ -32,6 +32,14 @@ La navegación por secciones, las categorías, los contenidos personales y los d
 | Metadatos de idiomas con URL relativa | Canonical y versiones equivalentes ES/EN con direcciones públicas absolutas | Lighthouse detectó `hreflang` relativo. Se corrige en las 18 páginas, conservando enlaces internos relativos para apertura local. |
 | Integración de registro específica de la tanda | V3 no carga Clarity ni muestra el consentimiento del estudio; preferencia de tema propia | Las nuevas visitas no se mezclan con las grabaciones de V2. No se modifica ni se elimina el proyecto de Clarity. |
 
+## Correcciones de accesibilidad posteriores
+
+La comprobación con TAW, AChecker y WAVE motivó cambios adicionales: nombres de tráileres y saltos de Lectura que distinguen destinos, creación de la lista del buscador solo cuando contiene resultados, eliminación de alternativas y títulos redundantes, explicación de abreviaturas e instrucciones de contacto más claras. El detalle H48 de TAW permitió contrastar una alerta sobre prosa inglesa que no representa una lista; se reformuló conservando su significado y estructura.
+
+La medición real de líneas de Lectura detectó máximos de 89/87 caracteres ES/EN; con 60ch pasan a 75/73. Se comprobaron interlineado, separación de párrafos, reflujo y colores forzados. Las pruebas de apoyo incluyen ahora 18 casos de interfaz y accesibilidad.
+
+El [estudio de accesibilidad](accesibilidad-v3.md) conserva los resultados iniciales/finales, explica advertencias y revisa cada criterio no verificado. También identifica barreras multimedia pendientes: los tres MP3 carecen de alternativa textual y las alternativas de los tráileres no están plenamente acreditadas. Estos hallazgos no se ocultan tras los contadores automáticos.
+
 ## Cierre
 
 La V3 se entrega como versión final, con verificación técnica propia. No se ha hecho una nueva tanda con participantes ni se presenta la automatización como sustituto de esa evaluación. Los resultados se detallan en [verificacion-v3.md](verificacion-v3.md), con evidencias generadas para V3.

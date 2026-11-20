@@ -1,0 +1,66 @@
+- link "Saltar al contenido":
+  - /url: "#contenido"
+- banner:
+  - link "Carles Valladares · Inicio":
+    - /url: index.html
+    - text: cv
+    - generic: .
+    - text: Carles Valladares
+    - generic: · Inicio
+  - navigation "Navegación principal":
+    - link "Sobre mí":
+      - /url: index.html
+    - link "Trayectoria":
+      - /url: trayectoria.html
+    - link "Aficiones":
+      - /url: hobbies.html
+    - link "Intereses":
+      - /url: intereses.html
+    - link "Contacto":
+      - /url: contacto.html
+  - link "Buscar":
+    - /url: buscar.html
+    - generic: Buscar
+  - 'link "EN: English"':
+    - /url: en/ayuda.html
+    - text: EN
+  - button "Activar modo oscuro":
+    - generic: ◐
+    - generic: Modo oscuro
+- main:
+  - navigation "Ruta de navegación":
+    - list:
+      - link "Inicio":
+        - /url: index.html
+      - listitem: /Ayuda
+  - heading "Ayuda" [level=1]
+  - region "Preguntas frecuentes":
+    - generic "¿Cómo encuentro un contenido?"
+    - generic "¿Cómo funciona el buscador?"
+    - generic "¿Puedo usar solo el teclado?" [active]
+    - paragraph: Pulsa Tab para avanzar y Mayús + Tab para retroceder. El primer enlace permite saltar al contenido. Enter activa enlaces y botones; Espacio también activa botones y despliega las preguntas. En móvil, el botón Menú abre la navegación y Escape la cierra. Los reproductores tienen sus propios controles de teclado.
+    - generic "¿Cómo leo sin imágenes ni distracciones?"
+    - generic "¿Cómo cambio el idioma o el tema?"
+    - generic "¿Cómo escucho música o veo los vídeos?"
+    - generic "¿Algo no funciona?"
+  - complementary:
+    - heading "Accesos útiles" [level=2]
+    - list:
+      - link "Mapa del sitio":
+        - /url: mapa.html
+      - link "Versión de lectura":
+        - /url: lectura.html
+      - link "Comunicar un problema":
+        - /url: contacto.html
+- contentinfo:
+  - strong: Carles Valladares García
+  - paragraph:
+    - text: "Actualizado:"
+    - time: 20 de noviembre de 2026
+  - navigation "Ayuda y accesibilidad":
+    - link "Ayuda":
+      - /url: ayuda.html
+    - link "Mapa del sitio":
+      - /url: mapa.html
+    - link "Lectura":
+      - /url: lectura.html

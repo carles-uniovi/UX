@@ -1,0 +1,526 @@
+URL: https://carles-uniovi.github.io/UX/v3/intereses.html
+Captured UTC: 2026-11-20T11:01:46.221Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/intereses.html
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/intereses.html
+  - button "WAVE this page again"
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "6"
+      - text: Alerts
+      - text: "11"
+      - text: Features
+      - text: "23"
+      - text: Structure
+      - text: "50"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 9.9 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "6 Alerts" [level=3]:
+        - checkbox "6 Alerts" [checked]
+        - generic: 6 Alerts
+      - list:
+        - heading "1 Redundant link Reference" [level=4]:
+          - checkbox "1 Redundant link" [checked]
+          - generic: 1 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "3 Audio/Video Reference" [level=4]:
+          - checkbox "3 Audio/Video" [checked]
+          - generic: 3 Audio/Video
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Audio/Video 1"
+          - img "Audio/Video 2"
+          - img "Audio/Video 3"
+        - heading "2 YouTube video Reference" [level=4]:
+          - checkbox "2 YouTube video" [checked]
+          - generic: 2 YouTube video
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "YouTube video 1"
+          - img "YouTube video 2"
+      - heading "11 Features" [level=3]:
+        - checkbox "11 Features" [checked]
+        - generic: 11 Features
+      - list:
+        - heading "9 Null or empty alternative text Reference" [level=4]:
+          - checkbox "9 Null or empty alternative text" [checked]
+          - generic: 9 Null or empty alternative text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Null or empty alternative text 1"
+          - img "Null or empty alternative text 2"
+          - img "Null or empty alternative text 3"
+          - img "Null or empty alternative text 4"
+          - img "Null or empty alternative text 5"
+          - img "Null or empty alternative text 6"
+          - img "Null or empty alternative text 7"
+          - img "Null or empty alternative text 8"
+          - img "Null or empty alternative text 9"
+        - heading "2 Language Reference" [level=4]:
+          - checkbox "2 Language" [checked]
+          - generic: 2 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+      - heading "23 Structural Elements" [level=3]:
+        - checkbox "23 Structural Elements" [checked]
+        - generic: 23 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "5 Heading level 2 Reference" [level=4]:
+          - checkbox "5 Heading level 2" [checked]
+          - generic: 5 Heading level 2
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 2 1"
+          - img "Heading level 2 2"
+          - img "Heading level 2 3"
+          - img "Heading level 2 4"
+          - img "Heading level 2 5 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "9 Heading level 3 Reference" [level=4]:
+          - checkbox "9 Heading level 3" [checked]
+          - generic: 9 Heading level 3
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 3 1"
+          - img "Heading level 3 2"
+          - img "Heading level 3 3"
+          - img "Heading level 3 4"
+          - img "Heading level 3 5"
+          - img "Heading level 3 6"
+          - img "Heading level 3 7"
+          - img "Heading level 3 8"
+          - img "Heading level 3 9"
+        - heading "1 Ordered list Reference" [level=4]:
+          - checkbox "1 Ordered list" [checked]
+          - generic: 1 Ordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Ordered list 1"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "4 Navigation Reference" [level=4]:
+          - checkbox "4 Navigation" [checked]
+          - generic: 4 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+          - img "Navigation 3"
+          - img "Navigation 4"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "50 ARIA" [level=3]:
+        - checkbox "50 ARIA" [checked]
+        - generic: 50 ARIA
+      - list:
+        - heading "10 ARIA Reference" [level=4]:
+          - checkbox "10 ARIA" [checked]
+          - generic: 10 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA 2"
+          - img "ARIA 3"
+          - img "ARIA 4"
+          - img "ARIA 5"
+          - img "ARIA 6"
+          - img "ARIA 7"
+          - img "ARIA 8"
+          - img "ARIA 9"
+          - img "ARIA 10 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "22 ARIA label Reference" [level=4]:
+          - checkbox "22 ARIA label" [checked]
+          - generic: 22 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+          - img "ARIA label 7"
+          - img "ARIA label 8"
+          - img "ARIA label 9"
+          - img "ARIA label 10"
+          - img "ARIA label 11"
+          - img "ARIA label 12"
+          - img "ARIA label 13"
+          - img "ARIA label 14"
+          - img "ARIA label 15"
+          - img "ARIA label 16"
+          - img "ARIA label 17"
+          - img "ARIA label 18"
+          - img "ARIA label 19"
+          - img "ARIA label 20 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 21 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 22"
+        - heading "1 ARIA tabindex Reference" [level=4]:
+          - checkbox "1 ARIA tabindex" [checked]
+          - generic: 1 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+        - heading "1 ARIA alert or live region Reference" [level=4]:
+          - checkbox "1 ARIA alert or live region" [checked]
+          - generic: 1 ARIA alert or live region
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA alert or live region 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "10 ARIA hidden Reference" [level=4]:
+          - checkbox "10 ARIA hidden" [checked]
+          - generic: 10 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+          - img "ARIA hidden 5"
+          - img "ARIA hidden 6"
+          - img "ARIA hidden 7"
+          - img "ARIA hidden 8"
+          - img "ARIA hidden 9"
+          - img "ARIA hidden 10"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+        - heading "5 ARIA popup Reference" [level=4]:
+          - checkbox "5 ARIA popup" [checked]
+          - generic: 5 ARIA popup
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA popup 1"
+          - img "ARIA popup 2"
+          - img "ARIA popup 3"
+          - img "ARIA popup 4"
+          - img "ARIA popup 5"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*es*"
+  - iframe [id="report"]:
+    - link "Saltar al contenido":
+      - /url: "#contenido"
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Inicio":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Inicio
+      - 'link "ARIA: ARIA hidden Buscar"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Buscar
+      - 'link "EN: English"':
+        - /url: en/intereses.html
+        - 'button "FEATURES: Language"'
+        - generic: "*en*"
+        - text: EN
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"EN: English\"*"
+      - button "Activar modo oscuro":
+        - text: ◐
+        - button
+        - generic: Modo oscuro
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Activar modo oscuro\"*"
+      - button "Menú":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menú
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menú\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - navigation "Ruta de navegación":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - list:
+          - 'button "STRUCTURAL ELEMENTS: Ordered list"'
+          - link "Inicio":
+            - /url: index.html
+          - text: /Intereses
+          - 'button "ARIA: ARIA"'
+          - text: "*aria-current=\"page\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Ruta de navegación \"*"
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Intereses" [level=1]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+        - text: Intereses
+      - navigation "En esta página":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Música":
+          - /url: "#musica"
+        - link "Películas":
+          - /url: "#peliculas"
+        - link "Series":
+          - /url: "#series"
+        - link "Anime y manga":
+          - /url: "#animanga"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"En esta página\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Música"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Música" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Música
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Robe"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Robe" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Robe
+          - paragraph: Uno de los artistas a los que vuelvo cuando me apetece escuchar música con calma y prestar atención a las letras.
+          - 'link "ARIA: ARIA hidden Escuchar: Del Tiempo Perdido ARIA: ARIA *aria-controls=\"media-player\"* ARIA: ARIA popup"':
+            - /url: docs/media/Robe%20-%20Del%20Tiempo%20Perdido.mp3
+            - 'button "ARIA: ARIA hidden"'
+            - generic: "Escuchar: Del Tiempo Perdido"
+            - 'button "ARIA: ARIA"'
+            - generic: "*aria-controls=\"media-player\"*"
+            - 'button "ARIA: ARIA popup"'
+          - 'button "ALERTS: Audio/Video"'
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"robe\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Gavina.mp3"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Gavina.mp3" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Gavina.mp3
+          - paragraph: Gavina.mp3 también tiene un hueco entre mis gustos musicales y en la música que me acompaña en el día a día.
+          - 'link "ARIA: ARIA hidden Escuchar: SOTA EL CEL ARIA: ARIA *aria-controls=\"media-player\"* ARIA: ARIA popup"':
+            - /url: docs/media/gavina.mp3%20-%20SOTA%20EL%20CEL.mp3
+            - 'button "ARIA: ARIA hidden"'
+            - generic: "Escuchar: SOTA EL CEL"
+            - 'button "ARIA: ARIA"'
+            - generic: "*aria-controls=\"media-player\"*"
+            - 'button "ARIA: ARIA popup"'
+          - 'button "ALERTS: Audio/Video"'
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"gavina\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Las Petunias"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Las Petunias" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Las Petunias
+          - paragraph: Otro de los nombres que me gusta escuchar y compartir cuando hablamos de recomendaciones musicales.
+          - 'link "ARIA: ARIA hidden Escuchar: Marcelo Criminal ARIA: ARIA *aria-controls=\"media-player\"* ARIA: ARIA popup"':
+            - /url: docs/media/Las%20Petunias%20-%20Marcelo%20Criminal.mp3
+            - 'button "ARIA: ARIA hidden"'
+            - generic: "Escuchar: Marcelo Criminal"
+            - 'button "ARIA: ARIA"'
+            - generic: "*aria-controls=\"media-player\"*"
+            - 'button "ARIA: ARIA popup"'
+          - 'button "ALERTS: Audio/Video"'
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"las-petunias\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"musica\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Películas"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Películas" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Películas
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Spider-Man: Into the Spider-Verse"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Spider-Man: Into the Spider-Verse" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: "Spider-Man: Into the Spider-Verse"
+          - paragraph: Me llama la atención su estilo visual y la manera en que lleva la energía del cómic a la animación.
+          - 'link "ARIA: ARIA hidden Ver tráiler: Spider-Man: Into the Spider-Verse ARIA: ARIA *aria-controls=\"media-player\"* ARIA: ARIA popup"':
+            - /url: https://www.youtube.com/watch?v=g4Hbz2jLxvQ
+            - 'button "ARIA: ARIA hidden"'
+            - generic: "Ver tráiler: Spider-Man: Into the Spider-Verse"
+            - 'button "ARIA: ARIA"'
+            - generic: "*aria-controls=\"media-player\"*"
+            - 'button "ARIA: ARIA popup"'
+          - 'button "ALERTS: YouTube video"'
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"spider-verse\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Scott Pilgrim vs. the World"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Scott Pilgrim vs. the World" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Scott Pilgrim vs. the World
+          - paragraph: Disfruto de su mezcla de humor, música y referencias a los videojuegos, con una personalidad visual muy marcada.
+          - 'link "ARIA: ARIA hidden Ver tráiler: Scott Pilgrim vs. the World ARIA: ARIA *aria-controls=\"media-player\"* ARIA: ARIA popup"':
+            - /url: https://www.youtube.com/watch?v=7wd5KEaOtm4
+            - 'button "ARIA: ARIA hidden"'
+            - generic: "Ver tráiler: Scott Pilgrim vs. the World"
+            - 'button "ARIA: ARIA"'
+            - generic: "*aria-controls=\"media-player\"*"
+            - 'button "ARIA: ARIA popup"'
+          - 'button "ALERTS: YouTube video"'
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"scott-pilgrim\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"peliculas\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Series"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Series" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Series
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Doctor Who"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Doctor Who" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Doctor Who
+          - paragraph: Me gusta dejarme llevar por sus aventuras y por la posibilidad de encontrar algo distinto en cada viaje.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"doctor-who\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Brooklyn Nine-Nine"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Brooklyn Nine-Nine" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Brooklyn Nine-Nine
+          - paragraph: Una comedia a la que recurrir para desconectar, reírme y pasar un rato con sus personajes.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"brooklyn-99\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"series\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Anime y manga"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Anime y manga" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Anime y manga
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Ousama Ranking"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Ousama Ranking" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Ousama Ranking
+          - paragraph: Me atraen su sensibilidad y su manera de contar una aventura que invita a conectar con los personajes.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"ousama-ranking\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 JoJo’s Bizarre Adventure"':
+          - 'button "FEATURES: Null or empty alternative text"'
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 JoJo’s Bizarre Adventure" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: JoJo’s Bizarre Adventure
+          - paragraph: Me divierten su imaginación, sus situaciones extravagantes y ese estilo tan particular que lo hace reconocible.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"jojo\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"animanga\"*"
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Actualizado:"
+        - time: 20 de noviembre de 2026
+      - navigation "Ayuda y accesibilidad":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Ayuda":
+          - /url: ayuda.html
+        - link "Mapa del sitio":
+          - /url: mapa.html
+        - link "Lectura":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Ayuda y accesibilidad\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

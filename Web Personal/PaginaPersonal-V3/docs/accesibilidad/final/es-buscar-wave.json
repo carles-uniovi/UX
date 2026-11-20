@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-buscar",
+  "url": "https://carles-uniovi.github.io/UX/v3/buscar.html",
+  "phase": "final",
+  "date": "2026-11-20T11:08:08.031Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 2,
+  "alertTypes": "1 Redundant link\n1 Noscript element",
+  "standard": "Reglas WAVE, estilos activos"
+}

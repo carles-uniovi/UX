@@ -1,0 +1,109 @@
+﻿phase,page,tool,standard,errors,contrastErrors,warnings,alerts,unverified,date,url,evidence
+inicial,en-ayuda,AChecker,WCAG 2.0 AAA Markup,0,,35,,,2026-11-20T05:02:07.017Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/inicial/en-ayuda-achecker.txt
+inicial,en-ayuda,TAW,WCAG 2.1 AAA,0,,3,,30,2026-11-20T05:02:06.284Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/inicial/en-ayuda-taw.txt
+inicial,en-ayuda,WAVE,"Reglas WAVE, estilos activos",0,0,,3,,2026-11-20T05:02:07.067Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/inicial/en-ayuda-wave.txt
+inicial,en-buscar,AChecker,WCAG 2.0 AAA Markup,0,,54,,,2026-11-20T05:04:42.591Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/inicial/en-buscar-achecker.txt
+inicial,en-buscar,TAW,WCAG 2.1 AAA,3,,13,,30,2026-11-20T05:04:42.325Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/inicial/en-buscar-taw.txt
+inicial,en-buscar,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T05:04:42.637Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/inicial/en-buscar-wave.txt
+inicial,en-contacto,AChecker,WCAG 2.0 AAA Markup,0,,40,,,2026-11-20T05:00:32.684Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/inicial/en-contacto-achecker.txt
+inicial,en-contacto,TAW,WCAG 2.1 AAA,0,,9,,30,2026-11-20T05:00:29.248Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/inicial/en-contacto-taw.txt
+inicial,en-contacto,WAVE,"Reglas WAVE, estilos activos",0,0,,3,,2026-11-20T05:00:34.843Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/inicial/en-contacto-wave.txt
+inicial,en-hobbies,AChecker,WCAG 2.0 AAA Markup,0,,93,,,2026-11-20T04:56:40.292Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/inicial/en-hobbies-achecker.txt
+inicial,en-hobbies,TAW,WCAG 2.1 AAA,0,,21,,30,2026-11-20T04:56:36.469Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/inicial/en-hobbies-taw.txt
+inicial,en-hobbies,WAVE,"Reglas WAVE, estilos activos",0,0,,11,,2026-11-20T04:56:40.336Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/inicial/en-hobbies-wave.txt
+inicial,en-index,AChecker,WCAG 2.0 AAA Markup,0,,46,,,2026-11-20T04:53:27.140Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/inicial/en-index-achecker.txt
+inicial,en-index,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T04:52:44.382Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/inicial/en-index-taw.txt
+inicial,en-index,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T10:02:09.379Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/inicial/en-index-wave.txt
+inicial,en-intereses,AChecker,WCAG 2.0 AAA Markup,0,,112,,,2026-11-20T04:59:37.331Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/inicial/en-intereses-achecker.txt
+inicial,en-intereses,TAW,WCAG 2.1 AAA,3,,32,,30,2026-11-20T04:59:20.063Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/inicial/en-intereses-taw.txt
+inicial,en-intereses,WAVE,"Reglas WAVE, estilos activos",0,0,,17,,2026-11-20T04:59:37.372Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/inicial/en-intereses-wave.txt
+inicial,en-lectura,AChecker,WCAG 2.0 AAA Markup,0,,104,,,2026-11-20T05:05:32.933Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/inicial/en-lectura-achecker.txt
+inicial,en-lectura,TAW,WCAG 2.1 AAA,13,,62,,30,2026-11-20T05:05:32.509Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/inicial/en-lectura-taw.txt
+inicial,en-lectura,WAVE,"Reglas WAVE, estilos activos",0,0,,8,,2026-11-20T05:05:32.987Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/inicial/en-lectura-wave.txt
+inicial,en-mapa,AChecker,WCAG 2.0 AAA Markup,0,,80,,,2026-11-20T05:03:51.289Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/inicial/en-mapa-achecker.txt
+inicial,en-mapa,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T05:03:50.451Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/inicial/en-mapa-taw.txt
+inicial,en-mapa,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T05:03:51.340Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/inicial/en-mapa-wave.txt
+inicial,en-trayectoria,AChecker,WCAG 2.0 AAA Markup,0,,62,,,2026-11-20T04:55:28.069Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/inicial/en-trayectoria-achecker.txt
+inicial,en-trayectoria,TAW,WCAG 2.1 AAA,0,,14,,30,2026-11-20T04:55:26.816Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/inicial/en-trayectoria-taw.txt
+inicial,en-trayectoria,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T10:02:14.493Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/inicial/en-trayectoria-wave.txt
+inicial,es-ayuda,AChecker,WCAG 2.0 AAA Markup,0,,34,,,2026-11-20T05:01:44.649Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/inicial/es-ayuda-achecker.txt
+inicial,es-ayuda,TAW,WCAG 2.1 AAA,0,,3,,30,2026-11-20T05:01:41.768Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/inicial/es-ayuda-taw.txt
+inicial,es-ayuda,WAVE,"Reglas WAVE, estilos activos",0,0,,3,,2026-11-20T05:01:44.700Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/inicial/es-ayuda-wave.txt
+inicial,es-buscar,AChecker,WCAG 2.0 AAA Markup,0,,53,,,2026-11-20T05:04:20.052Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/inicial/es-buscar-achecker.txt
+inicial,es-buscar,TAW,WCAG 2.1 AAA,3,,13,,30,2026-11-20T05:04:19.786Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/inicial/es-buscar-taw.txt
+inicial,es-buscar,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T05:04:20.087Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/inicial/es-buscar-wave.txt
+inicial,es-contacto,AChecker,WCAG 2.0 AAA Markup,0,,39,,,2026-11-20T05:00:07.267Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/inicial/es-contacto-achecker.txt
+inicial,es-contacto,TAW,WCAG 2.1 AAA,1,,9,,30,2026-11-20T05:00:02.196Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/inicial/es-contacto-taw.txt
+inicial,es-contacto,WAVE,"Reglas WAVE, estilos activos",0,0,,3,,2026-11-20T05:00:07.304Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/inicial/es-contacto-wave.txt
+inicial,es-hobbies,AChecker,WCAG 2.0 AAA Markup,0,,92,,,2026-11-20T04:55:42.850Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/inicial/es-hobbies-achecker.txt
+inicial,es-hobbies,TAW,WCAG 2.1 AAA,0,,21,,30,2026-11-20T04:55:42.347Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/inicial/es-hobbies-taw.txt
+inicial,es-hobbies,WAVE,"Reglas WAVE, estilos activos",0,0,,11,,2026-11-20T04:56:30.271Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/inicial/es-hobbies-wave.txt
+inicial,es-index,AChecker,WCAG 2.0 AAA Markup,0,,45,,,2026-11-20T04:52:15.841Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/inicial/es-index-achecker.txt
+inicial,es-index,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T04:51:38.161Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/inicial/es-index-taw.txt
+inicial,es-index,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T10:02:06.854Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/inicial/es-index-wave.txt
+inicial,es-intereses,AChecker,WCAG 2.0 AAA Markup,0,,111,,,2026-11-20T04:57:02.590Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/inicial/es-intereses-achecker.txt
+inicial,es-intereses,TAW,WCAG 2.1 AAA,2,,32,,30,2026-11-20T04:59:13.671Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/inicial/es-intereses-taw.txt
+inicial,es-intereses,WAVE,"Reglas WAVE, estilos activos",0,0,,17,,2026-11-20T04:57:02.637Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/inicial/es-intereses-wave.txt
+inicial,es-lectura,AChecker,WCAG 2.0 AAA Markup,0,,103,,,2026-11-20T05:05:07.391Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/inicial/es-lectura-achecker.txt
+inicial,es-lectura,TAW,WCAG 2.1 AAA,12,,62,,30,2026-11-20T05:05:03.006Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/inicial/es-lectura-taw.txt
+inicial,es-lectura,WAVE,"Reglas WAVE, estilos activos",0,0,,8,,2026-11-20T05:05:07.439Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/inicial/es-lectura-wave.txt
+inicial,es-mapa,AChecker,WCAG 2.0 AAA Markup,0,,79,,,2026-11-20T05:03:29.387Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/inicial/es-mapa-achecker.txt
+inicial,es-mapa,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T05:03:28.426Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/inicial/es-mapa-taw.txt
+inicial,es-mapa,WAVE,"Reglas WAVE, estilos activos",0,0,,4,,2026-11-20T05:03:29.440Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/inicial/es-mapa-wave.txt
+inicial,es-trayectoria,AChecker,WCAG 2.0 AAA Markup,0,,61,,,2026-11-20T04:53:36.763Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/inicial/es-trayectoria-achecker.txt
+inicial,es-trayectoria,TAW,WCAG 2.1 AAA,0,,14,,30,2026-11-20T04:53:36.434Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/inicial/es-trayectoria-taw.txt
+inicial,es-trayectoria,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T10:02:11.892Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/inicial/es-trayectoria-wave.txt
+final,en-ayuda,AChecker,WCAG 2.0 AAA Markup,0,,35,,,2026-11-20T11:45:01.530Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/final/en-ayuda-achecker.txt
+final,en-ayuda,TAW,WCAG 2.1 AAA,0,,3,,30,2026-11-20T12:21:47.545Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/final/en-ayuda-taw.txt
+final,en-ayuda,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:45:04.144Z,https://carles-uniovi.github.io/UX/v3/en/ayuda.html,docs/accesibilidad/final/en-ayuda-wave.txt
+final,en-buscar,AChecker,WCAG 2.0 AAA Markup,0,,54,,,2026-11-20T11:08:23.304Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/final/en-buscar-achecker.txt
+final,en-buscar,TAW,WCAG 2.1 AAA,0,,11,,30,2026-11-20T11:08:18.994Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/final/en-buscar-taw.txt
+final,en-buscar,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:08:25.949Z,https://carles-uniovi.github.io/UX/v3/en/buscar.html,docs/accesibilidad/final/en-buscar-wave.txt
+final,en-contacto,AChecker,WCAG 2.0 AAA Markup,0,,40,,,2026-11-20T11:03:08.939Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/final/en-contacto-achecker.txt
+final,en-contacto,TAW,WCAG 2.1 AAA,0,,9,,30,2026-11-20T11:03:03.760Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/final/en-contacto-taw.txt
+final,en-contacto,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:03:11.608Z,https://carles-uniovi.github.io/UX/v3/en/contacto.html,docs/accesibilidad/final/en-contacto-wave.txt
+final,en-hobbies,AChecker,WCAG 2.0 AAA Markup,0,,85,,,2026-11-20T11:44:46.065Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/final/en-hobbies-achecker.txt
+final,en-hobbies,TAW,WCAG 2.1 AAA,0,,21,,30,2026-11-20T12:20:47.319Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/final/en-hobbies-taw.txt
+final,en-hobbies,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:44:48.748Z,https://carles-uniovi.github.io/UX/v3/en/hobbies.html,docs/accesibilidad/final/en-hobbies-wave.txt
+final,en-index,AChecker,WCAG 2.0 AAA Markup,0,,46,,,2026-11-20T11:43:39.940Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/final/en-index-achecker.txt
+final,en-index,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T12:19:17.709Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/final/en-index-taw.txt
+final,en-index,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:43:42.528Z,https://carles-uniovi.github.io/UX/v3/en/,docs/accesibilidad/final/en-index-wave.txt
+final,en-intereses,AChecker,WCAG 2.0 AAA Markup,0,,103,,,2026-11-20T11:46:04.618Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/final/en-intereses-achecker.txt
+final,en-intereses,TAW,WCAG 2.1 AAA,0,,30,,30,2026-11-20T11:01:56.100Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/final/en-intereses-taw.txt
+final,en-intereses,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T11:02:08.353Z,https://carles-uniovi.github.io/UX/v3/en/intereses.html,docs/accesibilidad/final/en-intereses-wave.txt
+final,en-lectura,AChecker,WCAG 2.0 AAA Markup,0,,104,,,2026-11-20T11:45:54.620Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/final/en-lectura-achecker.txt
+final,en-lectura,TAW,WCAG 2.1 AAA,0,,50,,30,2026-11-20T12:18:17.643Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/final/en-lectura-taw.txt
+final,en-lectura,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T11:45:57.315Z,https://carles-uniovi.github.io/UX/v3/en/lectura.html,docs/accesibilidad/final/en-lectura-wave.txt
+final,en-mapa,AChecker,WCAG 2.0 AAA Markup,0,,80,,,2026-11-20T11:06:31.781Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/final/en-mapa-achecker.txt
+final,en-mapa,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T11:06:23.996Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/final/en-mapa-taw.txt
+final,en-mapa,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:06:34.417Z,https://carles-uniovi.github.io/UX/v3/en/mapa.html,docs/accesibilidad/final/en-mapa-wave.txt
+final,en-trayectoria,AChecker,WCAG 2.0 AAA Markup,0,,59,,,2026-11-20T11:43:56.969Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/final/en-trayectoria-achecker.txt
+final,en-trayectoria,TAW,WCAG 2.1 AAA,0,,14,,30,2026-11-20T12:20:17.420Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/final/en-trayectoria-taw.txt
+final,en-trayectoria,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:43:59.631Z,https://carles-uniovi.github.io/UX/v3/en/trayectoria.html,docs/accesibilidad/final/en-trayectoria-wave.txt
+final,es-ayuda,AChecker,WCAG 2.0 AAA Markup,0,,34,,,2026-11-20T11:44:53.222Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/final/es-ayuda-achecker.txt
+final,es-ayuda,TAW,WCAG 2.1 AAA,0,,3,,30,2026-11-20T12:21:17.389Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/final/es-ayuda-taw.txt
+final,es-ayuda,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:44:55.824Z,https://carles-uniovi.github.io/UX/v3/ayuda.html,docs/accesibilidad/final/es-ayuda-wave.txt
+final,es-buscar,AChecker,WCAG 2.0 AAA Markup,0,,53,,,2026-11-20T11:08:05.221Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/final/es-buscar-achecker.txt
+final,es-buscar,TAW,WCAG 2.1 AAA,0,,11,,30,2026-11-20T11:07:57.216Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/final/es-buscar-taw.txt
+final,es-buscar,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:08:08.031Z,https://carles-uniovi.github.io/UX/v3/buscar.html,docs/accesibilidad/final/es-buscar-wave.txt
+final,es-contacto,AChecker,WCAG 2.0 AAA Markup,0,,39,,,2026-11-20T11:02:47.311Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/final/es-contacto-achecker.txt
+final,es-contacto,TAW,WCAG 2.1 AAA,0,,9,,30,2026-11-20T11:02:42.088Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/final/es-contacto-taw.txt
+final,es-contacto,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:02:49.883Z,https://carles-uniovi.github.io/UX/v3/contacto.html,docs/accesibilidad/final/es-contacto-wave.txt
+final,es-hobbies,AChecker,WCAG 2.0 AAA Markup,0,,84,,,2026-11-20T11:00:45.888Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/final/es-hobbies-achecker.txt
+final,es-hobbies,TAW,WCAG 2.1 AAA,0,,21,,30,2026-11-20T11:00:38.795Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/final/es-hobbies-taw.txt
+final,es-hobbies,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:00:52.977Z,https://carles-uniovi.github.io/UX/v3/hobbies.html,docs/accesibilidad/final/es-hobbies-wave.txt
+final,es-index,AChecker,WCAG 2.0 AAA Markup,0,,45,,,2026-11-20T11:43:11.143Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/final/es-index-achecker.txt
+final,es-index,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T12:18:47.723Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/final/es-index-taw.txt
+final,es-index,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:43:14.126Z,https://carles-uniovi.github.io/UX/v3/,docs/accesibilidad/final/es-index-wave.txt
+final,es-intereses,AChecker,WCAG 2.0 AAA Markup,0,,102,,,2026-11-20T11:01:43.600Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/final/es-intereses-achecker.txt
+final,es-intereses,TAW,WCAG 2.1 AAA,0,,30,,30,2026-11-20T11:01:34.468Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/final/es-intereses-taw.txt
+final,es-intereses,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T11:01:46.221Z,https://carles-uniovi.github.io/UX/v3/intereses.html,docs/accesibilidad/final/es-intereses-wave.txt
+final,es-lectura,AChecker,WCAG 2.0 AAA Markup,0,,103,,,2026-11-20T11:45:45.114Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/final/es-lectura-achecker.txt
+final,es-lectura,TAW,WCAG 2.1 AAA,0,,50,,30,2026-11-20T12:22:17.435Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/final/es-lectura-taw.txt
+final,es-lectura,WAVE,"Reglas WAVE, estilos activos",0,0,,6,,2026-11-20T11:45:47.751Z,https://carles-uniovi.github.io/UX/v3/lectura.html,docs/accesibilidad/final/es-lectura-wave.txt
+final,es-mapa,AChecker,WCAG 2.0 AAA Markup,0,,79,,,2026-11-20T11:06:09.364Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/final/es-mapa-achecker.txt
+final,es-mapa,TAW,WCAG 2.1 AAA,0,,8,,30,2026-11-20T11:06:02.183Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/final/es-mapa-taw.txt
+final,es-mapa,WAVE,"Reglas WAVE, estilos activos",0,0,,2,,2026-11-20T11:06:14.579Z,https://carles-uniovi.github.io/UX/v3/mapa.html,docs/accesibilidad/final/es-mapa-wave.txt
+final,es-trayectoria,AChecker,WCAG 2.0 AAA Markup,0,,58,,,2026-11-20T11:43:48.434Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/final/es-trayectoria-achecker.txt
+final,es-trayectoria,TAW,WCAG 2.1 AAA,0,,14,,30,2026-11-20T12:19:47.480Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/final/es-trayectoria-taw.txt
+final,es-trayectoria,WAVE,"Reglas WAVE, estilos activos",0,0,,1,,2026-11-20T11:43:51.052Z,https://carles-uniovi.github.io/UX/v3/trayectoria.html,docs/accesibilidad/final/es-trayectoria-wave.txt

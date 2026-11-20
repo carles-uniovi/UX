@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-trayectoria",
+  "url": "https://carles-uniovi.github.io/UX/v3/trayectoria.html",
+  "phase": "final",
+  "date": "2026-11-20T11:43:51.052Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 1,
+  "alertTypes": "1 Redundant link",
+  "standard": "Reglas WAVE, estilos activos"
+}

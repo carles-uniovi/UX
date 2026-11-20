@@ -1,0 +1,6 @@
+Browser tab: 7, Title: "Intereses · Carles Valladares García", URL: "https://carles-uniovi.github.io/UX/v3/intereses.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~								27 button Reproducir vídeo
+~									31 text Tiempo transcurrido 22 seconds Duración 2 minutes, 41 seconds
+~							34 slider Description: Control deslizante de posición, Value: 13
+The focused UI element is 27 button Reproducir vídeo

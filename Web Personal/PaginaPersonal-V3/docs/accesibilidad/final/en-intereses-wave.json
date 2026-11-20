@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "en-intereses",
+  "url": "https://carles-uniovi.github.io/UX/v3/en/intereses.html",
+  "phase": "final",
+  "date": "2026-11-20T11:02:08.353Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 6,
+  "alertTypes": "1 Redundant link\n3 Audio/Video\n2 YouTube video",
+  "standard": "Reglas WAVE, estilos activos"
+}

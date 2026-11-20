@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-mapa",
+  "url": "https://carles-uniovi.github.io/UX/v3/mapa.html",
+  "phase": "final",
+  "date": "2026-11-20T11:06:14.579Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 2,
+  "alertTypes": "2 Redundant link",
+  "standard": "Reglas WAVE, estilos activos"
+}

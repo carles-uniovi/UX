@@ -1,0 +1,2716 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/intereses.html
+Captured UTC: 2026-11-20T11:46:04.618Z
+WCAG 2.0 AAA Markup
+
+AChecker double_arrow URL (https://carles-uniovi.github.io/UX/v3/en/intereses.html)
+Sign up for occasional emails about accessibility/product information.
+Name
+Email
+SUBMIT
+NO ERRORS
+WARNINGS
+Congratulations! No known problems.
+<a target="_blank" href="https://achecks.org/achecker#wcag2aaa,https://carles-uniovi.github.io/UX/v3/en/intereses.html"><img src="https://achecks.org/images/icon_W2_aaa.jpg" alt="AChecker accessibility checker compliance: WCAG 2.0 (Level AAA)" height="32" width="102" /></a>
+check
+Does your content change frequently?
+check
+Does your website have too many pages to keep up with?
+
+Upgrade to have ACHECKS monitor your entire domain and get reports regularly!
+
+SEE THE SUBSCRIPTION OPTIONS
+
+WARNINGS
+
+				
+
+	
+		
+			<title> might not describe the document.
+		
+		
+			
+				
+					Line number
+					3
+				
+				
+					Column number
+					185
+				
+			
+			<title>Interests · Carles Valladares García</title>
+			
+			<title> describes the document.PASS
+			
+			<title> does not describe the document.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Visual lists may not be properly marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All visual lists contain proper markup.PASS
+			
+			Not all visual lists contain proper markup.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Unicode right-to-left marks or left-to-right marks may be required.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.PASS
+			
+			Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<dir> attribute may be required to identify changes in text direction.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All changes in text direction are marked using the <dir> attribute.PASS
+			
+			All changes in text direction are not marked using the <dir> attribute.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Text may refer to items by shape, size, or relative position alone.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			There are no references to items in the document by shape, size, or relative position alone.PASS
+			
+			There are references to items in the document by shape, size, or relative position alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Document may be missing a "skip to content" link.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Document contians a "skip to content" link or does not require it.PASS
+			
+			Document does not contain a "skip to content" link and requires it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Groups of links with a related purpose are not marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All groups of links with a related purpose are marked.PASS
+			
+			All groups of links with a related purpose are not marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Words or phrases that are not in the document's primary language may not be identified.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All words outside the primary language are identified.PASS
+			
+			Words outside the primary language are not identified.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Site missing site map.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Page is not part of a collection that requires a site map.PASS
+			
+			Page is part of a collection that requires a site map.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Repeated components may not appear in the same relative order each time they appear.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Repeated components appear in the same relative order on this page.PASS
+			
+			Repeated components do not appear in the same relative order on this page.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Long quotations may not be marked using the <blockquote> element.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All long quotations have been marked with the <blockquote> element.PASS
+			
+			All long quotations are not marked with the <blockquote> element.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					7
+				
+			
+			<a class="skip-link" href="#contenido">Skip to content</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					55
+				
+			
+			<a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span> ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					363
+				
+			
+			<a href="index.html">About me</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					396
+				
+			
+			<a href="trayectoria.html">Background</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					437
+				
+			
+			<a href="hobbies.html">Hobbies</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					471
+				
+			
+			<a href="intereses.html" aria-current="page">Interests</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					529
+				
+			
+			<a href="contacto.html">Contact</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					602
+				
+			
+			<a class="icon-control labeled-control" href="buscar.html"><svg width="20" height="20" viewbox="0 0  ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					938
+				
+			
+			<a class="language-switch" href="../intereses.html" lang="es" hreflang="es" aria-label="ES: Español ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					94
+				
+			
+			<a href="index.html">Home</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h1> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					203
+				
+			
+			<h1 id="page-title">Interests</h1>
+			
+			This <h1> element is really a section header.PASS
+			
+			This <h1> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					295
+				
+			
+			<a href="#musica">Music</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					322
+				
+			
+			<a href="#peliculas">Films</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					352
+				
+			
+			<a href="#series">TV series</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					383
+				
+			
+			<a href="#animanga">Anime and manga</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					508
+				
+			
+			<h2 id="musica">Music</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					604
+				
+			
+			<img class="card-image" src="../img/intereses/robe.jpg" alt="" width="480" height="320" loading="laz ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					604
+				
+			
+			<img class="card-image" src="../img/intereses/robe.jpg" alt="" width="480" height="320" loading="laz ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					604
+				
+			
+			<img class="card-image" src="../img/intereses/robe.jpg" alt="" width="480" height="320" loading="laz ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					604
+				
+			
+			<img class="card-image" src="../img/intereses/robe.jpg" alt="" width="480" height="320" loading="laz ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					604
+				
+			
+			<img class="card-image" src="../img/intereses/robe.jpg" alt="" width="480" height="320" loading="laz ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					747
+				
+			
+			<h3 id="robe">Robe</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					864
+				
+			
+			<a class="media-trigger" href="../docs/media/Robe%20-%20Del%20Tiempo%20Perdido.mp3" data-media-type= ...
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					864
+				
+			
+			<a class="media-trigger" href="../docs/media/Robe%20-%20Del%20Tiempo%20Perdido.mp3" data-media-type= ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<img class="card-image" src="../img/intereses/gavina.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<img class="card-image" src="../img/intereses/gavina.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<img class="card-image" src="../img/intereses/gavina.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<img class="card-image" src="../img/intereses/gavina.jpg" alt="" width="480" height="320" loading="l ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<img class="card-image" src="../img/intereses/gavina.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1532
+				
+			
+			<h3 id="gavina">Gavina.mp3</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1673
+				
+			
+			<a class="media-trigger" href="../docs/media/gavina.mp3%20-%20SOTA%20EL%20CEL.mp3" data-media-type=" ...
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1673
+				
+			
+			<a class="media-trigger" href="../docs/media/gavina.mp3%20-%20SOTA%20EL%20CEL.mp3" data-media-type=" ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2193
+				
+			
+			<img class="card-image" src="../img/intereses/las-petunias.jpg" alt="" width="480" height="320" load ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2193
+				
+			
+			<img class="card-image" src="../img/intereses/las-petunias.jpg" alt="" width="480" height="320" load ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2193
+				
+			
+			<img class="card-image" src="../img/intereses/las-petunias.jpg" alt="" width="480" height="320" load ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2193
+				
+			
+			<img class="card-image" src="../img/intereses/las-petunias.jpg" alt="" width="480" height="320" load ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2193
+				
+			
+			<img class="card-image" src="../img/intereses/las-petunias.jpg" alt="" width="480" height="320" load ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2344
+				
+			
+			<h3 id="las-petunias">Las Petunias</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2477
+				
+			
+			<a class="media-trigger" href="../docs/media/Las%20Petunias%20-%20Marcelo%20Criminal.mp3" data-media ...
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2477
+				
+			
+			<a class="media-trigger" href="../docs/media/Las%20Petunias%20-%20Marcelo%20Criminal.mp3" data-media ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3062
+				
+			
+			<h2 id="peliculas">Films</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3169
+				
+			
+			<img class="card-image" src="../img/intereses/spiderman.png" alt="" width="480" height="320" loading ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3169
+				
+			
+			<img class="card-image" src="../img/intereses/spiderman.png" alt="" width="480" height="320" loading ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3169
+				
+			
+			<img class="card-image" src="../img/intereses/spiderman.png" alt="" width="480" height="320" loading ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3169
+				
+			
+			<img class="card-image" src="../img/intereses/spiderman.png" alt="" width="480" height="320" loading ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3169
+				
+			
+			<img class="card-image" src="../img/intereses/spiderman.png" alt="" width="480" height="320" loading ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3317
+				
+			
+			<h3 id="spider-verse">Spider-Man: Into the Spider-Verse</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3460
+				
+			
+			<a class="media-trigger" href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" data-media-type="youtube ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4060
+				
+			
+			<img class="card-image" src="../img/intereses/scott-pilgrim.jpg" alt="" width="480" height="320" loa ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4060
+				
+			
+			<img class="card-image" src="../img/intereses/scott-pilgrim.jpg" alt="" width="480" height="320" loa ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4060
+				
+			
+			<img class="card-image" src="../img/intereses/scott-pilgrim.jpg" alt="" width="480" height="320" loa ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4060
+				
+			
+			<img class="card-image" src="../img/intereses/scott-pilgrim.jpg" alt="" width="480" height="320" loa ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4060
+				
+			
+			<img class="card-image" src="../img/intereses/scott-pilgrim.jpg" alt="" width="480" height="320" loa ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4212
+				
+			
+			<h3 id="scott-pilgrim">Scott Pilgrim vs. the World</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					4378
+				
+			
+			<a class="media-trigger" href="https://www.youtube.com/watch?v=7wd5KEaOtm4" data-media-type="youtube ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5008
+				
+			
+			<h2 id="series">TV series</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5114
+				
+			
+			<img class="card-image" src="../img/intereses/dr.who.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5114
+				
+			
+			<img class="card-image" src="../img/intereses/dr.who.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5114
+				
+			
+			<img class="card-image" src="../img/intereses/dr.who.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5114
+				
+			
+			<img class="card-image" src="../img/intereses/dr.who.jpg" alt="" width="480" height="320" loading="l ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5114
+				
+			
+			<img class="card-image" src="../img/intereses/dr.who.jpg" alt="" width="480" height="320" loading="l ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5259
+				
+			
+			<h3 id="doctor-who">Doctor Who</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5456
+				
+			
+			<img class="card-image" src="../img/intereses/brooklyn99.jpg" alt="" width="480" height="320" loadin ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5456
+				
+			
+			<img class="card-image" src="../img/intereses/brooklyn99.jpg" alt="" width="480" height="320" loadin ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5456
+				
+			
+			<img class="card-image" src="../img/intereses/brooklyn99.jpg" alt="" width="480" height="320" loadin ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5456
+				
+			
+			<img class="card-image" src="../img/intereses/brooklyn99.jpg" alt="" width="480" height="320" loadin ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5456
+				
+			
+			<img class="card-image" src="../img/intereses/brooklyn99.jpg" alt="" width="480" height="320" loadin ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5605
+				
+			
+			<h3 id="brooklyn-99">Brooklyn Nine-Nine</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5858
+				
+			
+			<h2 id="animanga">Anime and manga</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5976
+				
+			
+			<img class="card-image" src="../img/intereses/osama-ranking.jpg" alt="" width="480" height="320" loa ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5976
+				
+			
+			<img class="card-image" src="../img/intereses/osama-ranking.jpg" alt="" width="480" height="320" loa ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5976
+				
+			
+			<img class="card-image" src="../img/intereses/osama-ranking.jpg" alt="" width="480" height="320" loa ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5976
+				
+			
+			<img class="card-image" src="../img/intereses/osama-ranking.jpg" alt="" width="480" height="320" loa ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					5976
+				
+			
+			<img class="card-image" src="../img/intereses/osama-ranking.jpg" alt="" width="480" height="320" loa ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6128
+				
+			
+			<h3 id="ousama-ranking">Ousama Ranking</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6335
+				
+			
+			<img class="card-image" src="../img/intereses/jojo.webp" alt="" width="480" height="320" loading="la ...
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6335
+				
+			
+			<img class="card-image" src="../img/intereses/jojo.webp" alt="" width="480" height="320" loading="la ...
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6335
+				
+			
+			<img class="card-image" src="../img/intereses/jojo.webp" alt="" width="480" height="320" loading="la ...
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6335
+				
+			
+			<img class="card-image" src="../img/intereses/jojo.webp" alt="" width="480" height="320" loading="la ...
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6335
+				
+			
+			<img class="card-image" src="../img/intereses/jojo.webp" alt="" width="480" height="320" loading="la ...
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6479
+				
+			
+			<h3 id="jojo">JoJo’s Bizarre Adventure</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					6757
+				
+			
+			<h2 id="media-title">Media player</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					7215
+				
+			
+			<a id="media-direct" hidden>Open file</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					206
+				
+			
+			<a href="ayuda.html">Help</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					235
+				
+			
+			<a href="mapa.html">Site map</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					267
+				
+			
+			<a href="lectura.html">Reading</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+
+			

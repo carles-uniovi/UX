@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-20T11:51:01.628524+00:00",
+  "published_code_merge": "30abb29c3100889dfa3c28b5e2140962e30fb94a",
+  "method": "HTTP GET de recursos propios; comparación exacta normalizando únicamente CRLF/LF",
+  "files": [
+    {
+      "file": "ayuda.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/ayuda.html",
+      "status": 200,
+      "published_sha256": "2b3d29b3de59a751bd06b93d2d348ca19002c9b91a308d2b7c6c50912f345010",
+      "local_sha256": "2b3d29b3de59a751bd06b93d2d348ca19002c9b91a308d2b7c6c50912f345010",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "buscar.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/buscar.html",
+      "status": 200,
+      "published_sha256": "f2f8b741910b0258852d788ffcce790b5808ec1f15b2c6635621353013cbfe46",
+      "local_sha256": "f2f8b741910b0258852d788ffcce790b5808ec1f15b2c6635621353013cbfe46",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "contacto.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/contacto.html",
+      "status": 200,
+      "published_sha256": "f8340b60dc93eaffca794eab6b4940da944e39f76f7def3dce5a6fc296e97a39",
+      "local_sha256": "f8340b60dc93eaffca794eab6b4940da944e39f76f7def3dce5a6fc296e97a39",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "hobbies.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/hobbies.html",
+      "status": 200,
+      "published_sha256": "549d5bc6275a1cea6b77760ee798d27d935a43bf6b9d20441c2befc5b6838008",
+      "local_sha256": "549d5bc6275a1cea6b77760ee798d27d935a43bf6b9d20441c2befc5b6838008",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/index.html",
+      "status": 200,
+      "published_sha256": "804d13c8b6f3ae28f70b7d08d9ccaee272ee87727c43b37cf03173badc001178",
+      "local_sha256": "804d13c8b6f3ae28f70b7d08d9ccaee272ee87727c43b37cf03173badc001178",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "intereses.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/intereses.html",
+      "status": 200,
+      "published_sha256": "a73e971688733553d32ddc8551b4f0f8e071552a4459b90d3ef8ac902bed72e8",
+      "local_sha256": "a73e971688733553d32ddc8551b4f0f8e071552a4459b90d3ef8ac902bed72e8",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "lectura.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/lectura.html",
+      "status": 200,
+      "published_sha256": "f0cfa7c8f1180d51acadb6833ed2cb663b5ec935b6ef451557147ef0f64d022e",
+      "local_sha256": "f0cfa7c8f1180d51acadb6833ed2cb663b5ec935b6ef451557147ef0f64d022e",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "mapa.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/mapa.html",
+      "status": 200,
+      "published_sha256": "981f6fb73c53062c654227789d4c062b69bead04bbe4a219f909a7924761a932",
+      "local_sha256": "981f6fb73c53062c654227789d4c062b69bead04bbe4a219f909a7924761a932",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "trayectoria.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/trayectoria.html",
+      "status": 200,
+      "published_sha256": "cf7d23785b61cd62649ca4c94d0cee5bba3e0164d6152334b51c1e3c5cb5100a",
+      "local_sha256": "cf7d23785b61cd62649ca4c94d0cee5bba3e0164d6152334b51c1e3c5cb5100a",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/ayuda.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/ayuda.html",
+      "status": 200,
+      "published_sha256": "249be8acdacfb578b5f829c10e9adbf61b2e77b04cfc9428ad734e2be4c3366b",
+      "local_sha256": "249be8acdacfb578b5f829c10e9adbf61b2e77b04cfc9428ad734e2be4c3366b",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/buscar.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/buscar.html",
+      "status": 200,
+      "published_sha256": "0b6f4f7c0630d84cefc56e4e8f238d739805fdb6f3363b98607a3ec2d6eb3e20",
+      "local_sha256": "0b6f4f7c0630d84cefc56e4e8f238d739805fdb6f3363b98607a3ec2d6eb3e20",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/contacto.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/contacto.html",
+      "status": 200,
+      "published_sha256": "5a5f9db7e2e681c38bb53588a6582e000b04c4ccce898f376bb1da5f65b23b1a",
+      "local_sha256": "5a5f9db7e2e681c38bb53588a6582e000b04c4ccce898f376bb1da5f65b23b1a",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/hobbies.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/hobbies.html",
+      "status": 200,
+      "published_sha256": "da0589f2926ab6b806e3a3af4385a5b0466bd4b1fc74a030b0099f817cae4e0c",
+      "local_sha256": "da0589f2926ab6b806e3a3af4385a5b0466bd4b1fc74a030b0099f817cae4e0c",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/index.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/index.html",
+      "status": 200,
+      "published_sha256": "6d70727e068455c287258b87b6abc6ae591b0a56d55efb34c1d346b6f9262853",
+      "local_sha256": "6d70727e068455c287258b87b6abc6ae591b0a56d55efb34c1d346b6f9262853",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/intereses.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/intereses.html",
+      "status": 200,
+      "published_sha256": "29705829cb898521749b491da82731805779379c20a65065a6e951da881256d4",
+      "local_sha256": "29705829cb898521749b491da82731805779379c20a65065a6e951da881256d4",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/lectura.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/lectura.html",
+      "status": 200,
+      "published_sha256": "2350f36ce9e95df1354d0d53fc7b7bed391893cb445aaedde2dd20f45b56ffe1",
+      "local_sha256": "2350f36ce9e95df1354d0d53fc7b7bed391893cb445aaedde2dd20f45b56ffe1",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/mapa.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/mapa.html",
+      "status": 200,
+      "published_sha256": "4b1b4103c64ec1b585ecce2208e382e568cc493a966623c1cad8f2f1cc3617ca",
+      "local_sha256": "4b1b4103c64ec1b585ecce2208e382e568cc493a966623c1cad8f2f1cc3617ca",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "en/trayectoria.html",
+      "url": "https://carles-uniovi.github.io/UX/v3/en/trayectoria.html",
+      "status": 200,
+      "published_sha256": "a16937e5b443f0409cdb99ab3f8b3afb95ea992fa5fe5e862553300136e243d9",
+      "local_sha256": "a16937e5b443f0409cdb99ab3f8b3afb95ea992fa5fe5e862553300136e243d9",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "css/styles.css",
+      "url": "https://carles-uniovi.github.io/UX/v3/css/styles.css",
+      "status": 200,
+      "published_sha256": "9d7971c06e7e8a5b58bacd30f605f74383bba51b5615f55c025b4144ed52b83e",
+      "local_sha256": "9d7971c06e7e8a5b58bacd30f605f74383bba51b5615f55c025b4144ed52b83e",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "js/site.js",
+      "url": "https://carles-uniovi.github.io/UX/v3/js/site.js",
+      "status": 200,
+      "published_sha256": "7bc2131ba1ce72d2882e1c63bb140b726ba79aa16977942c04847f574b2f2ea8",
+      "local_sha256": "7bc2131ba1ce72d2882e1c63bb140b726ba79aa16977942c04847f574b2f2ea8",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "js/search.js",
+      "url": "https://carles-uniovi.github.io/UX/v3/js/search.js",
+      "status": 200,
+      "published_sha256": "40569d750bf56791e07b0508bb987276ab99b841eef8cbb6a1366f57c8ed0a02",
+      "local_sha256": "40569d750bf56791e07b0508bb987276ab99b841eef8cbb6a1366f57c8ed0a02",
+      "equal_after_newline_normalization": true
+    },
+    {
+      "file": "js/search-index.js",
+      "url": "https://carles-uniovi.github.io/UX/v3/js/search-index.js",
+      "status": 200,
+      "published_sha256": "cb70b92293451d797301911a0c30d0dc28ffb90592024b49992e052e771f55e9",
+      "local_sha256": "b7261ce59f4eb5e2355dcb3db07625334ffa21b09140e0032f185ee9bbf44a30",
+      "equal_after_newline_normalization": true
+    }
+  ]
+}
