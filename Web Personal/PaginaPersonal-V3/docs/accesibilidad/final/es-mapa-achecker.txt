@@ -1,0 +1,2091 @@
+URL: https://carles-uniovi.github.io/UX/v3/mapa.html
+Captured UTC: 2026-11-20T11:06:09.364Z
+WCAG 2.0 AAA Markup
+
+AChecker double_arrow URL (https://carles-uniovi.github.io/UX/v3/mapa.html)
+Sign up for occasional emails about accessibility/product information.
+Name
+Email
+SUBMIT
+NO ERRORS
+WARNINGS
+Congratulations! No known problems.
+<a target="_blank" href="https://achecks.org/achecker#wcag2aaa,https://carles-uniovi.github.io/UX/v3/mapa.html"><img src="https://achecks.org/images/icon_W2_aaa.jpg" alt="AChecker accessibility checker compliance: WCAG 2.0 (Level AAA)" height="32" width="102" /></a>
+check
+Does your content change frequently?
+check
+Does your website have too many pages to keep up with?
+
+Upgrade to have ACHECKS monitor your entire domain and get reports regularly!
+
+SEE THE SUBSCRIPTION OPTIONS
+
+WARNINGS
+
+				
+
+	
+		
+			<title> might not describe the document.
+		
+		
+			
+				
+					Line number
+					3
+				
+				
+					Column number
+					177
+				
+			
+			<title>Mapa del sitio · Carles Valladares García</title>
+			
+			<title> describes the document.PASS
+			
+			<title> does not describe the document.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Visual lists may not be properly marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All visual lists contain proper markup.PASS
+			
+			Not all visual lists contain proper markup.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Unicode right-to-left marks or left-to-right marks may be required.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.PASS
+			
+			Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<dir> attribute may be required to identify changes in text direction.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All changes in text direction are marked using the <dir> attribute.PASS
+			
+			All changes in text direction are not marked using the <dir> attribute.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Text may refer to items by shape, size, or relative position alone.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			There are no references to items in the document by shape, size, or relative position alone.PASS
+			
+			There are references to items in the document by shape, size, or relative position alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Document may be missing a "skip to content" link.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Document contians a "skip to content" link or does not require it.PASS
+			
+			Document does not contain a "skip to content" link and requires it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Groups of links with a related purpose are not marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All groups of links with a related purpose are marked.PASS
+			
+			All groups of links with a related purpose are not marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Site missing site map.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Page is not part of a collection that requires a site map.PASS
+			
+			Page is part of a collection that requires a site map.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Repeated components may not appear in the same relative order each time they appear.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Repeated components appear in the same relative order on this page.PASS
+			
+			Repeated components do not appear in the same relative order on this page.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Long quotations may not be marked using the <blockquote> element.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All long quotations have been marked with the <blockquote> element.PASS
+			
+			All long quotations are not marked with the <blockquote> element.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					7
+				
+			
+			<a class="skip-link" href="#contenido">Saltar al contenido</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					55
+				
+			
+			<a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span> ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					371
+				
+			
+			<a href="index.html">Sobre mí</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					405
+				
+			
+			<a href="trayectoria.html">Trayectoria</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					447
+				
+			
+			<a href="hobbies.html">Aficiones</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					483
+				
+			
+			<a href="intereses.html">Intereses</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					521
+				
+			
+			<a href="contacto.html">Contacto</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					595
+				
+			
+			<a class="icon-control labeled-control" href="buscar.html"><svg width="20" height="20" viewbox="0 0  ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					931
+				
+			
+			<a class="language-switch" href="en/mapa.html" lang="en" hreflang="en" aria-label="EN: English" titl ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					103
+				
+			
+			<a href="index.html">Inicio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h1> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					219
+				
+			
+			<h1 id="page-title">Mapa del sitio</h1>
+			
+			This <h1> element is really a section header.PASS
+			
+			This <h1> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					313
+				
+			
+			<h2><a href="index.html">Sobre mí</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					317
+				
+			
+			<a href="index.html">Sobre mí</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					383
+				
+			
+			<a href="index.html#page-title">Sobre mí</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					471
+				
+			
+			<h2><a href="trayectoria.html">Trayectoria</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					475
+				
+			
+			<a href="trayectoria.html">Trayectoria</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					549
+				
+			
+			<a href="trayectoria.html#uv-title">Grado en Matemáticas · Universitat de València</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					647
+				
+			
+			<a href="trayectoria.html#upv-title">Grado en Informática · Universitat Politècnica de València< ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					759
+				
+			
+			<a href="trayectoria.html#uniovi-title">Máster en Ingeniería Web · Universidad de Oviedo</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					863
+				
+			
+			<a href="trayectoria.html#medicarama">Medicarama · Prácticas de empresa</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					949
+				
+			
+			<a href="trayectoria.html#v2c">V2c · Experiencia laboral</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1019
+				
+			
+			<a href="trayectoria.html#proyectos">Proyecto: mi web personal</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1128
+				
+			
+			<h2><a href="hobbies.html">Aficiones</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1132
+				
+			
+			<a href="hobbies.html">Aficiones</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1200
+				
+			
+			<a href="hobbies.html#fire-emblem">Fire Emblem Fortune’s Wave</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1276
+				
+			
+			<a href="hobbies.html#baldurs-gate">Baldur’s Gate 3</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1342
+				
+			
+			<a href="hobbies.html#league-of-legends">League of Legends</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1413
+				
+			
+			<a href="hobbies.html#mundos-fantasia">Mundos de fantasía</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1484
+				
+			
+			<a href="hobbies.html#tardes-amigos">Tardes con amigos</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1551
+				
+			
+			<a href="hobbies.html#algo-teatro">Algo de teatro</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1613
+				
+			
+			<a href="hobbies.html#practicar-judo">Practicarlo</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1675
+				
+			
+			<a href="hobbies.html#ensenar-judo">Enseñarlo</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1768
+				
+			
+			<h2><a href="intereses.html">Intereses</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1772
+				
+			
+			<a href="intereses.html">Intereses</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1842
+				
+			
+			<a href="intereses.html#robe">Robe</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1889
+				
+			
+			<a href="intereses.html#gavina">Gavina.mp3</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1944
+				
+			
+			<a href="intereses.html#las-petunias">Las Petunias</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2007
+				
+			
+			<a href="intereses.html#spider-verse">Spider-Man: Into the Spider-Verse</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2091
+				
+			
+			<a href="intereses.html#scott-pilgrim">Scott Pilgrim vs. the World</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2170
+				
+			
+			<a href="intereses.html#doctor-who">Doctor Who</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2229
+				
+			
+			<a href="intereses.html#brooklyn-99">Brooklyn Nine-Nine</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2297
+				
+			
+			<a href="intereses.html#ousama-ranking">Ousama Ranking</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2364
+				
+			
+			<a href="intereses.html#jojo">JoJo’s Bizarre Adventure</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2467
+				
+			
+			<h2><a href="contacto.html">Contacto</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2471
+				
+			
+			<a href="contacto.html">Contacto</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2539
+				
+			
+			<a href="contacto.html#personal">Personal · Correo personal · GitHub personal</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2631
+				
+			
+			<a href="contacto.html#universidad">Universidad · Correo universitario · GitHub de la Universidad< ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2743
+				
+			
+			<a href="contacto.html#linkedin">LinkedIn · Carles Valladares García</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2826
+				
+			
+			<a href="contacto.html#referencias">Persona de referencia · LinkedIn</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2942
+				
+			
+			<h2><a href="ayuda.html">Ayuda</a></h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2946
+				
+			
+			<a href="ayuda.html">Ayuda</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3008
+				
+			
+			<a href="ayuda.html#encontrar">¿Cómo encuentro un contenido?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3083
+				
+			
+			<a href="ayuda.html#buscador">¿Cómo funciona el buscador?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3155
+				
+			
+			<a href="ayuda.html#teclado">¿Puedo usar solo el teclado?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3226
+				
+			
+			<a href="ayuda.html#lectura">¿Cómo leo sin imágenes ni distracciones?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3311
+				
+			
+			<a href="ayuda.html#idioma">¿Cómo cambio el idioma o el tema?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3387
+				
+			
+			<a href="ayuda.html#multimedia">¿Cómo escucho música o veo los vídeos?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3474
+				
+			
+			<a href="ayuda.html#problemas">¿Algo no funciona?</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3557
+				
+			
+			<a href="buscar.html">Buscar en todo el sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3610
+				
+			
+			<a href="lectura.html">Versión de lectura</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					216
+				
+			
+			<a href="ayuda.html">Ayuda</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					246
+				
+			
+			<a href="mapa.html" aria-current="page">Mapa del sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					304
+				
+			
+			<a href="lectura.html">Lectura</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+
+			

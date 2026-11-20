@@ -1,0 +1,447 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/trayectoria.html
+Captured UTC: 2026-11-20T10:02:14.493Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/en/trayectoria.html
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/en/trayectoria.html
+  - button "WAVE this page again"
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "6"
+      - text: Alerts
+      - text: "4"
+      - text: Features
+      - text: "18"
+      - text: Structure
+      - text: "27"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 9.9 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "6 Alerts" [level=3]:
+        - checkbox "6 Alerts" [checked]
+        - generic: 6 Alerts
+      - list:
+        - heading "3 Redundant alternative text Reference" [level=4]:
+          - checkbox "3 Redundant alternative text" [checked]
+          - generic: 3 Redundant alternative text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant alternative text 1"
+          - img "Redundant alternative text 2"
+          - img "Redundant alternative text 3"
+        - heading "1 Redundant link Reference" [level=4]:
+          - checkbox "1 Redundant link" [checked]
+          - generic: 1 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "2 Redundant title text Reference" [level=4]:
+          - checkbox "2 Redundant title text" [checked]
+          - generic: 2 Redundant title text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant title text 1"
+          - img "Redundant title text 2"
+      - heading "4 Features" [level=3]:
+        - checkbox "4 Features" [checked]
+        - generic: 4 Features
+      - list:
+        - heading "1 Skip link Reference" [level=4]:
+          - checkbox "1 Skip link" [checked]
+          - generic: 1 Skip link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link 1"
+        - heading "1 Skip link target Reference" [level=4]:
+          - checkbox "1 Skip link target" [checked]
+          - generic: 1 Skip link target
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link target 1"
+        - heading "2 Language Reference" [level=4]:
+          - checkbox "2 Language" [checked]
+          - generic: 2 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+      - heading "18 Structural Elements" [level=3]:
+        - checkbox "18 Structural Elements" [checked]
+        - generic: 18 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "3 Heading level 2 Reference" [level=4]:
+          - checkbox "3 Heading level 2" [checked]
+          - generic: 3 Heading level 2
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 2 1"
+          - img "Heading level 2 2"
+          - img "Heading level 2 3"
+        - heading "5 Heading level 3 Reference" [level=4]:
+          - checkbox "5 Heading level 3" [checked]
+          - generic: 5 Heading level 3
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 3 1"
+          - img "Heading level 3 2"
+          - img "Heading level 3 3"
+          - img "Heading level 3 4"
+          - img "Heading level 3 5"
+        - heading "1 Ordered list Reference" [level=4]:
+          - checkbox "1 Ordered list" [checked]
+          - generic: 1 Ordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Ordered list 1"
+        - heading "1 Unordered list Reference" [level=4]:
+          - checkbox "1 Unordered list" [checked]
+          - generic: 1 Unordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Unordered list 1"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "4 Navigation Reference" [level=4]:
+          - checkbox "4 Navigation" [checked]
+          - generic: 4 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+          - img "Navigation 3"
+          - img "Navigation 4"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "27 ARIA" [level=3]:
+        - checkbox "27 ARIA" [checked]
+        - generic: 27 ARIA
+      - list:
+        - heading "4 ARIA Reference" [level=4]:
+          - checkbox "4 ARIA" [checked]
+          - generic: 4 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA 2"
+          - img "ARIA 3"
+          - img "ARIA 4"
+        - heading "16 ARIA label Reference" [level=4]:
+          - checkbox "16 ARIA label" [checked]
+          - generic: 16 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+          - img "ARIA label 7"
+          - img "ARIA label 8"
+          - img "ARIA label 9"
+          - img "ARIA label 10"
+          - img "ARIA label 11"
+          - img "ARIA label 12"
+          - img "ARIA label 13"
+          - img "ARIA label 14"
+          - img "ARIA label 15"
+          - img "ARIA label 16"
+        - heading "1 ARIA tabindex Reference" [level=4]:
+          - checkbox "1 ARIA tabindex" [checked]
+          - generic: 1 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+        - heading "5 ARIA hidden Reference" [level=4]:
+          - checkbox "5 ARIA hidden" [checked]
+          - generic: 5 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+          - img "ARIA hidden 5"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*en*"
+  - iframe [id="report"]:
+    - 'link "Skip to content FEATURES: Skip link"':
+      - /url: "#contenido"
+      - text: Skip to content
+      - 'button "FEATURES: Skip link"'
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Home":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Home
+      - 'link "ARIA: ARIA hidden Search ALERTS: Redundant title text"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Search
+        - 'button "ALERTS: Redundant title text"'
+      - 'link "ES: Español"':
+        - /url: ../trayectoria.html
+        - 'button "FEATURES: Language"'
+        - generic: "*es*"
+        - text: ES
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"ES: Español\"*"
+      - button "Enable dark mode":
+        - text: ◐
+        - button
+        - generic: Dark mode
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Enable dark mode\"*"
+      - button "Menu":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menu
+        - 'button "ALERTS: Redundant title text"'
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menu\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - 'button "FEATURES: Skip link target"'
+      - navigation "Breadcrumb":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - list:
+          - 'button "STRUCTURAL ELEMENTS: Ordered list"'
+          - link "Home":
+            - /url: index.html
+          - text: /Background
+          - 'button "ARIA: ARIA"'
+          - text: "*aria-current=\"page\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Breadcrumb \"*"
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Background" [level=1]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+        - text: Background
+      - navigation "On this page":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Education":
+          - /url: "#formacion"
+        - link "Projects":
+          - /url: "#proyectos"
+        - link "Experience":
+          - /url: "#experiencia"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"On this page\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Education"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Education" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Education
+        - 'region "STRUCTURAL ELEMENTS: Heading level 3 Degree studies in Mathematics"':
+          - img "Universitat de València"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Universitat de València*"
+          - paragraph: Universitat de València
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Degree studies in Mathematics" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Degree studies in Mathematics
+          - paragraph: Studies started, not completed
+          - paragraph: I started university at UV, encouraged by my secondary school tutor. Although I left before completing the second year, I value what I learned and a way of thinking very different from memorising for an exam.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"uv-title\"*"
+        - 'region "STRUCTURAL ELEMENTS: Heading level 3 Degree in Computer Science"':
+          - img "Universitat Politècnica de València"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Universitat Politècnica de València*"
+          - paragraph: Universitat Politècnica de València
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Degree in Computer Science" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Degree in Computer Science
+          - paragraph: Software Engineering specialisation
+          - paragraph: I traded numbers for zeros and ones. During four years of study, I discovered how the “magic box” I used for gaming worked. I chose Software Engineering because programming and building applications interested me most.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"upv-title\"*"
+        - 'region "STRUCTURAL ELEMENTS: Heading level 3 Master’s in Web Engineering"':
+          - img "Universidad de Oviedo"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Universidad de Oviedo*"
+          - paragraph: Universidad de Oviedo
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Master’s in Web Engineering" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Master’s in Web Engineering
+          - paragraph: Postgraduate studies
+          - paragraph: The master’s programme gives me the opportunity to keep learning about websites and web applications. Studying away from home is also a chance to meet people and experience something different.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"uniovi-title\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"formacion\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Project: my personal website"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Project: my personal website" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: "Project: my personal website"
+        - paragraph: This website is my project for applying what I have learned in the master’s programme and improving the user experience.
+        - list "Technologies":
+          - 'button "STRUCTURAL ELEMENTS: Unordered list"'
+          - listitem: HTML
+          - listitem: CSS
+          - listitem: JavaScript
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-label=\"Technologies\"*"
+        - link "Code on GitHub (Opens in a new tab)":
+          - /url: https://github.com/carles-uniovi/UX
+          - text: Code on GitHub
+          - generic: (Opens in a new tab)
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"proyectos\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Work experience"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Work experience" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Work experience
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Medicarama"':
+          - paragraph:
+            - time: "2025"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Medicarama" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Medicarama
+          - paragraph: Company internship
+          - 'button "ARIA: ARIA label"'
+          - text: "*aria-labelledby=\"medicarama\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 V2c"':
+          - paragraph:
+            - time: "2026"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 V2c" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: V2c
+          - paragraph: Work experience
+          - 'button "ARIA: ARIA label"'
+          - text: "*aria-labelledby=\"v2c\"*"
+        - link "View my personal reference":
+          - /url: contacto.html#referencias
+          - text: View my personal reference
+          - text: ↗
+          - button
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"experiencia\"*"
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Updated:"
+        - time: 20 November 2026
+      - navigation "Help and accessibility":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Help":
+          - /url: ayuda.html
+        - link "Site map":
+          - /url: mapa.html
+        - link "Reading":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Help and accessibility\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

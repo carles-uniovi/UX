@@ -12,7 +12,7 @@ Revisión de los 21 criterios usados en las valoraciones anteriores, con evidenc
 | 1.6 Redes sociales | GitHub personal/universitario y LinkedIn propio, con enlaces descriptivos y aviso de apertura externa. Se mantienen los perfiles reales. |
 | 2.1 Teclado | Salto al contenido, Tab/Enter, foco visible, menú con Escape y retorno de foco desde el reproductor. Comprobaciones de navegador; no se ha realizado una sesión con lector de pantalla. |
 | 2.2 Sin gráficos | Navegación con texto y versión de lectura sin imágenes. Sin JavaScript siguen disponibles contenidos, direcciones, mapa y lectura. |
-| 2.3 Herramientas de accesibilidad | Axe: 36 análisis, cero infracciones automáticas. Lighthouse: accesibilidad 100 en las cuatro páginas/configuraciones medidas. Permanecen límites de revisión humana y multimedia; WCAG AAA no acreditado. No se presentan como nuevas pruebas TAW, AChecker o WAVE. |
+| 2.3 Herramientas de accesibilidad | TAW, AChecker y WAVE: 18 páginas por herramienta, 54 comprobaciones finales con cero errores automáticos; estudio de advertencias y 30 criterios manuales en `accesibilidad-v3.md`. Axe: 36 análisis sin infracciones. Lighthouse: accesibilidad 100 en las cuatro configuraciones medidas. Faltan alternativas multimedia; no se declara conformidad AAA. |
 | 3.1 Buscador | 70 entradas bilingües; 15 casos del motor y 21 de navegador superados. Mejoras y documentación en `buscador-v3.md`. |
 | 3.2 Navegación | Menú, portada, migas, categorías, ayuda, mapa y lectura. 536 referencias locales/anclas y destinos de las tres tareas comprobados. |
 | 4.1 Aficiones | Se conservan videojuegos, rol, judo e intereses culturales, con categorías y enlaces a secciones concretas. |

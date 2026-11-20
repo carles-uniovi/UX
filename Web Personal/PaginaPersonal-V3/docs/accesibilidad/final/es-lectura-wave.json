@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-lectura",
+  "url": "https://carles-uniovi.github.io/UX/v3/lectura.html",
+  "phase": "final",
+  "date": "2026-11-20T11:45:47.751Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 6,
+  "alertTypes": "1 Redundant link\n3 Audio/Video\n2 YouTube video",
+  "standard": "Reglas WAVE, estilos activos"
+}

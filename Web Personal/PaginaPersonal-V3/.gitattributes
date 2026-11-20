@@ -1,0 +1,4 @@
+# Conservar los bytes del PDF y de las capturas originales para verificar hashes.
+*.pdf binary
+docs/accesibilidad/**/*.txt -text -whitespace
+docs/accesibilidad/resultados.csv -text -whitespace

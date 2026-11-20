@@ -1,0 +1,25 @@
+{
+  "measured": [
+    {
+      "language": "es",
+      "maxCharacters": 75,
+      "fontSize": 16,
+      "lineHeight": 26.4,
+      "paragraphGap": 40,
+      "textAlign": "start"
+    },
+    {
+      "language": "en",
+      "maxCharacters": 73,
+      "fontSize": 16,
+      "lineHeight": 26.4,
+      "paragraphGap": 40,
+      "textAlign": "start"
+    }
+  ],
+  "forced": {
+    "active": true,
+    "color": "rgb(0, 0, 0)",
+    "background": "rgb(255, 255, 255)"
+  }
+}

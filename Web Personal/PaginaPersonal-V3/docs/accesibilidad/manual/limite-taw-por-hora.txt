@@ -1,0 +1,195 @@
+Captured UTC: 2026-11-20T11:17:08.809Z
+
+- navigation:
+  - list:
+    - link "Inicio":
+      - /url: index
+      - text: Inicio
+    - link "Servicios":
+      - /url: svc
+      - text: Servicios
+    - link "Herramientas":
+      - /url: proj
+      - text: Herramientas
+    - link "Contacto":
+      - /url: cont
+      - text: Contacto
+- main:
+  - img "Logo TAW"
+  - list:
+    - link "[ES]":
+      - /url: "?lang=es"
+    - link "[EN]":
+      - /url: "?lang=en"
+    - link "[PT]":
+      - /url: "?lang=pt"
+    - link " Pausar":
+      - /url: javascript:;
+      - generic: 
+      - text: Pausar
+  - heading "Test de accesibilidad web" [level=1]
+  - paragraph:
+    - generic: Introduce el documento a analizar
+    - textbox "Introduce el documento a analizar":
+      - /placeholder: url
+    - generic: 
+  - button "Analizar"
+  - link "Opciones":
+    - /url: "#"
+    - text: Opciones
+    - generic: 
+    - text: 
+  - paragraph:
+    - strong: Nivel
+    - text: AA -
+    - strong: Tecnologías
+    - text: ": HTML, CSS, JS"
+  - paragraph
+  - text: Ha alcanzado el límite de peticiones por hora. El servicio de uso gratuito está limitado a
+  - strong: 10 peticiones por hora
+  - text: .
+  - text: Si ésto es un problema, tenemos diferentes versiones de TAW adaptadas a tus necesidades.
+  - text: ¿Podemos ayudarte? Ponte en contacto con nosotros en la dirección
+  - link "info@tawdis.net":
+    - /url: mailto:info@tawdis.net
+  - text: o llamando al teléfono +34 984 29 12 12.
+  - paragraph:
+    - strong: ¡TAW se actualiza por dentro y por fuera!
+  - paragraph:
+    - link "Descubre todas las novedades":
+      - /url: "#novedades"
+  - list:
+    - link "Aviso legal":
+      - /url: legal
+    - link "Condiciones de Uso":
+      - /url: condiciones
+    - link "CTIC":
+      - /url: http://www.fundacionctic.org
+      - generic "CTIC Centro tecnológico":
+        - img "CTIC"
+  - link "Ir al contenido":
+    - /url: "#index-content"
+  - heading "Novedades" [level=2]
+  - paragraph
+  - paragraph: "Hemos modificado TAW para mejorarlo:"
+  - list:
+    - listitem: Actualización del motor. Ahora también valida la accesibilidad del código producido mediante Javascript.
+    - listitem: Nuevo diseño de portal.
+    - listitem: Incorporación de nuevas comprobaciones y mejora de las existentes. Ahora TAW es más inteligente buscando errores.
+    - listitem: Ya puedes recibir el resultado detallado del análisis en tu email.
+    - listitem: Desde hoy, TAW habla portugués.
+    - listitem: Es más seguro, bajo HTTPS.
+  - paragraph:
+    - text: Y... mucho más.
+    - strong: ¡Esperamos que te guste!
+  - paragraph
+  - heading "Qué es TAW" [level=2]
+  - paragraph:
+    - strong: TAW
+    - text: es una herramienta automática on-line para analizar la accesibilidad de sitios web. Creada teniendo como referencia técnica las pautas de accesibilidad al contenido web (
+    - link "WCAG 2.1":
+      - /url: https://www.w3.org/TR/WCAG21
+    - text: ) del
+    - link "W3C":
+      - /url: https://www.w3c.es
+    - text: ", cuenta con más de 15 años, siendo la herramienta de referencia en habla hispana."
+  - heading "Para qué sirve" [level=2]
+  - paragraph: El objetivo de TAW es comprobar el nivel de accesibilidad alcanzado en el diseño y desarrollo de páginas web con el fin de permitir el acceso a todas las personas independientemente de sus características diferenciadoras. Está destinada tanto a usuarios sin experiencia que quieren conocer el grado de accesibilidad de su sitio web como para profesionales de campo como webmasters, desarrolladores, diseñadores de páginas web etc.
+  - heading "Logotipo TAW" [level=2]
+  - paragraph: "El objetivo a la hora de aplicar la accesibilidad a un sitio web debe ser que alcance el mayor nivel posible. Como sabes, ese nivel lo medimos en relación a \"Pautas de Accesibilidad para Contenido Web\" WCAG 2.0 de WAI-W3C de la siguiente forma:"
+  - list:
+    - listitem: WCAG 2.1 A. Cumple todos los puntos de verificación de prioridad 1
+    - listitem: WCAG 2.1 AA. Cumple todos los puntos de verificación de prioridad 1 y 2
+    - listitem: WCAG 2.1 AAA. Cumple todos los puntos de verificación de prioridad 1, 2 y 3
+  - paragraph: "Las comprobaciones que realiza TAW en el análisis se dividen en dos categorías:"
+  - list:
+    - strong: Automáticos
+    - text: . Problemas de accesibilidad que la herramienta detecta por si sola y que deben ser solucionados.
+    - strong: Manuales
+    - text: . La herramienta señala la existencia de un posible problema que el evaluador/a debe confirmar o descartar.
+    - blockquote:
+      - strong: Recuerda.
+      - text: Debes
+      - strong: comprobar siempre
+      - text: los posibles
+      - strong: problemas manuales
+      - text: de la página. No es suficiente con la verificación automática. De no hacerlo así, el resultado no será valido.
+  - heading "Incorporando el logotipo TAW." [level=3]
+  - paragraph: Si lo deseas, puedes poner en tu sitio web el logotipo que indica que has validado la accesibilidad con TAW y el grado alcanzado. Existe uno por cada nivel de accesibilidad (A, doble A y triple A ) y puedes elegir como logo la alternativa que más te guste (CSS, gráfico grande y gráfico pequeño).
+  - paragraph: No se exige, pero agradecemos que enlaces el icono a la página web del TAW (http://www.tawdis.net).
+  - term: Nivel WAI-A
+  - definition:
+    - text: Consigues el logo de nivel A cuando no existen problemas automáticos de nivel 1 y se descartan todos los problemas manuales de esta prioridad.
+    - list:
+      - text: "CSS:"
+      - generic "Test de accesibilidad web versión 3":
+        - text: t.a.w·
+        - superscript: "3"
+      - generic: A
+      - link "Ver código":
+        - /url: "#cod"
+      - text: "Gráfico:"
+      - img "TAW. Nivel A. WCAG 2.1 WAI"
+      - text: "Gráfico:"
+      - img "TAW. Nivel A. WCAG 2.1 WAI"
+  - term: Nivel WAI-AA
+  - definition:
+    - text: Este nivel se obtiene cuando no existen problemas automáticos de prioridad 1 y 2 y se han descartado los problemas manuales indicados en estas prioridades.
+    - list:
+      - text: "CSS:"
+      - generic "Test de accesibilidad web versión 3":
+        - text: t.a.w.
+        - superscript: "3"
+      - generic: AA
+      - link "Ver código":
+        - /url: "#cod"
+      - text: "Gráfico:"
+      - img "TAW. Nivel Doble A. WCAG 2.1 WAI"
+      - text: "Gráfico:"
+      - img "TAW. Nivel Doble A. WCAG 2.1 WAI"
+  - term: Nivel WAI-AAA
+  - definition:
+    - text: Este nivel se obtiene cuando no existen problemas automáticos ni manuales de ninguna prioridad.
+    - list:
+      - text: "CSS:"
+      - generic "Test de accesibilidad web versión 3":
+        - text: t.a.w.
+        - superscript: "3"
+      - generic: AAA
+      - link "Ver código":
+        - /url: "#cod"
+      - text: "Gráfico:"
+      - img "TAW. Nivel triple A. WCAG 2.1 WAI"
+      - text: "Gráfico:"
+      - img "TAW. Nivel triple A. WCAG 2.1 WAI"
+  - paragraph
+  - paragraph
+  - heading "Marcado del logotipo" [level=3]
+  - heading "(X)HTML" [level=4]
+  - code:
+    - generic: <span class="tawlogo">
+    - generic: <abbr title=" Test de accesibilidad web versión 3 ">
+    - text: t
+    - generic: "<span style=\"color: rgb(255, 0, 0);\">"
+    - text: .
+    - generic: </span>
+    - text: a
+    - generic: "<span style=\"color: rgb(220, 131, 16);\">"
+    - text: .
+    - generic: </span>
+    - text: w
+    - generic: "<span style=\"color: rgb(0, 170, 0);\">"
+    - text: .
+    - generic: </span>
+    - generic: <sup>
+    - text: "3"
+    - generic: </sup>
+    - generic: </abbr>
+    - generic: <span class="tnivel">
+    - generic: <abbr title="Nivel A - WCAG 2.1 WAI">
+    - text: A
+    - generic: </abbr>
+    - generic: </span>
+    - generic: </span>
+  - heading "CSS" [level=4]
+  - code: "/*------------(CSS LOGO TAW)------------*/ .tawlogo { font-family: arial, sans-serif; border: 1px solid #555; vertical-align: 0.3em; font-weight: bold; color: #fff; font-size: 0.9em; background-color: #555; padding: 0; } .tawlogo .tnivel { padding: 0 0.4em ; border-bottom: 0px; background-color: #555; color: #fff; font-size: 0.8em; } .tawlogo abbr { border-bottom: 0px; } .tawlogo acronym{ border-bottom: 0px; padding: 0 0.3em; background-color: #fff; color: #000; } .tawlogo sup{ padding: 0em; vertical-align: 0.6em; font-size: 0.6em; } /*------------(CSS LOGO TAW)------------*/"

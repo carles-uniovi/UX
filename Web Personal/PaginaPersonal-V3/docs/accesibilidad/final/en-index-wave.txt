@@ -1,0 +1,381 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/
+Captured UTC: 2026-11-20T11:43:42.528Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/en/
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/en/
+  - button "WAVE this page again"
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "2"
+      - text: Alerts
+      - text: "7"
+      - text: Features
+      - text: "11"
+      - text: Structure
+      - text: "26"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 10 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "2 Alerts" [level=3]:
+        - checkbox "2 Alerts" [checked]
+        - generic: 2 Alerts
+      - list:
+        - heading "2 Redundant link Reference" [level=4]:
+          - checkbox "2 Redundant link" [checked]
+          - generic: 2 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Redundant link 2"
+      - heading "7 Features" [level=3]:
+        - checkbox "7 Features" [checked]
+        - generic: 7 Features
+      - list:
+        - heading "1 Alternative text Reference" [level=4]:
+          - checkbox "1 Alternative text" [checked]
+          - generic: 1 Alternative text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Alternative text 1"
+        - heading "1 Figure Reference" [level=4]:
+          - checkbox "1 Figure" [checked]
+          - generic: 1 Figure
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Figure 1"
+        - heading "1 Skip link Reference" [level=4]:
+          - checkbox "1 Skip link" [checked]
+          - generic: 1 Skip link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link 1"
+        - heading "1 Skip link target Reference" [level=4]:
+          - checkbox "1 Skip link target" [checked]
+          - generic: 1 Skip link target
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link target 1"
+        - heading "3 Language Reference" [level=4]:
+          - checkbox "3 Language" [checked]
+          - generic: 3 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+          - img "Language 3"
+      - heading "11 Structural Elements" [level=3]:
+        - checkbox "11 Structural Elements" [checked]
+        - generic: 11 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "1 Heading level 2 Reference" [level=4]:
+          - checkbox "1 Heading level 2" [checked]
+          - generic: 1 Heading level 2
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 2 1"
+        - heading "4 Heading level 3 Reference" [level=4]:
+          - checkbox "4 Heading level 3" [checked]
+          - generic: 4 Heading level 3
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 3 1"
+          - img "Heading level 3 2"
+          - img "Heading level 3 3"
+          - img "Heading level 3 4"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "2 Navigation Reference" [level=4]:
+          - checkbox "2 Navigation" [checked]
+          - generic: 2 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "26 ARIA" [level=3]:
+        - checkbox "26 ARIA" [checked]
+        - generic: 26 ARIA
+      - list:
+        - heading "3 ARIA Reference" [level=4]:
+          - checkbox "3 ARIA" [checked]
+          - generic: 3 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA 2"
+          - img "ARIA 3"
+        - heading "7 ARIA label Reference" [level=4]:
+          - checkbox "7 ARIA label" [checked]
+          - generic: 7 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+          - img "ARIA label 7"
+        - heading "1 ARIA tabindex Reference" [level=4]:
+          - checkbox "1 ARIA tabindex" [checked]
+          - generic: 1 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+        - heading "14 ARIA hidden Reference" [level=4]:
+          - checkbox "14 ARIA hidden" [checked]
+          - generic: 14 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+          - img "ARIA hidden 5"
+          - img "ARIA hidden 6"
+          - img "ARIA hidden 7"
+          - img "ARIA hidden 8"
+          - img "ARIA hidden 9"
+          - img "ARIA hidden 10"
+          - img "ARIA hidden 11"
+          - img "ARIA hidden 12"
+          - img "ARIA hidden 13"
+          - img "ARIA hidden 14"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*en*"
+  - iframe [id="report"]:
+    - 'link "Skip to content FEATURES: Skip link"':
+      - /url: "#contenido"
+      - text: Skip to content
+      - 'button "FEATURES: Skip link"'
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Home":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Home
+      - 'link "ARIA: ARIA hidden Search"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Search
+      - 'link "ES: Español"':
+        - /url: ../index.html
+        - 'button "FEATURES: Language"'
+        - generic: "*es*"
+        - text: ES
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"ES: Español\"*"
+      - button "Enable dark mode":
+        - text: ◐
+        - button
+        - generic: Dark mode
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Enable dark mode\"*"
+      - button "Menu":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menu
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menu\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - 'button "FEATURES: Skip link target"'
+      - 'region "STRUCTURAL ELEMENTS: Heading level 1 Carles Valladares García"':
+        - paragraph: Hi, I’m Carles
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Carles Valladares García" [level=1]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+          - text: Carles
+          - text: Valladares García
+          - text: .
+          - button
+        - paragraph: Computer science graduate, Web Engineering student and a Valencian who prefers cachopo to paella.
+        - paragraph:
+          - 'button "FEATURES: Language"'
+          - text: "*ca*Benvingut/da al meu lloc!"
+          - text: There’s more to me than computing.
+        - link "Explore my background":
+          - /url: trayectoria.html
+          - text: Explore my background
+          - text: ↗
+          - button
+        - figure:
+          - img "An orange cat resting"
+          - 'button "FEATURES: Alternative text"'
+          - text: "*An orange cat resting*"
+          - 'button "FEATURES: Figure"'
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-labelledby=\"page-title\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Where to start"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Where to start" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Where to start
+        - 'link "STRUCTURAL ELEMENTS: Heading level 3 Background My education, work experience and a project to put what I have learned into practice. ALERTS: Redundant link"':
+          - /url: trayectoria.html
+          - text: "01"
+          - button
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Background" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Background
+            - text: ↗
+            - button
+          - paragraph: My education, work experience and a project to put what I have learned into practice.
+          - 'button "ALERTS: Redundant link"'
+        - 'link "STRUCTURAL ELEMENTS: Heading level 3 Hobbies Video games, tabletop adventures and judo: what I do away from screens… and in front of them."':
+          - /url: hobbies.html
+          - text: "02"
+          - button
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Hobbies" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Hobbies
+            - text: ↗
+            - button
+          - paragraph: "Video games, tabletop adventures and judo: what I do away from screens… and in front of them."
+        - 'link "STRUCTURAL ELEMENTS: Heading level 3 Interests The music, films and stories I enjoy coming back to."':
+          - /url: intereses.html
+          - text: "03"
+          - button
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Interests" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Interests
+            - text: ↗
+            - button
+          - paragraph: The music, films and stories I enjoy coming back to.
+        - 'link "STRUCTURAL ELEMENTS: Heading level 3 Contact Email, GitHub and LinkedIn to keep in touch."':
+          - /url: contacto.html
+          - text: "04"
+          - button
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Contact" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Contact
+            - text: ↗
+            - button
+          - paragraph: Email, GitHub and LinkedIn to keep in touch.
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"explore-title\"*"
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Updated:"
+        - time: 20 November 2026
+      - navigation "Help and accessibility":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Help":
+          - /url: ayuda.html
+        - link "Site map":
+          - /url: mapa.html
+        - link "Reading":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Help and accessibility\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

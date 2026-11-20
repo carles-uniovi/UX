@@ -1,0 +1,501 @@
+{
+  "tool": "TAW",
+  "page": "es-contacto",
+  "url": "https://carles-uniovi.github.io/UX/v3/contacto.html",
+  "phase": "final",
+  "date": "2026-11-20T11:02:42.088Z",
+  "standard": "WCAG 2.1 AAA",
+  "rows": [
+    {
+      "criterion": "1.1.1 - Contenido no textual",
+      "errors": 0,
+      "level": "A",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.1 - Sólo audio y solo vídeo (grabaciones)",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.2 - Subtítulos (pregrabados)",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.3 - Audiodescripción o Medio Alternativo (Pregrabado)",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.4 - Subtítulos (en directo)",
+      "errors": 0,
+      "level": "AA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.5 - Descripción auditiva (Pregrabada)",
+      "errors": 0,
+      "level": "AA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.6 - Lenguaje de signos",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.7 - Audiodescripción Extendida (Pregrabada)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.8 - Alternativa textual completa",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.2.9 - Sólo audio (en directo)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.3.1 - Información y relaciones",
+      "errors": 0,
+      "level": "A",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.3.2 - Secuencia con significado",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.3.3 - Características sensoriales",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.1 - Uso del color",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.2 - Control del audio",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.3 - Contraste (Mínimo)",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.4 - Redimensionamiento del texto",
+      "errors": 0,
+      "level": "AA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.5 - Imágenes de texto",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.6 - Contraste (Mejorado)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.7 - Sonido de fondo bajo o ausente",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.8 - Presentación visual",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "1.4.9 - Imágenes de texto (sin excepciones)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.1.1 - Teclado",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.1.2 - Sin bloqueos de teclado",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.1.3 - Teclado (sin excepciones)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.2.1 - Tiempo ajustable",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.2.2 - Pausar, detener, ocultar",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.2.3 - Sin límite temporal",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.2.4 - Interrupciones",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.2.5 - Nueva autentificación",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.3.1 - Umbral de tres destellos o menos",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.3.2 - Tres destellos",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.1 - Evitar bloques",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.2 - Páginas tituladas",
+      "errors": 0,
+      "level": "A",
+      "result": "Desconocido",
+      "unverified": 0,
+      "warnings": 1
+    },
+    {
+      "criterion": "2.4.3 - Orden del foco",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.4 - Propósito de los enlaces (en contexto)",
+      "errors": 0,
+      "level": "A",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.5 - Múltiples vías",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.6 - Encabezados y etiquetas",
+      "errors": 0,
+      "level": "AA",
+      "result": "Desconocido",
+      "unverified": 0,
+      "warnings": 4
+    },
+    {
+      "criterion": "2.4.7 - Foco visible",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.8 - Ubicación",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.9 - Propósito de los enlaces (Sólo enlaces)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "2.4.10 - Encabezados de sección",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.1 - Idioma de la página",
+      "errors": 0,
+      "level": "A",
+      "result": "Pasa",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.2 - Idioma de las partes",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.3 - Palabras inusuales",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.4 - Abreviaturas",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.5 - Nivel de lectura",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.1.6 - Pronunciación",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.2.1 - Al recibir el foco",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.2.2 - Al introducir datos",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.2.3 - Navegación consistente",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.2.4 - Identificación consistente",
+      "errors": 0,
+      "level": "AA",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.2.5 - Cambios bajo petición",
+      "errors": 0,
+      "level": "AAA",
+      "result": "Desconocido",
+      "unverified": 0,
+      "warnings": 4
+    },
+    {
+      "criterion": "3.3.1 - Identificación de errores",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.3.2 - Etiquetas o instrucciones",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.3.3 - Sugerencias ante errores",
+      "errors": 0,
+      "level": "AA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.3.4 - Prevención de errores (legales, financieros, datos)",
+      "errors": 0,
+      "level": "AA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.3.5 - Ayuda",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "3.3.6 - Prevención de errores (todos)",
+      "errors": 0,
+      "level": "AAA",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "4.1.1 - Procesamiento",
+      "errors": 0,
+      "level": "A",
+      "result": "na",
+      "unverified": 0,
+      "warnings": 0
+    },
+    {
+      "criterion": "4.1.2 - Nombre, función, valor",
+      "errors": 0,
+      "level": "A",
+      "result": "Sin revisar",
+      "unverified": 1,
+      "warnings": 0
+    }
+  ],
+  "errors": 0,
+  "warnings": 9,
+  "unverified": 30
+}

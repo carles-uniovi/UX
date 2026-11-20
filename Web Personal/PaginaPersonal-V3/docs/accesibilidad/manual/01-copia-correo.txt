@@ -1,0 +1,86 @@
+- link "Saltar al contenido":
+  - /url: "#contenido"
+- banner:
+  - link "Carles Valladares · Inicio":
+    - /url: index.html
+    - text: cv
+    - generic: .
+    - text: Carles Valladares
+    - generic: · Inicio
+  - navigation "Navegación principal":
+    - link "Sobre mí":
+      - /url: index.html
+    - link "Trayectoria":
+      - /url: trayectoria.html
+    - link "Aficiones":
+      - /url: hobbies.html
+    - link "Intereses":
+      - /url: intereses.html
+    - link "Contacto":
+      - /url: contacto.html
+  - link "Buscar":
+    - /url: buscar.html
+    - generic: Buscar
+  - 'link "EN: English"':
+    - /url: en/contacto.html
+    - text: EN
+  - button "Activar modo oscuro":
+    - generic: ◐
+    - generic: Modo oscuro
+- main:
+  - navigation "Ruta de navegación":
+    - list:
+      - link "Inicio":
+        - /url: index.html
+      - listitem: /Contacto
+  - heading "Contacto" [level=1]
+  - paragraph: Puedes escribirme al correo personal o al universitario. Pulsa la dirección para abrir tu aplicación de correo, o usa el botón para copiarla.
+  - region "Personal":
+    - heading "Personal" [level=2]
+    - link "Correo personal carlesvallgar@gmail.com":
+      - /url: mailto:carlesvallgar@gmail.com
+      - generic: Correo personal
+      - strong: carlesvallgar@gmail.com
+    - button "Copiar correo personal"
+    - status
+    - link "GitHub personal @CarlesVall (Se abre en una pestaña nueva)":
+      - /url: https://github.com/CarlesVall
+      - generic: GitHub personal
+      - strong: "@CarlesVall"
+      - generic: (Se abre en una pestaña nueva)
+    - link "LinkedIn Carles Valladares García (Se abre en una pestaña nueva)":
+      - /url: https://www.linkedin.com/in/carles-valladares-garc%C3%ADa-07a938223/
+      - generic: LinkedIn
+      - strong: Carles Valladares García
+      - generic: (Se abre en una pestaña nueva)
+  - region "Universidad":
+    - heading "Universidad" [level=2]
+    - link "Correo universitario UO319242@uniovi.es":
+      - /url: mailto:UO319242@uniovi.es
+      - generic: Correo universitario
+      - strong: UO319242@uniovi.es
+    - button "Copiado"
+    - status: "Dirección copiada: UO319242@uniovi.es"
+    - link "GitHub de la Universidad @carles-uniovi (Se abre en una pestaña nueva)":
+      - /url: https://github.com/carles-uniovi
+      - generic: GitHub de la Universidad
+      - strong: "@carles-uniovi"
+      - generic: (Se abre en una pestaña nueva)
+  - region "Referencia personal":
+    - heading "Referencia personal" [level=2]
+    - link "LinkedIn de mi colega (Se abre en una pestaña nueva)":
+      - /url: https://www.linkedin.com/in/carlos-cebell%C3%A1n-ferriz-963357347/
+      - text: LinkedIn de mi colega
+      - generic: (Se abre en una pestaña nueva)
+- contentinfo:
+  - strong: Carles Valladares García
+  - paragraph:
+    - text: "Actualizado:"
+    - time: 20 de noviembre de 2026
+  - navigation "Ayuda y accesibilidad":
+    - link "Ayuda":
+      - /url: ayuda.html
+    - link "Mapa del sitio":
+      - /url: mapa.html
+    - link "Lectura":
+      - /url: lectura.html

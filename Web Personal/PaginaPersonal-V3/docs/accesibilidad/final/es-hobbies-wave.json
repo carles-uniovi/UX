@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-hobbies",
+  "url": "https://carles-uniovi.github.io/UX/v3/hobbies.html",
+  "phase": "final",
+  "date": "2026-11-20T11:00:52.977Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 1,
+  "alertTypes": "1 Redundant link",
+  "standard": "Reglas WAVE, estilos activos"
+}

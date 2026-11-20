@@ -1,0 +1,79 @@
+- link "Saltar al contenido":
+  - /url: "#contenido"
+- banner:
+  - link "Carles Valladares · Inicio":
+    - /url: index.html
+    - text: cv
+    - generic: .
+    - text: Carles Valladares
+    - generic: · Inicio
+  - navigation "Navegación principal":
+    - link "Sobre mí":
+      - /url: index.html
+    - link "Trayectoria":
+      - /url: trayectoria.html
+    - link "Aficiones":
+      - /url: hobbies.html
+    - link "Intereses":
+      - /url: intereses.html
+    - link "Contacto":
+      - /url: contacto.html
+  - link "Buscar":
+    - /url: buscar.html
+    - generic: Buscar
+  - 'link "EN: English"':
+    - /url: en/buscar.html?q=judo
+    - text: EN
+  - button "Activar modo oscuro":
+    - generic: ◐
+    - generic: Modo oscuro
+- main:
+  - navigation "Ruta de navegación":
+    - list:
+      - link "Inicio":
+        - /url: index.html
+      - listitem: /Buscar
+  - heading "Buscar" [level=1]
+  - search "Buscar contenido":
+    - generic: ¿Qué te gustaría encontrar?
+    - searchbox "¿Qué te gustaría encontrar?": judo
+    - button "Buscar"
+    - button "Limpiar"
+  - paragraph: Busca por palabras, con o sin tildes. Puedes combinar varias.
+  - status: 3 resultados para «judo».
+  - list:
+    - paragraph: Aficiones / Judo
+    - heading "Practicarlo" [level=2]:
+      - link "Practicarlo" [active]:
+        - /url: hobbies.html#practicar-judo
+    - paragraph: El judo combina actividad física, técnica y concentración. Practicarlo me permite moverme, aprender y dedicar un rato a algo fuera de las pantallas.
+    - paragraph: Aficiones / Judo
+    - heading "Enseñarlo" [level=2]:
+      - link "Enseñarlo":
+        - /url: hobbies.html#ensenar-judo
+    - paragraph: …tras personas a mejorar es otra forma de disfrutar del judo. Explicar una técnica también invita a entenderla mejor.
+    - paragraph: Ayuda
+    - heading "¿Cómo funciona el buscador?" [level=2]:
+      - link "¿Cómo funciona el buscador?":
+        - /url: ayuda.html#buscador
+    - paragraph: Escribe una o varias palabras, por ejemplo «judo», «Robe» o «Ingeniería Web». No distingue entre mayúsculas, minúsculas y tildes. Con varias palabras busca contenidos que incluyan todas ellas. Los resultados muestran la sección y …
+  - navigation "Ideas para buscar":
+    - generic: "Prueba con:"
+    - link "Judo":
+      - /url: buscar.html?q=judo
+    - link "Música":
+      - /url: buscar.html?q=musica
+    - link "Buscar correo":
+      - /url: buscar.html?q=correo
+- contentinfo:
+  - strong: Carles Valladares García
+  - paragraph:
+    - text: "Actualizado:"
+    - time: 20 de noviembre de 2026
+  - navigation "Ayuda y accesibilidad":
+    - link "Ayuda":
+      - /url: ayuda.html
+    - link "Mapa del sitio":
+      - /url: mapa.html
+    - link "Lectura":
+      - /url: lectura.html

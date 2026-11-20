@@ -1,0 +1,438 @@
+URL: https://carles-uniovi.github.io/UX/v3/hobbies.html
+Captured UTC: 2026-11-20T04:56:30.271Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/hobbies.html
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/hobbies.html
+  - button "WAVE this page again" [active]
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "11"
+      - text: Alerts
+      - text: "2"
+      - text: Features
+      - text: "20"
+      - text: Structure
+      - text: "28"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 9.8 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "11 Alerts" [level=3]:
+        - checkbox "11 Alerts" [checked]
+        - generic: 11 Alerts
+      - list:
+        - heading "8 Redundant alternative text Reference" [level=4]:
+          - checkbox "8 Redundant alternative text" [checked]
+          - generic: 8 Redundant alternative text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant alternative text 1"
+          - img "Redundant alternative text 2"
+          - img "Redundant alternative text 3"
+          - img "Redundant alternative text 4"
+          - img "Redundant alternative text 5"
+          - img "Redundant alternative text 6"
+          - img "Redundant alternative text 7"
+          - img "Redundant alternative text 8"
+        - heading "1 Redundant link Reference" [level=4]:
+          - checkbox "1 Redundant link" [checked]
+          - generic: 1 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "2 Redundant title text Reference" [level=4]:
+          - checkbox "2 Redundant title text" [checked]
+          - generic: 2 Redundant title text
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant title text 1"
+          - img "Redundant title text 2"
+      - heading "2 Features" [level=3]:
+        - checkbox "2 Features" [checked]
+        - generic: 2 Features
+      - list:
+        - heading "2 Language Reference" [level=4]:
+          - checkbox "2 Language" [checked]
+          - generic: 2 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+      - heading "20 Structural Elements" [level=3]:
+        - checkbox "20 Structural Elements" [checked]
+        - generic: 20 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "3 Heading level 2 Reference" [level=4]:
+          - checkbox "3 Heading level 2" [checked]
+          - generic: 3 Heading level 2
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 2 1"
+          - img "Heading level 2 2"
+          - img "Heading level 2 3"
+        - heading "8 Heading level 3 Reference" [level=4]:
+          - checkbox "8 Heading level 3" [checked]
+          - generic: 8 Heading level 3
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 3 1"
+          - img "Heading level 3 2"
+          - img "Heading level 3 3"
+          - img "Heading level 3 4"
+          - img "Heading level 3 5"
+          - img "Heading level 3 6"
+          - img "Heading level 3 7"
+          - img "Heading level 3 8"
+        - heading "1 Ordered list Reference" [level=4]:
+          - checkbox "1 Ordered list" [checked]
+          - generic: 1 Ordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Ordered list 1"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "4 Navigation Reference" [level=4]:
+          - checkbox "4 Navigation" [checked]
+          - generic: 4 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+          - img "Navigation 3"
+          - img "Navigation 4"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "28 ARIA" [level=3]:
+        - checkbox "28 ARIA" [checked]
+        - generic: 28 ARIA
+      - list:
+        - heading "4 ARIA Reference" [level=4]:
+          - checkbox "4 ARIA" [checked]
+          - generic: 4 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA 2"
+          - img "ARIA 3"
+          - img "ARIA 4"
+        - heading "18 ARIA label Reference" [level=4]:
+          - checkbox "18 ARIA label" [checked]
+          - generic: 18 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+          - img "ARIA label 7"
+          - img "ARIA label 8"
+          - img "ARIA label 9"
+          - img "ARIA label 10"
+          - img "ARIA label 11"
+          - img "ARIA label 12"
+          - img "ARIA label 13"
+          - img "ARIA label 14"
+          - img "ARIA label 15"
+          - img "ARIA label 16"
+          - img "ARIA label 17"
+          - img "ARIA label 18"
+        - heading "1 ARIA tabindex Reference" [level=4]:
+          - checkbox "1 ARIA tabindex" [checked]
+          - generic: 1 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+        - heading "4 ARIA hidden Reference" [level=4]:
+          - checkbox "4 ARIA hidden" [checked]
+          - generic: 4 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*es*"
+  - iframe [id="report"]:
+    - link "Saltar al contenido":
+      - /url: "#contenido"
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Inicio":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Inicio
+      - 'link "ARIA: ARIA hidden Buscar ALERTS: Redundant title text"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Buscar
+        - 'button "ALERTS: Redundant title text"'
+      - 'link "EN: English"':
+        - /url: en/hobbies.html
+        - 'button "FEATURES: Language"'
+        - generic: "*en*"
+        - text: EN
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"EN: English\"*"
+      - button "Activar modo oscuro":
+        - text: ◐
+        - button
+        - generic: Modo oscuro
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Activar modo oscuro\"*"
+      - button "Menú":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menú
+        - 'button "ALERTS: Redundant title text"'
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menú\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - navigation "Ruta de navegación":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - list:
+          - 'button "STRUCTURAL ELEMENTS: Ordered list"'
+          - link "Inicio":
+            - /url: index.html
+          - text: /Aficiones
+          - 'button "ARIA: ARIA"'
+          - text: "*aria-current=\"page\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Ruta de navegación \"*"
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Aficiones" [level=1]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+        - text: Aficiones
+      - navigation "En esta página":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Videojuegos":
+          - /url: "#videojuegos"
+        - link "Rol":
+          - /url: "#dnd"
+        - link "Judo":
+          - /url: "#judo"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"En esta página\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Videojuegos"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Videojuegos" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Videojuegos
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Fire Emblem Fortune’s Wave"':
+          - img "Fire Emblem Fortune’s Wave"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Fire Emblem Fortune’s Wave*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Fire Emblem Fortune’s Wave" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Fire Emblem Fortune’s Wave
+          - paragraph: Uno de los juegos a los que me gusta dedicar tiempo para desconectar y sumergirme en otro mundo.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"fire-emblem\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Baldur’s Gate 3"':
+          - img "Baldur’s Gate 3"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Baldur’s Gate 3*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Baldur’s Gate 3" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Baldur’s Gate 3
+          - paragraph: Disfruto explorando, conociendo a los personajes y tomando decisiones que dan forma a mi propia aventura.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"baldurs-gate\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 League of Legends"':
+          - img "League of Legends"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*League of Legends*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 League of Legends" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: League of Legends
+          - paragraph: Una forma de compartir partidas con amigos, coordinarse en equipo e intentar que el nexo que caiga sea el contrario.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"league-of-legends\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"videojuegos\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Juegos de rol: Dungeons & Dragons"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Juegos de rol: Dungeons & Dragons" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: "Juegos de rol: Dungeons & Dragons"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Mundos de fantasía"':
+          - img "Mundos de fantasía"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Mundos de fantasía*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Mundos de fantasía" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Mundos de fantasía
+          - paragraph: Me gusta imaginar lugares, personajes e historias que cobran vida alrededor de la mesa. Cada aventura es una oportunidad de descubrir un mundo diferente.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"mundos-fantasia\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Tardes con amigos"':
+          - img "Tardes con amigos"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Tardes con amigos*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Tardes con amigos" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Tardes con amigos
+          - paragraph: Las partidas son una excusa para reunirnos, reírnos y construir una historia entre todos. Los planes que salen mal también suelen convertirse en buenos recuerdos.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"tardes-amigos\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Algo de teatro"':
+          - img "Algo de teatro"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Algo de teatro*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Algo de teatro" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Algo de teatro
+          - paragraph: Interpretar un personaje permite improvisar y ponerse en otra piel. Entre conversaciones y decisiones inesperadas, siempre hay espacio para un poco de teatro.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"algo-teatro\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"dnd\"*"
+      - 'region "STRUCTURAL ELEMENTS: Heading level 2 Judo"':
+        - 'heading "STRUCTURAL ELEMENTS: Heading level 2 Judo" [level=2]':
+          - 'button "STRUCTURAL ELEMENTS: Heading level 2"'
+          - text: Judo
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Practicarlo"':
+          - img "Practicarlo"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Practicarlo*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Practicarlo" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Practicarlo
+          - paragraph: El judo combina actividad física, técnica y concentración. Practicarlo me permite moverme, aprender y dedicar un rato a algo fuera de las pantallas.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"practicar-judo\"*"
+        - 'article "STRUCTURAL ELEMENTS: Heading level 3 Enseñarlo"':
+          - img "Enseñarlo"
+          - 'button "ALERTS: Redundant alternative text"'
+          - generic: "*Enseñarlo*"
+          - 'heading "STRUCTURAL ELEMENTS: Heading level 3 Enseñarlo" [level=3]':
+            - 'button "STRUCTURAL ELEMENTS: Heading level 3"'
+            - text: Enseñarlo
+          - paragraph: Compartir lo aprendido y ayudar a otras personas a mejorar es otra forma de disfrutar del judo. Explicar una técnica también invita a entenderla mejor.
+          - 'button "ARIA: ARIA label"'
+          - generic: "*aria-labelledby=\"ensenar-judo\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-labelledby=\"judo\"*"
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Actualizado:"
+        - time: 20 de noviembre de 2026
+      - navigation "Ayuda y accesibilidad":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Ayuda":
+          - /url: ayuda.html
+        - link "Mapa del sitio":
+          - /url: mapa.html
+        - link "Lectura":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Ayuda y accesibilidad\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

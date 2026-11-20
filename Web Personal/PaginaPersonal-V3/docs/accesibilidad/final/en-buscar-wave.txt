@@ -1,0 +1,359 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/buscar.html
+Captured UTC: 2026-11-20T11:08:25.949Z
+Report: https://wave.webaim.org/report#/https://carles-uniovi.github.io/UX/v3/en/buscar.html
+
+- button "Collapse WAVE sidebar": ◀
+- region "WAVE Sidebar":
+  - link "WAVE Web Accessibility Evaluation Tool":
+    - /url: /
+    - img "WAVE Web Accessibility Evaluation Tool"
+  - text: powered by
+  - link "WebAIM":
+    - /url: https://webaim.org/
+  - text: "Address:"
+  - textbox "Address:": https://carles-uniovi.github.io/UX/v3/en/buscar.html
+  - button "WAVE this page again"
+  - checkbox "Styles:" [checked]
+  - generic: "Styles:"
+  - text: OFFON
+  - heading "Summary" [level=2]
+  - tablist:
+    - tab "Details" [selected]
+    - tab "Reference"
+    - tab "Order"
+    - tab "Structure"
+    - tab "Contrast"
+  - tabpanel "Details":
+    - list:
+      - text: "0"
+      - text: Errors
+      - text: "0"
+      - text: Contrast Errors
+      - text: "2"
+      - text: Alerts
+      - text: "5"
+      - text: Features
+      - text: "10"
+      - text: Structure
+      - text: "21"
+      - text: ARIA
+    - paragraph:
+      - text: Congratulations! No errors were detected!
+      - link "Manual testing":
+        - /url: https://webaim.org/resources/evalquickref/
+      - text: is still necessary to ensure compliance and optimal accessibility.
+    - paragraph:
+      - link "AIM Score":
+        - /url: https://wave.webaim.org/aimscore
+      - text: ":"
+      - text: 10 out of 10
+    - paragraph
+    - generic "Reference":
+      - heading "2 Alerts" [level=3]:
+        - checkbox "2 Alerts" [checked]
+        - generic: 2 Alerts
+      - list:
+        - heading "1 Redundant link Reference" [level=4]:
+          - checkbox "1 Redundant link" [checked]
+          - generic: 1 Redundant link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Redundant link 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+        - heading "1 Noscript element Reference" [level=4]:
+          - checkbox "1 Noscript element" [checked]
+          - generic: 1 Noscript element
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Noscript element 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+      - heading "5 Features" [level=3]:
+        - checkbox "5 Features" [checked]
+        - generic: 5 Features
+      - list:
+        - heading "1 Form label Reference" [level=4]:
+          - checkbox "1 Form label" [checked]
+          - generic: 1 Form label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Form label 1"
+        - heading "1 Skip link Reference" [level=4]:
+          - checkbox "1 Skip link" [checked]
+          - generic: 1 Skip link
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link 1"
+        - heading "1 Skip link target Reference" [level=4]:
+          - checkbox "1 Skip link target" [checked]
+          - generic: 1 Skip link target
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Skip link target 1"
+        - heading "2 Language Reference" [level=4]:
+          - checkbox "2 Language" [checked]
+          - generic: 2 Language
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Language 1"
+          - img "Language 2"
+      - heading "10 Structural Elements" [level=3]:
+        - checkbox "10 Structural Elements" [checked]
+        - generic: 10 Structural Elements
+      - list:
+        - heading "1 Heading level 1 Reference" [level=4]:
+          - checkbox "1 Heading level 1" [checked]
+          - generic: 1 Heading level 1
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Heading level 1 1"
+        - heading "1 Ordered list Reference" [level=4]:
+          - checkbox "1 Ordered list" [checked]
+          - generic: 1 Ordered list
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Ordered list 1"
+        - heading "1 Header Reference" [level=4]:
+          - checkbox "1 Header" [checked]
+          - generic: 1 Header
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Header 1"
+        - heading "4 Navigation Reference" [level=4]:
+          - checkbox "4 Navigation" [checked]
+          - generic: 4 Navigation
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Navigation 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "Navigation 2"
+          - img "Navigation 3"
+          - img "Navigation 4"
+        - heading "1 Search Reference" [level=4]:
+          - checkbox "1 Search" [checked]
+          - generic: 1 Search
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Search 1"
+        - heading "1 Main content Reference" [level=4]:
+          - checkbox "1 Main content" [checked]
+          - generic: 1 Main content
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Main content 1"
+        - heading "1 Footer Reference" [level=4]:
+          - checkbox "1 Footer" [checked]
+          - generic: 1 Footer
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "Footer 1"
+      - heading "21 ARIA" [level=3]:
+        - checkbox "21 ARIA" [checked]
+        - generic: 21 ARIA
+      - list:
+        - heading "4 ARIA Reference" [level=4]:
+          - checkbox "4 ARIA" [checked]
+          - generic: 4 ARIA
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA 1"
+          - img "ARIA 2"
+          - img "ARIA 3"
+          - img "ARIA 4"
+        - heading "8 ARIA label Reference" [level=4]:
+          - checkbox "8 ARIA label" [checked]
+          - generic: 8 ARIA label
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA label 1 (This icon or the element it applies to is visually hidden in your page. Disable \"Styles\" to view it.)"
+          - img "ARIA label 2"
+          - img "ARIA label 3"
+          - img "ARIA label 4"
+          - img "ARIA label 5"
+          - img "ARIA label 6"
+          - img "ARIA label 7"
+          - img "ARIA label 8"
+        - heading "1 ARIA description Reference" [level=4]:
+          - checkbox "1 ARIA description" [checked]
+          - generic: 1 ARIA description
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA description 1"
+        - heading "2 ARIA tabindex Reference" [level=4]:
+          - checkbox "2 ARIA tabindex" [checked]
+          - generic: 2 ARIA tabindex
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA tabindex 1"
+          - img "ARIA tabindex 2"
+        - heading "1 ARIA alert or live region Reference" [level=4]:
+          - checkbox "1 ARIA alert or live region" [checked]
+          - generic: 1 ARIA alert or live region
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA alert or live region 1"
+        - heading "4 ARIA hidden Reference" [level=4]:
+          - checkbox "4 ARIA hidden" [checked]
+          - generic: 4 ARIA hidden
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA hidden 1"
+          - img "ARIA hidden 2"
+          - img "ARIA hidden 3"
+          - img "ARIA hidden 4"
+        - heading "1 ARIA expanded Reference" [level=4]:
+          - checkbox "1 ARIA expanded" [checked]
+          - generic: 1 ARIA expanded
+          - link "Reference":
+            - /url: "#"
+            - img "Reference"
+        - list:
+          - img "ARIA expanded 1"
+- main:
+  - generic: "The following apply to the entire page:"
+  - 'button "FEATURES: Language"'
+  - text: "*en*"
+  - iframe [id="report"]:
+    - 'link "Skip to content FEATURES: Skip link"':
+      - /url: "#contenido"
+      - text: Skip to content
+      - 'button "FEATURES: Skip link"'
+    - banner:
+      - 'button "STRUCTURAL ELEMENTS: Header"'
+      - link "Carles Valladares · Home":
+        - /url: index.html
+        - text: cv
+        - generic: .
+        - button
+        - text: Carles Valladares
+        - generic: · Home
+      - 'link "ARIA: ARIA hidden Search"':
+        - /url: buscar.html
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Search
+      - 'link "ES: Español"':
+        - /url: ../buscar.html
+        - 'button "FEATURES: Language"'
+        - generic: "*es*"
+        - text: ES
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"ES: Español\"*"
+      - button "Enable dark mode":
+        - text: ◐
+        - button
+        - generic: Dark mode
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-pressed=\"false\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Enable dark mode\"*"
+      - button "Menu":
+        - 'button "ARIA: ARIA hidden"'
+        - generic: Menu
+        - 'button "ARIA: ARIA"'
+        - generic: "*aria-controls=\"navigation\"*"
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Menu\"*"
+        - 'button "ARIA: ARIA expanded"'
+    - main:
+      - 'button "STRUCTURAL ELEMENTS: Main content"'
+      - 'button "FEATURES: Skip link target"'
+      - navigation "Breadcrumb":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - list:
+          - 'button "STRUCTURAL ELEMENTS: Ordered list"'
+          - link "Home":
+            - /url: index.html
+          - text: /Search
+          - 'button "ARIA: ARIA"'
+          - text: "*aria-current=\"page\"*"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Breadcrumb \"*"
+      - 'heading "STRUCTURAL ELEMENTS: Heading level 1 Search" [level=1]':
+        - 'button "STRUCTURAL ELEMENTS: Heading level 1"'
+        - text: Search
+      - search "Search content":
+        - 'button "STRUCTURAL ELEMENTS: Search"'
+        - text: What would you like to find?
+        - 'button "FEATURES: Form label"'
+        - 'searchbox "What would you like to find? FEATURES: Form label"'
+        - 'button "ARIA: ARIA description"'
+        - generic: "*aria-describedby=\"search-hint\"*"
+        - button "Search"
+        - 'button "ARIA: ARIA label"'
+        - text: "*aria-label=\"Search content\"*"
+      - paragraph: Search for words, with or without accents. You can combine several.
+      - 'button "ALERTS: Noscript element"'
+      - status:
+        - text: Enter a word to search the site.
+        - 'button "ARIA: ARIA"'
+        - text: "*role=\"status\", aria-atomic=\"true\"*"
+        - 'button "ARIA: ARIA tabindex"'
+        - text: "*tabindex=-1*"
+      - 'button "ARIA: ARIA alert or live region"'
+      - navigation "Search ideas":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - generic: "Try:"
+        - link "Judo":
+          - /url: buscar.html?q=judo
+        - link "Music":
+          - /url: buscar.html?q=music
+        - link "Find email":
+          - /url: buscar.html?q=email
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Search ideas\"*"
+      - 'button "ARIA: ARIA tabindex"'
+      - text: "*tabindex=-1*"
+    - contentinfo:
+      - 'button "STRUCTURAL ELEMENTS: Footer"'
+      - strong: Carles Valladares García
+      - paragraph:
+        - text: "Updated:"
+        - time: 20 November 2026
+      - navigation "Help and accessibility":
+        - 'button "STRUCTURAL ELEMENTS: Navigation"'
+        - link "Help":
+          - /url: ayuda.html
+        - link "Site map":
+          - /url: mapa.html
+        - link "Reading":
+          - /url: lectura.html
+        - 'button "ARIA: ARIA label"'
+        - generic: "*aria-label=\"Help and accessibility\"*"
+  - region "Code panel":
+    - generic: Loading...
+    - link "Code":
+      - /url: "#"

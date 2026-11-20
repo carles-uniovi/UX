@@ -1,0 +1,1545 @@
+URL: https://carles-uniovi.github.io/UX/v3/trayectoria.html
+Captured UTC: 2026-11-20T11:43:48.434Z
+WCAG 2.0 AAA Markup
+
+AChecker double_arrow URL (https://carles-uniovi.github.io/UX/v3/trayectoria.html)
+Sign up for occasional emails about accessibility/product information.
+Name
+Email
+SUBMIT
+NO ERRORS
+WARNINGS
+Congratulations! No known problems.
+<a target="_blank" href="https://achecks.org/achecker#wcag2aaa,https://carles-uniovi.github.io/UX/v3/trayectoria.html"><img src="https://achecks.org/images/icon_W2_aaa.jpg" alt="AChecker accessibility checker compliance: WCAG 2.0 (Level AAA)" height="32" width="102" /></a>
+check
+Does your content change frequently?
+check
+Does your website have too many pages to keep up with?
+
+Upgrade to have ACHECKS monitor your entire domain and get reports regularly!
+
+SEE THE SUBSCRIPTION OPTIONS
+
+WARNINGS
+
+				
+
+	
+		
+			<title> might not describe the document.
+		
+		
+			
+				
+					Line number
+					3
+				
+				
+					Column number
+					219
+				
+			
+			<title>Trayectoria · Carles Valladares García</title>
+			
+			<title> describes the document.PASS
+			
+			<title> does not describe the document.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Visual lists may not be properly marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All visual lists contain proper markup.PASS
+			
+			Not all visual lists contain proper markup.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Unicode right-to-left marks or left-to-right marks may be required.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.PASS
+			
+			Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<dir> attribute may be required to identify changes in text direction.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All changes in text direction are marked using the <dir> attribute.PASS
+			
+			All changes in text direction are not marked using the <dir> attribute.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Text may refer to items by shape, size, or relative position alone.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			There are no references to items in the document by shape, size, or relative position alone.PASS
+			
+			There are references to items in the document by shape, size, or relative position alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Document may be missing a "skip to content" link.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Document contians a "skip to content" link or does not require it.PASS
+			
+			Document does not contain a "skip to content" link and requires it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Groups of links with a related purpose are not marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All groups of links with a related purpose are marked.PASS
+			
+			All groups of links with a related purpose are not marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Site missing site map.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Page is not part of a collection that requires a site map.PASS
+			
+			Page is part of a collection that requires a site map.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Repeated components may not appear in the same relative order each time they appear.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Repeated components appear in the same relative order on this page.PASS
+			
+			Repeated components do not appear in the same relative order on this page.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Long quotations may not be marked using the <blockquote> element.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All long quotations have been marked with the <blockquote> element.PASS
+			
+			All long quotations are not marked with the <blockquote> element.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					7
+				
+			
+			<a class="skip-link" href="#contenido">Saltar al contenido</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					55
+				
+			
+			<a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span> ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					371
+				
+			
+			<a href="index.html">Sobre mí</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					405
+				
+			
+			<a href="trayectoria.html" aria-current="page">Trayectoria</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					467
+				
+			
+			<a href="hobbies.html">Aficiones</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					503
+				
+			
+			<a href="intereses.html">Intereses</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					541
+				
+			
+			<a href="contacto.html">Contacto</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					615
+				
+			
+			<a class="icon-control labeled-control" href="buscar.html"><svg width="20" height="20" viewbox="0 0  ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					951
+				
+			
+			<a class="language-switch" href="en/trayectoria.html" lang="en" hreflang="en" aria-label="EN: Englis ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					103
+				
+			
+			<a href="index.html">Inicio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h1> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					216
+				
+			
+			<h1 id="page-title">Trayectoria</h1>
+			
+			This <h1> element is really a section header.PASS
+			
+			This <h1> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					313
+				
+			
+			<a href="#formacion">Formación</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					348
+				
+			
+			<a href="#proyectos">Proyectos</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					382
+				
+			
+			<a href="#experiencia">Experiencia</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					463
+				
+			
+			<h2 id="formacion">Formación académica</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					613
+				
+			
+			<img src="img/trayectoria/uv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					613
+				
+			
+			<img src="img/trayectoria/uv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					613
+				
+			
+			<img src="img/trayectoria/uv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					613
+				
+			
+			<img src="img/trayectoria/uv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					613
+				
+			
+			<img src="img/trayectoria/uv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					752
+				
+			
+			<h3 id="uv-title">Grado en Matemáticas</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1175
+				
+			
+			<img src="img/trayectoria/upv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1175
+				
+			
+			<img src="img/trayectoria/upv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1175
+				
+			
+			<img src="img/trayectoria/upv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1175
+				
+			
+			<img src="img/trayectoria/upv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1175
+				
+			
+			<img src="img/trayectoria/upv.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1328
+				
+			
+			<h3 id="upv-title">Grado en Informática</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<img> element may require a long description.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1811
+				
+			
+			<img src="img/trayectoria/uniovi.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not require a long description or a long description is provided.PASS
+			
+			Image requires a long description and is not properly marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Alt text does not convey the same information as the image.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1811
+				
+			
+			<img src="img/trayectoria/uniovi.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Alt text conveys the same information as the image.PASS
+			
+			Alt text does not convey the same information as the image.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text that is not in Alt text.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1811
+				
+			
+			<img src="img/trayectoria/uniovi.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Any text in image is also in Alt text or text in image is decorative or redundant.PASS
+			
+			Image contains some text that is not in Alt text.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may be using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1811
+				
+			
+			<img src="img/trayectoria/uniovi.svg" width="160" height="112" alt="" loading="lazy">
+			
+			There are no references to this image using color alone.PASS
+			
+			There is a reference to this image using color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Image may contain text with poor contrast.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1811
+				
+			
+			<img src="img/trayectoria/uniovi.svg" width="160" height="112" alt="" loading="lazy">
+			
+			Image does not contain text with a poor contrast ratio.PASS
+			
+			Image contains text with poor contrast ratio.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1951
+				
+			
+			<h3 id="uniovi-title">Máster en Ingeniería Web</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2344
+				
+			
+			<h2 id="proyectos">Proyecto: mi web personal</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2726
+				
+			
+			<a href="https://github.com/carles-uniovi/UX" target="_blank" rel="noopener noreferrer" title="Se ab ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					2991
+				
+			
+			<h2 id="experiencia">Experiencia laboral</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3170
+				
+			
+			<h3 id="medicarama">Medicarama</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3365
+				
+			
+			<h3 id="v2c">V2c</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					3449
+				
+			
+			<a href="contacto.html#referencias">Ver persona de referencia <span aria-hidden="true">↗</span></a ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					216
+				
+			
+			<a href="ayuda.html">Ayuda</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					246
+				
+			
+			<a href="mapa.html">Mapa del sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					284
+				
+			
+			<a href="lectura.html">Lectura</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+
+			

@@ -1,0 +1,2742 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/lectura.html
+Captured UTC: 2026-11-20T05:05:32.933Z
+WCAG 2.0 AAA Markup
+
+AChecker double_arrow URL (https://carles-uniovi.github.io/UX/v3/en/lectura.html)
+Sign up for occasional emails about accessibility/product information.
+Name
+Email
+SUBMIT
+NO ERRORS
+WARNINGS
+Congratulations! No known problems.
+<a target="_blank" href="https://achecks.org/achecker#wcag2aaa,https://carles-uniovi.github.io/UX/v3/en/lectura.html"><img src="https://achecks.org/images/icon_W2_aaa.jpg" alt="AChecker accessibility checker compliance: WCAG 2.0 (Level AAA)" height="32" width="102" /></a>
+check
+Does your content change frequently?
+check
+Does your website have too many pages to keep up with?
+
+Upgrade to have ACHECKS monitor your entire domain and get reports regularly!
+
+SEE THE SUBSCRIPTION OPTIONS
+
+WARNINGS
+
+				
+
+	
+		
+			<title> might not describe the document.
+		
+		
+			
+				
+					Line number
+					3
+				
+				
+					Column number
+					178
+				
+			
+			<title>Reading version · Carles Valladares García</title>
+			
+			<title> describes the document.PASS
+			
+			<title> does not describe the document.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="../js/theme.js"></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					53
+				
+			
+			<script src="../js/site.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Visual lists may not be properly marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All visual lists contain proper markup.PASS
+			
+			Not all visual lists contain proper markup.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Unicode right-to-left marks or left-to-right marks may be required.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.PASS
+			
+			Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<dir> attribute may be required to identify changes in text direction.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All changes in text direction are marked using the <dir> attribute.PASS
+			
+			All changes in text direction are not marked using the <dir> attribute.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Text may refer to items by shape, size, or relative position alone.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			There are no references to items in the document by shape, size, or relative position alone.PASS
+			
+			There are references to items in the document by shape, size, or relative position alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Document may be missing a "skip to content" link.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Document contians a "skip to content" link or does not require it.PASS
+			
+			Document does not contain a "skip to content" link and requires it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Groups of links with a related purpose are not marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All groups of links with a related purpose are marked.PASS
+			
+			All groups of links with a related purpose are not marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Words or phrases that are not in the document's primary language may not be identified.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All words outside the primary language are identified.PASS
+			
+			Words outside the primary language are not identified.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Site missing site map.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Page is not part of a collection that requires a site map.PASS
+			
+			Page is part of a collection that requires a site map.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Repeated components may not appear in the same relative order each time they appear.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			Repeated components appear in the same relative order on this page.PASS
+			
+			Repeated components do not appear in the same relative order on this page.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Long quotations may not be marked using the <blockquote> element.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Skip to content</a>
+<header class="site-header"><div cl ...
+			
+			All long quotations have been marked with the <blockquote> element.PASS
+			
+			All long quotations are not marked with the <blockquote> element.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					7
+				
+			
+			<a class="skip-link" href="#contenido">Skip to content</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					55
+				
+			
+			<a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span> ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					363
+				
+			
+			<a href="index.html">About me</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					396
+				
+			
+			<a href="trayectoria.html">Background</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					437
+				
+			
+			<a href="hobbies.html">Hobbies</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					471
+				
+			
+			<a href="intereses.html">Interests</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					509
+				
+			
+			<a href="contacto.html">Contact</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					582
+				
+			
+			<a class="icon-control labeled-control" href="buscar.html" title="Search"><svg width="20" height="20 ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					933
+				
+			
+			<a class="language-switch" href="../lectura.html" lang="es" hreflang="es" aria-label="ES: Español"  ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					94
+				
+			
+			<a href="index.html">Home</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h1> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					209
+				
+			
+			<h1 id="page-title">Reading version</h1>
+			
+			This <h1> element is really a section header.PASS
+			
+			This <h1> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					328
+				
+			
+			<a href="#leer-index">About me</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					362
+				
+			
+			<a href="#leer-trayectoria">Background</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					404
+				
+			
+			<a href="#leer-hobbies">Hobbies</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					439
+				
+			
+			<a href="#leer-intereses">Interests</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					478
+				
+			
+			<a href="#leer-contacto">Contact</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					558
+				
+			
+			<h2 id="leer-index">About me</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					10
+				
+				
+					Column number
+					7
+				
+			
+			<h3>Carles Valladares García.</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					13
+				
+				
+					Column number
+					7
+				
+			
+			<a href="trayectoria.html">Explore my background ↗</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					10
+				
+			
+			<a href="index.html">Open page: About me</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					58
+				
+			
+			<a href="#page-title">Back to contents</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					158
+				
+			
+			<h2 id="leer-trayectoria">Background</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					199
+				
+			
+			<h3>Education</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					248
+				
+			
+			<h4>Degree studies in Mathematics</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					582
+				
+			
+			<h4>Degree in Computer Science</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					916
+				
+			
+			<h4>Master’s in Web Engineering</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1183
+				
+			
+			<h3>Project: my personal website</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1402
+				
+			
+			<a href="https://github.com/carles-uniovi/UX" target="_blank" rel="noopener noreferrer" title="Opens ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1594
+				
+			
+			<h3>Work experience</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1629
+				
+			
+			<h4>Medicarama</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1684
+				
+			
+			<h4>V2c</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1718
+				
+			
+			<a href="contacto.html#referencias">View my personal reference ↗</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1792
+				
+			
+			<a href="trayectoria.html">Open page: Background</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1848
+				
+			
+			<a href="#page-title">Back to contents</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1944
+				
+			
+			<h2 id="leer-hobbies">Hobbies</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1978
+				
+			
+			<h3>Video games</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					1998
+				
+			
+			<h4>Fire Emblem Fortune’s Wave</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2122
+				
+			
+			<h4>Baldur’s Gate 3</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2246
+				
+			
+			<h4>League of Legends</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2390
+				
+			
+			<h3>Tabletop role-playing: Dungeons &amp; Dragons</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2444
+				
+			
+			<h4>Fantasy worlds</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2615
+				
+			
+			<h4>Afternoons with friends</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2783
+				
+			
+			<h4>A little theatre</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					2988
+				
+			
+			<h3>Judo</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3001
+				
+			
+			<h4>Practising</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3156
+				
+			
+			<h4>Teaching</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3326
+				
+			
+			<a href="hobbies.html">Open page: Hobbies</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3375
+				
+			
+			<a href="#page-title">Back to contents</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3473
+				
+			
+			<h2 id="leer-intereses">Interests</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3511
+				
+			
+			<h3>Music</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3525
+				
+			
+			<h4>Robe</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3632
+				
+			
+			<a href="../docs/media/Robe%20-%20Del%20Tiempo%20Perdido.mp3">Listen to: Del Tiempo Perdido</a>
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3632
+				
+			
+			<a href="../docs/media/Robe%20-%20Del%20Tiempo%20Perdido.mp3">Listen to: Del Tiempo Perdido</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3728
+				
+			
+			<h4>Gavina.mp3</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3857
+				
+			
+			<a href="../docs/media/gavina.mp3%20-%20SOTA%20EL%20CEL.mp3">Listen to: SOTA EL CEL</a>
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3857
+				
+			
+			<a href="../docs/media/gavina.mp3%20-%20SOTA%20EL%20CEL.mp3">Listen to: SOTA EL CEL</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					3945
+				
+			
+			<h4>Las Petunias</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Sound file may be missing text transcript.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4060
+				
+			
+			<a href="../docs/media/Las%20Petunias%20-%20Marcelo%20Criminal.mp3">Listen to: Marcelo Criminal</a>
+			
+			Sound file has an associated text transcript or does not require it.PASS
+			
+			Sound file requires an associated text transcript but does not have it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4060
+				
+			
+			<a href="../docs/media/Las%20Petunias%20-%20Marcelo%20Criminal.mp3">Listen to: Marcelo Criminal</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4160
+				
+			
+			<h3>Films</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4174
+				
+			
+			<h4>Spider-Man: Into the Spider-Verse</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4310
+				
+			
+			<a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" target="_blank" rel="noopener noreferrer" titl ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4519
+				
+			
+			<h4>Scott Pilgrim vs. the World</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4665
+				
+			
+			<a href="https://www.youtube.com/watch?v=7wd5KEaOtm4" target="_blank" rel="noopener noreferrer" titl ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4874
+				
+			
+			<h3>TV series</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					4892
+				
+			
+			<h4>Doctor Who</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5028
+				
+			
+			<h4>Brooklyn Nine-Nine</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5150
+				
+			
+			<h3>Anime and manga</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5174
+				
+			
+			<h4>Ousama Ranking</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h4> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5310
+				
+			
+			<h4>JoJo’s Bizarre Adventure</h4>
+			
+			This <h4> element is really a section header.PASS
+			
+			This <h4> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5449
+				
+			
+			<a href="intereses.html">Open page: Interests</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5502
+				
+			
+			<a href="#page-title">Back to contents</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h2> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5599
+				
+			
+			<h2 id="leer-contacto">Contact</h2>
+			
+			This <h2> element is really a section header.PASS
+			
+			This <h2> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5634
+				
+			
+			<h3>Personal</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5651
+				
+			
+			<a href="mailto:carlesvallgar@gmail.com" class="reading-contact">Personal email: <strong>carlesvallg ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					5784
+				
+			
+			<a href="https://github.com/CarlesVall" class="reading-contact" target="_blank" rel="noopener norefe ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6025
+				
+			
+			<a href="https://www.linkedin.com/in/carles-valladares-garc%C3%ADa-07a938223/" class="reading-contac ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6312
+				
+			
+			<h3>University</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6331
+				
+			
+			<a href="mailto:UO319242@uniovi.es" class="reading-contact">University email: <strong>UO319242@uniov ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6456
+				
+			
+			<a href="https://github.com/carles-uniovi" class="reading-contact" target="_blank" rel="noopener nor ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h3> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6705
+				
+			
+			<h3>Personal reference</h3>
+			
+			This <h3> element is really a section header.PASS
+			
+			This <h3> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6732
+				
+			
+			<a href="https://www.linkedin.com/in/carlos-cebell%C3%A1n-ferriz-963357347/" target="_blank" rel="no ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					6969
+				
+			
+			<a href="contacto.html">Open page: Contact</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					15
+				
+				
+					Column number
+					7019
+				
+			
+			<a href="#page-title">Back to contents</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					16
+				
+				
+					Column number
+					206
+				
+			
+			<a href="ayuda.html">Help</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					16
+				
+				
+					Column number
+					235
+				
+			
+			<a href="mapa.html">Site map</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					16
+				
+				
+					Column number
+					267
+				
+			
+			<a href="lectura.html" aria-current="page">Reading</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+
+			

@@ -1,0 +1,927 @@
+URL: https://carles-uniovi.github.io/UX/v3/en/trayectoria.html
+Captured UTC: 2026-11-20T12:20:17.420Z
+
+- navigation:
+  - list:
+    - link "Inicio":
+      - /url: index
+      - text: Inicio
+    - link "Servicios":
+      - /url: svc
+      - text: Servicios
+    - link "Herramientas":
+      - /url: proj
+      - text: Herramientas
+    - link "Contacto":
+      - /url: cont
+      - text: Contacto
+- main:
+  - img "Resumen"
+  - img "logo TAW"
+  - list:
+    - link "[ES]":
+      - /url: "#"
+    - link "[EN]":
+      - /url: "#"
+    - link "[PT]":
+      - /url: "#"
+  - heading "Resumen" [level=1]
+  - img "Problemas encontrados"
+  - paragraph:
+    - strong: "0"
+    - strong: Problemas
+    - text: detectados de forma automática
+  - paragraph:
+    - strong: No hay problemas de carácter automático
+  - paragraph: Deben revisarse de forma manual las advertencias y los puntos no verificados para poder garantizar un nivel de Accesibilidad adecuado
+  - img "Advertencias"
+  - paragraph:
+    - strong: 14 Advertencias
+    - text: en 4 criterios de éxito
+  - paragraph:
+    - strong: Es necesario revisar manualmente
+  - list:
+    - img "La información y los componentes de la interfaz de usuario deben ser presentados a los usuarios de modo que puedan percibirlos."
+    - text: Perceptible 3
+    - img "Los componentes de la interfaz de usuario y la navegación deben ser operables."
+    - text: Operable 10
+    - img "La información y el manejo de la interfaz de usuario debe ser comprensible."
+    - text: Comprensible 1
+    - img "El contenido debe ser suficientemente robusto como para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluyendo las ayudas técnicas."
+    - text: Robusto 0
+  - img "Criterios no verificados"
+  - paragraph:
+    - strong: 30 No verificados
+    - text: en 30 criterios de éxito
+  - paragraph:
+    - strong: Comprobación completamente manual
+  - list:
+    - img "La información y los componentes de la interfaz de usuario deben ser presentados a los usuarios de modo que puedan percibirlos."
+    - text: Perceptible 7
+    - img "Los componentes de la interfaz de usuario y la navegación deben ser operables."
+    - text: Operable 13
+    - img "La información y el manejo de la interfaz de usuario debe ser comprensible."
+    - text: Comprensible 9
+    - img "El contenido debe ser suficientemente robusto como para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluyendo las ayudas técnicas."
+    - text: Robusto 1
+  - list:
+    - strong: "Recurso:"
+    - text: https://carles-uniovi.github.io/UX/v3/en/trayectoria.html
+    - link "Reanalizar":
+      - /url: "#"
+      - generic: 
+      - generic: Reanalizar
+    - strong: "Fecha:"
+    - text: 20/11/2026 12:20
+    - strong: Pautas
+    - text: WCAG 2.1
+    - strong: "Nivel del análisis:"
+    - text: AAA
+    - strong: "Tecnologías:"
+    - text: HTML, CSS
+  - text: Acceda al
+  - strong: informe detallado
+  - text: para obtener más información sobre las incidencias detectadas.
+  - paragraph:
+    - generic: Email
+    - textbox "Email":
+      - /placeholder: email
+    - generic: 
+  - button "Recibir informe"
+  - list:
+    - link "Aviso legal":
+      - /url: legal
+    - link "Condiciones de Uso":
+      - /url: condiciones
+    - link "CTIC":
+      - /url: http://www.fundacionctic.org
+      - generic "CTIC Centro tecnológico":
+        - img "CTIC"
+  - link "Ir al contenido":
+    - /url: "#resumen-content"
+  - heading "Perceptible" [level=2]
+  - generic: La información y los componentes de la interfaz de usuario deben ser presentados a los usuarios de modo que puedan percibirlos.
+  - table:
+    - rowgroup:
+      - row "Pauta Nivel Resultado Problemas Advertencias No verficados":
+        - columnheader "Pauta"
+        - columnheader "Nivel"
+        - columnheader "Resultado"
+        - columnheader "Problemas"
+        - columnheader "Advertencias"
+        - columnheader "No verficados"
+    - rowgroup:
+      - row "1.1-Textos alternativos 0 3 0":
+        - columnheader "1.1-Textos alternativos"
+        - columnheader "0"
+        - columnheader "3"
+        - columnheader "0"
+      - row "1.1.1 - Contenido no textual ayuda A Desconocido 3":
+        - cell "1.1.1 - Contenido no textual ayuda":
+          - link "1.1.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html
+          - text: "- Contenido no textual"
+          - img "ayuda"
+        - cell "A"
+        - cell "Desconocido":
+          - img "Desconocido"
+        - cell
+        - cell "3"
+        - cell
+      - row "1.2-Medios basados en el tiempo 0 0 0":
+        - columnheader "1.2-Medios basados en el tiempo"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "0"
+      - row "1.2.1 - Sólo audio y solo vídeo (grabaciones) ayuda A na":
+        - cell "1.2.1 - Sólo audio y solo vídeo (grabaciones) ayuda":
+          - link "1.2.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html
+          - text: "- Sólo audio y solo vídeo (grabaciones)"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.2 - Subtítulos (pregrabados) ayuda A na":
+        - cell "1.2.2 - Subtítulos (pregrabados) ayuda":
+          - link "1.2.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html
+          - text: "- Subtítulos (pregrabados)"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.3 - Audiodescripción o Medio Alternativo (Pregrabado) ayuda A na":
+        - cell "1.2.3 - Audiodescripción o Medio Alternativo (Pregrabado) ayuda":
+          - link "1.2.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html
+          - text: "- Audiodescripción o Medio Alternativo (Pregrabado)"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.4 - Subtítulos (en directo) ayuda AA na":
+        - cell "1.2.4 - Subtítulos (en directo) ayuda":
+          - link "1.2.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html
+          - text: "- Subtítulos (en directo)"
+          - img "ayuda"
+        - cell "AA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.5 - Descripción auditiva (Pregrabada) ayuda AA na":
+        - cell "1.2.5 - Descripción auditiva (Pregrabada) ayuda":
+          - link "1.2.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html
+          - text: "- Descripción auditiva (Pregrabada)"
+          - img "ayuda"
+        - cell "AA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.6 - Lenguaje de signos ayuda AAA na":
+        - cell "1.2.6 - Lenguaje de signos ayuda":
+          - link "1.2.6":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-sign.html
+          - text: "- Lenguaje de signos"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.7 - Audiodescripción Extendida (Pregrabada) ayuda AAA na":
+        - cell "1.2.7 - Audiodescripción Extendida (Pregrabada) ayuda":
+          - link "1.2.7":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html
+          - text: "- Audiodescripción Extendida (Pregrabada)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.8 - Alternativa textual completa ayuda AAA na":
+        - cell "1.2.8 - Alternativa textual completa ayuda":
+          - link "1.2.8":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html
+          - text: "- Alternativa textual completa"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.2.9 - Sólo audio (en directo) ayuda AAA na":
+        - cell "1.2.9 - Sólo audio (en directo) ayuda":
+          - link "1.2.9":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-live-audio-only.html
+          - text: "- Sólo audio (en directo)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.3-Adaptable 0 0 1":
+        - columnheader "1.3-Adaptable"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "1.3.1 - Información y relaciones ayuda A Pasa":
+        - cell "1.3.1 - Información y relaciones ayuda":
+          - link "1.3.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html
+          - text: "- Información y relaciones"
+          - img "ayuda"
+        - cell "A"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+      - row "1.3.2 - Secuencia con significado ayuda A na":
+        - cell "1.3.2 - Secuencia con significado ayuda":
+          - link "1.3.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html
+          - text: "- Secuencia con significado"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.3.3 - Características sensoriales ayuda A Sin revisar 1":
+        - cell "1.3.3 - Características sensoriales ayuda":
+          - link "1.3.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html
+          - text: "- Características sensoriales"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4-Distinguible 0 0 1":
+        - columnheader "1.4-Distinguible"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "1.4.1 - Uso del color ayuda A Sin revisar 1":
+        - cell "1.4.1 - Uso del color ayuda":
+          - link "1.4.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html
+          - text: "- Uso del color"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4.2 - Control del audio ayuda A na":
+        - cell "1.4.2 - Control del audio ayuda":
+          - link "1.4.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html
+          - text: "- Control del audio"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.4.3 - Contraste (Mínimo) ayuda A Sin revisar 1":
+        - cell "1.4.3 - Contraste (Mínimo) ayuda":
+          - link "1.4.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
+          - text: "- Contraste (Mínimo)"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4.4 - Redimensionamiento del texto ayuda AA na":
+        - cell "1.4.4 - Redimensionamiento del texto ayuda":
+          - link "1.4.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html
+          - text: "- Redimensionamiento del texto"
+          - img "ayuda"
+        - cell "AA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.4.5 - Imágenes de texto ayuda AA Sin revisar 1":
+        - cell "1.4.5 - Imágenes de texto ayuda":
+          - link "1.4.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html
+          - text: "- Imágenes de texto"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4.6 - Contraste (Mejorado) ayuda AAA Sin revisar 1":
+        - cell "1.4.6 - Contraste (Mejorado) ayuda":
+          - link "1.4.6":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html
+          - text: "- Contraste (Mejorado)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4.7 - Sonido de fondo bajo o ausente ayuda AAA na":
+        - cell "1.4.7 - Sonido de fondo bajo o ausente ayuda":
+          - link "1.4.7":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-noaudio.html
+          - text: "- Sonido de fondo bajo o ausente"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "1.4.8 - Presentación visual ayuda AAA Sin revisar 1":
+        - cell "1.4.8 - Presentación visual ayuda":
+          - link "1.4.8":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html
+          - text: "- Presentación visual"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "1.4.9 - Imágenes de texto (sin excepciones) ayuda AAA Sin revisar 1":
+        - cell "1.4.9 - Imágenes de texto (sin excepciones) ayuda":
+          - link "1.4.9":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-images.html
+          - text: "- Imágenes de texto (sin excepciones)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+  - heading "Operable" [level=2]
+  - generic: Los componentes de la interfaz de usuario y la navegación deben ser operables.
+  - table:
+    - rowgroup:
+      - row "Pauta Nivel Resultado Problemas Advertencias No verficados":
+        - columnheader "Pauta"
+        - columnheader "Nivel"
+        - columnheader "Resultado"
+        - columnheader "Problemas"
+        - columnheader "Advertencias"
+        - columnheader "No verficados"
+    - rowgroup:
+      - row "2.1-Accesible mediante el teclado 0 0 1":
+        - columnheader "2.1-Accesible mediante el teclado"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "2.1.1 - Teclado ayuda A Sin revisar 1":
+        - cell "2.1.1 - Teclado ayuda":
+          - link "2.1.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html
+          - text: "- Teclado"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.1.2 - Sin bloqueos de teclado ayuda A Sin revisar 1":
+        - cell "2.1.2 - Sin bloqueos de teclado ayuda":
+          - link "2.1.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html
+          - text: "- Sin bloqueos de teclado"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.1.3 - Teclado (sin excepciones) ayuda AAA na":
+        - cell "2.1.3 - Teclado (sin excepciones) ayuda":
+          - link "2.1.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-all-funcs.html
+          - text: "- Teclado (sin excepciones)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "2.2-Tiempo suficiente 0 0 1":
+        - columnheader "2.2-Tiempo suficiente"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "2.2.1 - Tiempo ajustable ayuda A Sin revisar 1":
+        - cell "2.2.1 - Tiempo ajustable ayuda":
+          - link "2.2.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html
+          - text: "- Tiempo ajustable"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.2.2 - Pausar, detener, ocultar ayuda A Sin revisar 1":
+        - cell "2.2.2 - Pausar, detener, ocultar ayuda":
+          - link "2.2.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html
+          - text: "- Pausar, detener, ocultar"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.2.3 - Sin límite temporal ayuda AAA Sin revisar 1":
+        - cell "2.2.3 - Sin límite temporal ayuda":
+          - link "2.2.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-no-exceptions.html
+          - text: "- Sin límite temporal"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.2.4 - Interrupciones ayuda AAA Pasa":
+        - cell "2.2.4 - Interrupciones ayuda":
+          - link "2.2.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html
+          - text: "- Interrupciones"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+      - row "2.2.5 - Nueva autentificación ayuda AAA Sin revisar 1":
+        - cell "2.2.5 - Nueva autentificación ayuda":
+          - link "2.2.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-server-timeout.html
+          - text: "- Nueva autentificación"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.3-Provocar ataques 0 0 1":
+        - columnheader "2.3-Provocar ataques"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "2.3.1 - Umbral de tres destellos o menos ayuda A Sin revisar 1":
+        - cell "2.3.1 - Umbral de tres destellos o menos ayuda":
+          - link "2.3.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html
+          - text: "- Umbral de tres destellos o menos"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.3.2 - Tres destellos ayuda AAA Sin revisar 1":
+        - cell "2.3.2 - Tres destellos ayuda":
+          - link "2.3.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-three-times .html
+          - text: "- Tres destellos"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4-Navegable 0 10 5":
+        - columnheader "2.4-Navegable"
+        - columnheader "0"
+        - columnheader "10"
+        - columnheader "5"
+      - row "2.4.1 - Evitar bloques ayuda A Sin revisar 1":
+        - cell "2.4.1 - Evitar bloques ayuda":
+          - link "2.4.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html
+          - text: "- Evitar bloques"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4.2 - Páginas tituladas ayuda A Desconocido 1":
+        - cell "2.4.2 - Páginas tituladas ayuda":
+          - link "2.4.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html
+          - text: "- Páginas tituladas"
+          - img "ayuda"
+        - cell "A"
+        - cell "Desconocido":
+          - img "Desconocido"
+        - cell
+        - cell "1"
+        - cell
+      - row "2.4.3 - Orden del foco ayuda A Sin revisar 1":
+        - cell "2.4.3 - Orden del foco ayuda":
+          - link "2.4.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html
+          - text: "- Orden del foco"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4.4 - Propósito de los enlaces (en contexto) ayuda A Pasa":
+        - cell "2.4.4 - Propósito de los enlaces (en contexto) ayuda":
+          - link "2.4.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html
+          - text: "- Propósito de los enlaces (en contexto)"
+          - img "ayuda"
+        - cell "A"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+      - row "2.4.5 - Múltiples vías ayuda AA Sin revisar 1":
+        - cell "2.4.5 - Múltiples vías ayuda":
+          - link "2.4.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html
+          - text: "- Múltiples vías"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4.6 - Encabezados y etiquetas ayuda AA Desconocido 9":
+        - cell "2.4.6 - Encabezados y etiquetas ayuda":
+          - link "2.4.6":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html
+          - text: "- Encabezados y etiquetas"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Desconocido":
+          - img "Desconocido"
+        - cell
+        - cell "9"
+        - cell
+      - row "2.4.7 - Foco visible ayuda AA Sin revisar 1":
+        - cell "2.4.7 - Foco visible ayuda":
+          - link "2.4.7":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
+          - text: "- Foco visible"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4.8 - Ubicación ayuda AAA Sin revisar 1":
+        - cell "2.4.8 - Ubicación ayuda":
+          - link "2.4.8":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-location.html
+          - text: "- Ubicación"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "2.4.9 - Propósito de los enlaces (Sólo enlaces) ayuda AAA Pasa":
+        - cell "2.4.9 - Propósito de los enlaces (Sólo enlaces) ayuda":
+          - link "2.4.9":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html
+          - text: "- Propósito de los enlaces (Sólo enlaces)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+      - row "2.4.10 - Encabezados de sección ayuda AAA Pasa":
+        - cell "2.4.10 - Encabezados de sección ayuda":
+          - link "2.4.10":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html
+          - text: "- Encabezados de sección"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+  - heading "Comprensible" [level=2]
+  - generic: La información y el manejo de la interfaz de usuario debe ser comprensible.
+  - table:
+    - rowgroup:
+      - row "Pauta Nivel Resultado Problemas Advertencias No verficados":
+        - columnheader "Pauta"
+        - columnheader "Nivel"
+        - columnheader "Resultado"
+        - columnheader "Problemas"
+        - columnheader "Advertencias"
+        - columnheader "No verficados"
+    - rowgroup:
+      - row "3.1-Legible 0 0 1":
+        - columnheader "3.1-Legible"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "3.1.1 - Idioma de la página ayuda A Pasa":
+        - cell "3.1.1 - Idioma de la página ayuda":
+          - link "3.1.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html
+          - text: "- Idioma de la página"
+          - img "ayuda"
+        - cell "A"
+        - cell "Pasa":
+          - img "Pasa"
+        - cell
+        - cell
+        - cell
+      - row "3.1.2 - Idioma de las partes ayuda AA Sin revisar 1":
+        - cell "3.1.2 - Idioma de las partes ayuda":
+          - link "3.1.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html
+          - text: "- Idioma de las partes"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.1.3 - Palabras inusuales ayuda AAA Sin revisar 1":
+        - cell "3.1.3 - Palabras inusuales ayuda":
+          - link "3.1.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-idioms.html
+          - text: "- Palabras inusuales"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.1.4 - Abreviaturas ayuda AAA Sin revisar 1":
+        - cell "3.1.4 - Abreviaturas ayuda":
+          - link "3.1.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html
+          - text: "- Abreviaturas"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.1.5 - Nivel de lectura ayuda AAA Sin revisar 1":
+        - cell "3.1.5 - Nivel de lectura ayuda":
+          - link "3.1.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html
+          - text: "- Nivel de lectura"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.1.6 - Pronunciación ayuda AAA Sin revisar 1":
+        - cell "3.1.6 - Pronunciación ayuda":
+          - link "3.1.6":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-pronunciation.html
+          - text: "- Pronunciación"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.2-Predecible 0 1 4":
+        - columnheader "3.2-Predecible"
+        - columnheader "0"
+        - columnheader "1"
+        - columnheader "4"
+      - row "3.2.1 - Al recibir el foco ayuda A Sin revisar 1":
+        - cell "3.2.1 - Al recibir el foco ayuda":
+          - link "3.2.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html
+          - text: "- Al recibir el foco"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.2.2 - Al introducir datos ayuda A Sin revisar 1":
+        - cell "3.2.2 - Al introducir datos ayuda":
+          - link "3.2.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html
+          - text: "- Al introducir datos"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.2.3 - Navegación consistente ayuda AA Sin revisar 1":
+        - cell "3.2.3 - Navegación consistente ayuda":
+          - link "3.2.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html
+          - text: "- Navegación consistente"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.2.4 - Identificación consistente ayuda AA Sin revisar 1":
+        - cell "3.2.4 - Identificación consistente ayuda":
+          - link "3.2.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html
+          - text: "- Identificación consistente"
+          - img "ayuda"
+        - cell "AA"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+      - row "3.2.5 - Cambios bajo petición ayuda AAA Desconocido 1":
+        - cell "3.2.5 - Cambios bajo petición ayuda":
+          - link "3.2.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html
+          - text: "- Cambios bajo petición"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "Desconocido":
+          - img "Desconocido"
+        - cell
+        - cell "1"
+        - cell
+      - row "3.3-Introducción de datos asistida 0 0 0":
+        - columnheader "3.3-Introducción de datos asistida"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "0"
+      - row "3.3.1 - Identificación de errores ayuda A na":
+        - cell "3.3.1 - Identificación de errores ayuda":
+          - link "3.3.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html
+          - text: "- Identificación de errores"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "3.3.2 - Etiquetas o instrucciones ayuda A na":
+        - cell "3.3.2 - Etiquetas o instrucciones ayuda":
+          - link "3.3.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html
+          - text: "- Etiquetas o instrucciones"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "3.3.3 - Sugerencias ante errores ayuda AA na":
+        - cell "3.3.3 - Sugerencias ante errores ayuda":
+          - link "3.3.3":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html
+          - text: "- Sugerencias ante errores"
+          - img "ayuda"
+        - cell "AA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "3.3.4 - Prevención de errores (legales, financieros, datos) ayuda AA na":
+        - cell "3.3.4 - Prevención de errores (legales, financieros, datos) ayuda":
+          - link "3.3.4":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html
+          - text: "- Prevención de errores (legales, financieros, datos)"
+          - img "ayuda"
+        - cell "AA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "3.3.5 - Ayuda ayuda AAA na":
+        - cell "3.3.5 - Ayuda ayuda":
+          - link "3.3.5":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-context-help.html
+          - text: "- Ayuda"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "3.3.6 - Prevención de errores (todos) ayuda AAA na":
+        - cell "3.3.6 - Prevención de errores (todos) ayuda":
+          - link "3.3.6":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible-all.html
+          - text: "- Prevención de errores (todos)"
+          - img "ayuda"
+        - cell "AAA"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+  - heading "Robusto" [level=2]
+  - generic: El contenido debe ser suficientemente robusto como para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluyendo las ayudas técnicas.
+  - table:
+    - rowgroup:
+      - row "Pauta Nivel Resultado Problemas Advertencias No verficados":
+        - columnheader "Pauta"
+        - columnheader "Nivel"
+        - columnheader "Resultado"
+        - columnheader "Problemas"
+        - columnheader "Advertencias"
+        - columnheader "No verficados"
+    - rowgroup:
+      - row "4.1-Compatible 0 0 1":
+        - columnheader "4.1-Compatible"
+        - columnheader "0"
+        - columnheader "0"
+        - columnheader "1"
+      - row "4.1.1 - Procesamiento ayuda A na":
+        - cell "4.1.1 - Procesamiento ayuda":
+          - link "4.1.1":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html
+          - text: "- Procesamiento"
+          - img "ayuda"
+        - cell "A"
+        - cell "na"
+        - cell
+        - cell
+        - cell
+      - row "4.1.2 - Nombre, función, valor ayuda A Sin revisar 1":
+        - cell "4.1.2 - Nombre, función, valor ayuda":
+          - link "4.1.2":
+            - /url: http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html
+          - text: "- Nombre, función, valor"
+          - img "ayuda"
+        - cell "A"
+        - cell "Sin revisar":
+          - img "Sin revisar"
+        - cell
+        - cell
+        - cell "1"
+  - list:
+    - listitem: No se han encontrado problemas
+    - listitem: Existen problemas
+    - listitem: Requiere revisión manual
+    - listitem: Imposible realizar comprobación automática
+    - generic: "na:"
+    - text: no aplicable

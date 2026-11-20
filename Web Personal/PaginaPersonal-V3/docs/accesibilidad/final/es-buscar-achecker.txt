@@ -1,0 +1,1415 @@
+URL: https://carles-uniovi.github.io/UX/v3/buscar.html
+Captured UTC: 2026-11-20T11:08:05.221Z
+WCAG 2.0 AAA Markup
+
+AChecker double_arrow URL (https://carles-uniovi.github.io/UX/v3/buscar.html)
+Sign up for occasional emails about accessibility/product information.
+Name
+Email
+SUBMIT
+NO ERRORS
+WARNINGS
+Congratulations! No known problems.
+<a target="_blank" href="https://achecks.org/achecker#wcag2aaa,https://carles-uniovi.github.io/UX/v3/buscar.html"><img src="https://achecks.org/images/icon_W2_aaa.jpg" alt="AChecker accessibility checker compliance: WCAG 2.0 (Level AAA)" height="32" width="102" /></a>
+check
+Does your content change frequently?
+check
+Does your website have too many pages to keep up with?
+
+Upgrade to have ACHECKS monitor your entire domain and get reports regularly!
+
+SEE THE SUBSCRIPTION OPTIONS
+
+WARNINGS
+
+				
+
+	
+		
+			<title> might not describe the document.
+		
+		
+			
+				
+					Line number
+					3
+				
+				
+					Column number
+					169
+				
+			
+			<title>Buscar · Carles Valladares García</title>
+			
+			<title> describes the document.PASS
+			
+			<title> does not describe the document.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					1
+				
+			
+			<script src="js/theme.js"></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					50
+				
+			
+			<script src="js/site.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					104
+				
+			
+			<script src="js/search-index.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					104
+				
+			
+			<script src="js/search-index.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					104
+				
+			
+			<script src="js/search-index.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					166
+				
+			
+			<script src="js/search-core.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					166
+				
+			
+			<script src="js/search-core.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					166
+				
+			
+			<script src="js/search-core.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> user interface may not be accessible.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					227
+				
+			
+			<script src="js/search.js" defer></script>
+			
+			<script> user interface is accessible.PASS
+			
+			<script> user interface is not accessible.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may cause screen flicker.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					227
+				
+			
+			<script src="js/search.js" defer></script>
+			
+			<script> does not cause screen flicker.PASS
+			
+			<script> causes screen flicker.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<script> may use color alone.
+		
+		
+			
+				
+					Line number
+					5
+				
+				
+					Column number
+					227
+				
+			
+			<script src="js/search.js" defer></script>
+			
+			<script> does not use color alone.PASS
+			
+			<script> uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Visual lists may not be properly marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All visual lists contain proper markup.PASS
+			
+			Not all visual lists contain proper markup.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Unicode right-to-left marks or left-to-right marks may be required.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Unicode right-to-left marks or left-to-right marks are used whenever the HTML bidirectional algorithm produces undesirable results.PASS
+			
+			Unicode right-to-left marks or left-to-right marks are not used whenever the HTML bidirectional algorithm produces undesirable results.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<dir> attribute may be required to identify changes in text direction.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All changes in text direction are marked using the <dir> attribute.PASS
+			
+			All changes in text direction are not marked using the <dir> attribute.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Text may refer to items by shape, size, or relative position alone.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			There are no references to items in the document by shape, size, or relative position alone.PASS
+			
+			There are references to items in the document by shape, size, or relative position alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Document may be missing a "skip to content" link.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Document contians a "skip to content" link or does not require it.PASS
+			
+			Document does not contain a "skip to content" link and requires it.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Groups of links with a related purpose are not marked.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All groups of links with a related purpose are marked.PASS
+			
+			All groups of links with a related purpose are not marked.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Site missing site map.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Page is not part of a collection that requires a site map.PASS
+			
+			Page is part of a collection that requires a site map.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Repeated components may not appear in the same relative order each time they appear.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			Repeated components appear in the same relative order on this page.PASS
+			
+			Repeated components do not appear in the same relative order on this page.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Long quotations may not be marked using the <blockquote> element.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					1
+				
+			
+			<body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><di ...
+			
+			All long quotations have been marked with the <blockquote> element.PASS
+			
+			All long quotations are not marked with the <blockquote> element.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					6
+				
+				
+					Column number
+					7
+				
+			
+			<a class="skip-link" href="#contenido">Saltar al contenido</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					55
+				
+			
+			<a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span> ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					371
+				
+			
+			<a href="index.html">Sobre mí</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					405
+				
+			
+			<a href="trayectoria.html">Trayectoria</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					447
+				
+			
+			<a href="hobbies.html">Aficiones</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					483
+				
+			
+			<a href="intereses.html">Intereses</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					521
+				
+			
+			<a href="contacto.html">Contacto</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					595
+				
+			
+			<a class="icon-control labeled-control" href="buscar.html"><svg width="20" height="20" viewbox="0 0  ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					7
+				
+				
+					Column number
+					931
+				
+			
+			<a class="language-switch" href="en/buscar.html" lang="en" hreflang="en" aria-label="EN: English" ti ...
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					103
+				
+			
+			<a href="index.html">Inicio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<h1> may be used for formatting.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					211
+				
+			
+			<h1 id="page-title">Buscar</h1>
+			
+			This <h1> element is really a section header.PASS
+			
+			This <h1> element is used to format text (not really a section header).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Tab order may not follow logical order.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			Tab order follows a logical order.PASS
+			
+			Tab order does not follow a logical order.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Form submission error messages may not identify empty required fields.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			Required fields are identified in all form submission error messages.PASS
+			
+			Required fields are not identified in all form submission error messages.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			All required <form> fields may not be indicated as required.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			All required fields are indicated to the user as required.PASS
+			
+			All required fields are not indicated to the user as required.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Form submission error messages may not provide assistance.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			All form submission error messages provide assistance in correcting the error.PASS
+			
+			All form submission error messages do not provide assistance in correcting the errors.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Form submission data may not be presented to the user before final acceptance of an irreversable transaction.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			All form submission data is presented to the user before final acceptance for all irreversable transactions.PASS
+			
+			All form submission data is not presented to the user before final acceptance for all irreversable transactions.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Form may delete information without allowing for recovery.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					248
+				
+			
+			<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="B ...
+			
+			Information deleted using this form can be recovered.PASS
+			
+			Information delted using this form can not be recovered.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<input> possibly using color alone.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					427
+				
+			
+			<input id="query" type="search" enterkeyhint="search" autocomplete="off" name="q" maxlength="160" ar ...
+			
+			<input> element does not use color alone.PASS
+			
+			<input> element uses color alone.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			<label> may not describe its associated control.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					427
+				
+			
+			<input id="query" type="search" enterkeyhint="search" autocomplete="off" name="q" maxlength="160" ar ...
+			
+			<label> describes its associated control.PASS
+			
+			<label> does not describe its associated control.FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					925
+				
+			
+			<a href="mapa.html">Mapa del sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					972
+				
+			
+			<a href="lectura.html">versión de lectura</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1259
+				
+			
+			<a href="mapa.html">Mapa del sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1387
+				
+			
+			<a href="buscar.html?q=judo">Judo</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1424
+				
+			
+			<a href="buscar.html?q=musica">Música</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					8
+				
+				
+					Column number
+					1466
+				
+			
+			<a href="buscar.html?q=correo">Buscar correo</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					216
+				
+			
+			<a href="ayuda.html">Ayuda</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					246
+				
+			
+			<a href="mapa.html">Mapa del sitio</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+	
+		
+			Link text may not be meaningful.
+		
+		
+			
+				
+					Line number
+					9
+				
+				
+					Column number
+					284
+				
+			
+			<a href="lectura.html">Lectura</a>
+			
+			Link text is meaningful when read alone (out of context).PASS
+			
+			Link text is not meaningful when read alone (out of context).FAIL
+		
+		
+			open_in_new Explanation
+		
+	
+
+
+			

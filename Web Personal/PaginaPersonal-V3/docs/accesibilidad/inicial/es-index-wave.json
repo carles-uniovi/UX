@@ -1,0 +1,12 @@
+{
+  "tool": "WAVE",
+  "page": "es-index",
+  "url": "https://carles-uniovi.github.io/UX/v3/",
+  "phase": "inicial",
+  "date": "2026-11-20T10:02:06.854Z",
+  "errors": 0,
+  "contrastErrors": 0,
+  "alerts": 4,
+  "alertTypes": "2 Redundant link\n2 Redundant title text",
+  "standard": "Reglas WAVE, estilos activos"
+}
