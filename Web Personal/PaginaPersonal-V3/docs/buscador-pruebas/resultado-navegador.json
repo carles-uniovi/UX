@@ -1,0 +1,256 @@
+{
+  "date": "2026-11-20T04:39:21.502Z",
+  "node": "v24.15.0",
+  "platform": "win32",
+  "playwright": "1.62.1",
+  "method": "Chrome headless real; sitio local; sin emulación de teléfono físico",
+  "viewport": {
+    "width": 1366,
+    "height": 900
+  },
+  "tests": [
+    {
+      "id": "N01",
+      "name": "Acceso desde las 18 cabeceras",
+      "passed": true,
+      "observed": {
+        "cabeceras": 18,
+        "destino": "/buscar.html"
+      }
+    },
+    {
+      "id": "N02",
+      "name": "Estado inicial sin consulta",
+      "passed": true,
+      "observed": {
+        "status": "Escribe una palabra para buscar en el sitio.",
+        "results": 0,
+        "screenshot": "01-inicial.png"
+      }
+    },
+    {
+      "id": "N03",
+      "name": "Actualización al escribir sin peticiones de datos de búsqueda",
+      "passed": true,
+      "observed": {
+        "status": "3 resultados para «judo».",
+        "targets": [
+          "hobbies.html#practicar-judo",
+          "hobbies.html#ensenar-judo",
+          "ayuda.html#buscador"
+        ],
+        "searchRequests": 0,
+        "incidentalRequests": [
+          "http://127.0.0.1:65415/img/favicon.svg"
+        ],
+        "screenshot": "02-judo.png"
+      }
+    },
+    {
+      "id": "N04",
+      "name": "Envío con botón y canción del índice",
+      "passed": true,
+      "observed": {
+        "query": "sota el cel",
+        "first": "intereses.html#gavina"
+      }
+    },
+    {
+      "id": "N05",
+      "name": "Enter, mayúsculas y ausencia de tildes",
+      "passed": true,
+      "observed": {
+        "first": "trayectoria.html#uniovi-title",
+        "focusMovesToSummary": true
+      }
+    },
+    {
+      "id": "N06",
+      "name": "Consulta sin coincidencias",
+      "passed": true,
+      "observed": {
+        "status": "0 resultados para «zzzinexistentezzz».",
+        "alternativesVisible": true,
+        "screenshot": "03-sin-resultados.png"
+      }
+    },
+    {
+      "id": "N07",
+      "name": "Vaciar elimina resultados y q",
+      "passed": true,
+      "observed": {
+        "results": 0,
+        "qRemoved": true
+      }
+    },
+    {
+      "id": "N08",
+      "name": "Solo signos no muestra resultados arbitrarios",
+      "passed": true,
+      "observed": {
+        "query": "¿?!!!",
+        "results": 0
+      }
+    },
+    {
+      "id": "N09",
+      "name": "URL con q y recarga",
+      "passed": true,
+      "observed": {
+        "query": "Ingenieria Web",
+        "targetsBeforeAndAfter": [
+          "trayectoria.html#uniovi-title",
+          "index.html#page-title",
+          "ayuda.html#buscador"
+        ]
+      }
+    },
+    {
+      "id": "N10",
+      "name": "Resultado abre la sección concreta",
+      "passed": true,
+      "observed": {
+        "destination": "/trayectoria.html#uniovi-title"
+      }
+    },
+    {
+      "id": "N11",
+      "name": "Índice inglés y navegación dentro de en/",
+      "passed": true,
+      "observed": {
+        "status": "1 result for “teaching”.",
+        "destination": "/en/hobbies.html#ensenar-judo",
+        "screenshot": "04-ingles.png"
+      }
+    },
+    {
+      "id": "N12",
+      "name": "Cambio de idioma conserva la consulta en el buscador equivalente",
+      "passed": true,
+      "observed": {
+        "destination": "/en/buscar.html",
+        "queryPreserved": true
+      }
+    },
+    {
+      "id": "N13",
+      "name": "Límite de 160 al teclear y al abrir una URL",
+      "passed": true,
+      "observed": {
+        "typedLength": 160,
+        "urlLengthAfterTrim": 160,
+        "results": 3
+      }
+    },
+    {
+      "id": "N14",
+      "name": "Texto con sintaxis HTML se presenta sin ejecutarse",
+      "passed": true,
+      "observed": {
+        "literalText": true,
+        "injectedElements": 0,
+        "dialogs": 0
+      }
+    },
+    {
+      "id": "N15",
+      "name": "Recorrido con teclado, foco y región de estado",
+      "passed": true,
+      "observed": {
+        "inputReachedByTab": true,
+        "outline": "solid",
+        "statusRole": "status",
+        "ariaLive": "polite",
+        "firstResultOpenedByEnter": true
+      }
+    },
+    {
+      "id": "N16",
+      "name": "Resultados en viewport estrecho de 320 x 568",
+      "passed": true,
+      "observed": {
+        "viewport": 320,
+        "content": 305,
+        "results": 3,
+        "screenshot": "05-movil.png"
+      }
+    },
+    {
+      "id": "N17",
+      "name": "Buscador con tema oscuro",
+      "passed": true,
+      "observed": {
+        "theme": "dark",
+        "results": 3,
+        "screenshot": "06-oscuro.png"
+      }
+    },
+    {
+      "id": "N18",
+      "name": "Sin JavaScript ofrece mapa y versión de lectura",
+      "passed": true,
+      "observed": {
+        "alternativeLinks": [
+          "mapa.html",
+          "lectura.html"
+        ],
+        "mapOpened": true,
+        "screenshot": "07-sin-javascript.png"
+      }
+    },
+    {
+      "id": "N19",
+      "name": "Apertura directa file:// en español",
+      "passed": true,
+      "observed": {
+        "initialResults": 3,
+        "newQueryWorks": true,
+        "protocol": "file:",
+        "target": "intereses.html#gavina",
+        "screenshot": "08-archivo-local.png"
+      }
+    },
+    {
+      "id": "N20",
+      "name": "Apertura directa file:// en inglés",
+      "passed": true,
+      "observed": {
+        "protocol": "file:",
+        "target": "en/hobbies.html#ensenar-judo",
+        "results": 1
+      }
+    },
+    {
+      "id": "N21",
+      "name": "Sin errores JavaScript ni cargas fallidas",
+      "passed": true,
+      "observed": {
+        "pageErrors": 0,
+        "failedRequests": 0
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "hashes": {
+    "buscar.html": "ce118411259dd600e604d24156bb21c44c27203b924f547e015ed2e682ff8715",
+    "en/buscar.html": "a2710ef44c53ed7f4ec3f72e261a18d41b9492d2ef1cabbe518d76353030df6b",
+    "css/styles.css": "c29cf54d73105abdc55c070a1cbb3c761462952258a1b192aa608b9bb884dc98",
+    "js/search-core.js": "c16c65f16f56d92204e23c88610132ef2ecb8f5073d74c0edbd9233920d1fb4f",
+    "js/search-index.js": "10ad47f6399aee6cda86d4ac82499d89c8772add9ab91ab82b0958ff3f68dd6a",
+    "js/search.js": "04e4ac8c03353972444741b38f1184b01bb7421fa52740d9a7fbffdbf178a7c3",
+    "scripts/build.py": "a4eb579c3ec497d5c3e99862262d21425fdd4617534aa3e97e453c7c261b4e04",
+    "scripts/test-search.cjs": "ffe711b9b730499d671f32dd022ba42ef4255f5bd331bbf3104446520f2f8ddc",
+    "scripts/test-search-browser.cjs": "138a41139306f46968b9991cc171f69fa971ed88fde88f035dfd099a528a8f71",
+    "scripts/check.py": "4bbf536b913b6779218af6b80a974e67bbd56d6c389f377e6e447217c05dfb52"
+  },
+  "browser": "157.0.8103.80",
+  "requestsDuringSearch": [
+    "http://127.0.0.1:65415/img/favicon.svg"
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0,
+    "total": 21
+  }
+}

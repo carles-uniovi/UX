@@ -1,0 +1,284 @@
+[
+  {
+    "page": "index.html",
+    "device": "mobile",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-20T04:37:18.644Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1007.376,
+      "largest-contentful-paint": 1353.376,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 54
+    },
+    "failedAudits": [
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.96,
+        "displayValue": "100 ms"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 12 KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0,
+        "displayValue": "Est savings of 61 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 300 ms"
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "device": "desktop",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-20T04:37:25.120Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 276.0712,
+      "largest-contentful-paint": 323.0712,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0
+    },
+    "failedAudits": [
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 13 KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0,
+        "displayValue": "Est savings of 61 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "displayValue": "Est savings of 19 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 70 ms"
+      }
+    ]
+  },
+  {
+    "page": "buscar.html?q=judo",
+    "device": "mobile",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-20T04:37:31.567Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 902.5903000000001,
+      "largest-contentful-paint": 1352.5902999999998,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0
+    },
+    "failedAudits": [
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 12 KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0,
+        "displayValue": "Est savings of 53 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 230 ms"
+      }
+    ]
+  },
+  {
+    "page": "contacto.html",
+    "device": "mobile",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-20T04:37:37.927Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 983.4999,
+      "largest-contentful-paint": 983.4999,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 31
+    },
+    "failedAudits": [
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.99,
+        "displayValue": "80 ms"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 3 KiB"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "displayValue": "Est savings of 12 KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "displayValue": "Est savings of 28 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 4 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 300 ms"
+      }
+    ]
+  }
+]
