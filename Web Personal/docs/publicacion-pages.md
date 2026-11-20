@@ -7,15 +7,15 @@
 | <https://carles-uniovi.github.io/UX/> | Portada de selección de versiones |
 | <https://carles-uniovi.github.io/UX/v1/> | `Web Personal/PaginaPersonal` |
 | <https://carles-uniovi.github.io/UX/v2/> | `Web Personal/PaginaPersonal-V2` |
-| `https://carles-uniovi.github.io/UX/v3/` | Se publicará cuando exista `Web Personal/PaginaPersonal-V3/index.html` |
+| <https://carles-uniovi.github.io/UX/v3/> | `Web Personal/PaginaPersonal-V3`, versión final |
 
-Las direcciones V1 y V2 son independientes. V3 no redirige a V2 ni se crea con contenido ficticio. Para las pruebas de GazeRecorder, usar directamente la URL de V2; la portada de selección no forma parte de la tarea de usabilidad.
+Las tres versiones tienen direcciones independientes. La tanda 2 se realizó sobre V2 con Clarity; V3 conserva sus contenidos y aplica las mejoras documentadas en su carpeta, sin registrar sesiones del estudio.
 
 ## Funcionamiento
 
 El workflow [pages.yml](../../.github/workflows/pages.yml) se ejecuta al modificar las carpetas de las versiones, el empaquetador o el propio workflow en `main`. También permite ejecución manual desde GitHub Actions. GitHub Pages debe tener **GitHub Actions** como fuente de publicación; el repositorio ya utilizaba esta configuración.
 
-El script [build-pages.py](../scripts/build-pages.py) copia cada versión a su propio directorio dentro de `.pages-site/`, sin modificar sus HTML, estilos, JavaScript ni recursos. Comprueba que los enlaces locales y los recursos referenciados por HTML y CSS existan en el paquete. Incluye las páginas españolas e inglesas de V2. Publica los medios necesarios de `docs/media`, pero excluye informes, plantillas de participantes, scripts de mantenimiento y demás documentación.
+El script [build-pages.py](../scripts/build-pages.py) copia cada versión a su propio directorio dentro de `.pages-site/`, sin modificar sus HTML, estilos, JavaScript ni recursos. Comprueba que los enlaces locales y los recursos referenciados por HTML y CSS existan en el paquete. Incluye las páginas españolas e inglesas de V2 y V3. Publica los medios necesarios de `docs/media`, pero excluye informes, plantillas de participantes, scripts de mantenimiento y demás documentación.
 
 Cada despliegue de Pages sustituye el paquete publicado completo. Por eso el workflow **siempre empaqueta todas las versiones disponibles**, aunque solo haya cambiado una. Las fuentes de V1 y V2 se conservan en sus carpetas; para añadir V3 se crea una carpeta nueva. No renombrar V2 como V3 ni borrar las versiones previas. Las URLs son estables, pero modificar los archivos de una versión también actualizará lo que se ve en su URL: conservar una referencia de commit por tanda y evitar cambios durante las sesiones.
 
@@ -30,17 +30,14 @@ python scripts/build-pages.py
 python -m http.server 8000 --bind 127.0.0.1 --directory .pages-site
 ```
 
-Abrir <http://127.0.0.1:8000/>, <http://127.0.0.1:8000/v1/> y <http://127.0.0.1:8000/v2/>. Detener con `Ctrl+C`. `.pages-site/` es un directorio generado e ignorado por Git; no se mantiene una segunda copia de las webs en el repositorio.
+Abrir <http://127.0.0.1:8000/>, <http://127.0.0.1:8000/v1/>, <http://127.0.0.1:8000/v2/> y <http://127.0.0.1:8000/v3/>. Detener con `Ctrl+C`. `.pages-site/` es un directorio generado e ignorado por Git; no se mantiene una segunda copia de las webs en el repositorio.
 
-## Añadir la siguiente versión
+## Versión final V3
 
-1. Crear `Web Personal/PaginaPersonal-V3` conservando V1 y V2.
-2. Incorporar la web completa y su `index.html`, con la misma organización de páginas y recursos. Si requiere otros tipos o directorios de recursos, ampliar el empaquetador.
-3. Ejecutar el empaquetador y comprobar los enlaces y las tres rutas.
-4. Publicar los cambios en `main`. El script añade V3 a la portada y al paquete automáticamente.
+V3 contiene 18 páginas y mantiene los destinos de las tres tareas realizadas sobre V2. El empaquetador añade su enlace a la portada y publica las tres versiones. Análisis, validación y evidencias en [PaginaPersonal-V3/README.md](../PaginaPersonal-V3/README.md).
 
-## Prueba de GazeRecorder
+## Registro de la tanda 2
 
-La candidata elegida para probar es **GazeRecorder online**. La publicación HTTPS proporciona una dirección accesible desde ordenador, tableta y teléfono; no activa seguimiento por sí misma. Crear y validar el estudio en una fase posterior, empezando por un piloto. Comprobar captura ocular, navegación entre páginas, desplazamiento y exportación de mapas de mirada y clics/toques en los tres dispositivos antes de los participantes reales.
+Las tres sesiones se realizaron en V2 con **Microsoft Clarity**, proyecto `zg4r78nft3`, que requiere enlace de prueba y aceptación explícita. Clarity registra interacciones, no seguimiento ocular. V3 no incluye esa integración ni mezcla sus visitas con los resultados de la tanda.
 
-Las versiones comparten origen de navegador y actualmente usan la misma clave de preferencia de tema (`adweb-theme`). Abrir una ruta distinta no borra esa preferencia. Preparar el mismo estado inicial del navegador antes de cada sesión, como indica el protocolo.
+V1 y V2 comparten la clave de tema `adweb-theme`; V3 usa `adweb-v3-theme`. Cambiar de versión conserva las preferencias correspondientes sin alterar el estado del estudio anterior.

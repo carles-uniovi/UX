@@ -1,0 +1,2752 @@
+{
+  "date": "2026-11-20T04:39:41.429Z",
+  "tests": [
+    {
+      "name": "Buscar y Menú con texto visible y controles de 44 px",
+      "passed": true,
+      "observed": {
+        "width": 320,
+        "touchTargets": 4,
+        "escapeReturnsFocus": true
+      }
+    },
+    {
+      "name": "Limpiar elimina consulta y URL y devuelve foco al campo",
+      "passed": true,
+      "observed": {
+        "empty": true,
+        "qRemoved": true,
+        "focus": "query"
+      }
+    },
+    {
+      "name": "Ejemplos permiten recuperar una búsqueda sin resultados",
+      "passed": true,
+      "observed": {
+        "recoveredWith": "judo",
+        "results": 3
+      }
+    },
+    {
+      "name": "Las tres tareas mantienen sus destinos de V2",
+      "passed": true,
+      "observed": {
+        "queries": 3,
+        "destinationsPreserved": true
+      }
+    },
+    {
+      "name": "La cabecera no oculta el destino de los resultados",
+      "passed": true,
+      "observed": {
+        "header": 104.1875,
+        "heading": 120.171875,
+        "offset": "104.1875px"
+      }
+    },
+    {
+      "name": "Copia de correo con confirmación local junto al botón",
+      "passed": true,
+      "observed": {
+        "copied": "UO319242@uniovi.es",
+        "localFeedback": true,
+        "api": "double controlado"
+      }
+    },
+    {
+      "name": "Copia bloqueada conserva la dirección y ofrece selección manual",
+      "passed": true,
+      "observed": {
+        "fallbackSelection": true,
+        "api": "rechazo simulado"
+      }
+    },
+    {
+      "name": "Tema oscuro: etiqueta de acción actualizada y almacenamiento propio de V3",
+      "passed": true,
+      "observed": {
+        "currentAction": "Activar modo claro",
+        "independentPreference": true
+      }
+    },
+    {
+      "name": "Salto al contenido y navegación de teclado sin foco oculto",
+      "passed": true,
+      "observed": {
+        "tabStops": 24,
+        "obscuredFocus": 0
+      }
+    },
+    {
+      "name": "Diálogo multimedia: sin autoplay, Escape libera el medio y restaura foco",
+      "passed": true,
+      "observed": {
+        "audioNotAutoplaying": true,
+        "focusRestored": true
+      }
+    },
+    {
+      "name": "No carga Clarity en V3, tampoco con enlaces antiguos del estudio",
+      "passed": true,
+      "observed": {
+        "studyRequests": 0
+      }
+    },
+    {
+      "name": "Reflujo de las 18 páginas en ocho tamaños de pantalla",
+      "passed": true,
+      "observed": {
+        "combinations": 144,
+        "horizontalOverflow": 0
+      }
+    },
+    {
+      "name": "Reflujo equivalente a 400% y texto ampliado al 200%",
+      "passed": true,
+      "observed": {
+        "reflow": "320x256 equivale a 1280px al 400%, no zoom nativo",
+        "textZoom": "200%"
+      }
+    },
+    {
+      "name": "Auditoría axe de las 18 páginas en ambos temas",
+      "passed": true,
+      "observed": {
+        "axe": "4.14.1",
+        "scans": 36,
+        "violations": 0,
+        "incomplete": 120
+      }
+    },
+    {
+      "name": "Escritorio final y cero errores de JavaScript",
+      "passed": true,
+      "observed": {
+        "pageErrors": 0,
+        "screenshot": "05-portada-escritorio.png"
+      }
+    },
+    {
+      "name": "Si falla site.js, se recupera la navegación móvil",
+      "passed": true,
+      "observed": {
+        "navigation": true,
+        "failedScript": "site.js"
+      }
+    },
+    {
+      "name": "Sin JavaScript: menú, contactos y alternativa de búsqueda disponibles",
+      "passed": true,
+      "observed": {
+        "navigation": true,
+        "addresses": true,
+        "searchAlternative": true
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "page": "index.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/index.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "hobbies.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "intereses.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "contacto.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "ayuda.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "mapa.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "buscar.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "lectura.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 320,
+      "height": 568,
+      "content": 305
+    },
+    {
+      "page": "index.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/index.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "hobbies.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "intereses.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "contacto.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "ayuda.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "mapa.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "buscar.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "lectura.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 375,
+      "height": 667,
+      "content": 360
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/index.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "hobbies.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "intereses.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "contacto.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "ayuda.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "mapa.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "buscar.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "lectura.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 390,
+      "height": 844,
+      "content": 375
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/index.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "hobbies.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "intereses.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "contacto.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "ayuda.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "mapa.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "buscar.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "lectura.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 768,
+      "height": 1024,
+      "content": 753
+    },
+    {
+      "page": "index.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/index.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "hobbies.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "intereses.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "contacto.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "ayuda.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "mapa.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "buscar.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "lectura.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 1024,
+      "height": 768,
+      "content": 1009
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/index.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "hobbies.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "intereses.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "contacto.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "ayuda.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "mapa.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "buscar.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "lectura.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 1366,
+      "height": 768,
+      "content": 1351
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/index.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "hobbies.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "intereses.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "contacto.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "ayuda.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "mapa.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "buscar.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "lectura.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 1920,
+      "height": 1080,
+      "content": 1905
+    },
+    {
+      "page": "index.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/index.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "trayectoria.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/trayectoria.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "hobbies.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/hobbies.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "intereses.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/intereses.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "contacto.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/contacto.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "ayuda.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/ayuda.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "mapa.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/mapa.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "buscar.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/buscar.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "lectura.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    },
+    {
+      "page": "en/lectura.html",
+      "width": 844,
+      "height": 390,
+      "content": 829
+    }
+  ],
+  "axe": [
+    {
+      "page": "index.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/index.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "trayectoria.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/trayectoria.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "hobbies.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/hobbies.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "intereses.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/intereses.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "contacto.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/contacto.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "ayuda.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/ayuda.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "mapa.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/mapa.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "buscar.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/buscar.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "lectura.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                ".primary-nav > a[href=\"index.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"trayectoria.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"hobbies.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"intereses.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Se abre en una pestaña nueva\"]:nth-child(15)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/lectura.html",
+      "theme": "light",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                ".primary-nav > a[href=\"index.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"trayectoria.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"hobbies.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"intereses.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Opens in a new tab\"]:nth-child(15)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/index.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "trayectoria.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/trayectoria.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "hobbies.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/hobbies.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "intereses.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/intereses.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "contacto.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/contacto.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "ayuda.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/ayuda.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "mapa.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/mapa.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "buscar.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/buscar.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "lectura.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                ".primary-nav > a[href=\"index.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"trayectoria.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"hobbies.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"intereses.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Se abre en una pestaña nueva\"]:nth-child(15)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "en/lectura.html",
+      "theme": "dark",
+      "version": "4.14.1",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast-enhanced",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "identical-links-same-purpose",
+          "nodes": [
+            {
+              "target": [
+                ".primary-nav > a[href=\"index.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"trayectoria.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"hobbies.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"intereses.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                ".primary-nav > a[href$=\"contacto.html\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            },
+            {
+              "target": [
+                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Opens in a new tab\"]:nth-child(15)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                ".theme-toggle"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "remoteRequests": [],
+  "method": "Chrome real headless; dispositivos simulados y zoom de texto/reflujo; sin nueva tanda humana.",
+  "browser": "157.0.8103.80",
+  "summary": {
+    "passed": 17,
+    "failed": 0,
+    "total": 17
+  }
+}
