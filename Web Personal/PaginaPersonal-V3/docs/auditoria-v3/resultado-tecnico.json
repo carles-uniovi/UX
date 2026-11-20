@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20T10:49:00.795Z",
+  "date": "2026-11-20T11:22:20.502Z",
   "tests": [
     {
       "name": "Buscar y Menú con texto visible y controles de 44 px",
@@ -106,6 +106,35 @@
       "observed": {
         "reflow": "320x256 equivale a 1280px al 400%, no zoom nativo",
         "textZoom": "200%"
+      }
+    },
+    {
+      "name": "Lectura: líneas de hasta 80 caracteres, espaciado y colores del usuario",
+      "passed": true,
+      "observed": {
+        "measured": [
+          {
+            "language": "es",
+            "maxCharacters": 75,
+            "fontSize": 16,
+            "lineHeight": 26.4,
+            "paragraphGap": 40,
+            "textAlign": "start"
+          },
+          {
+            "language": "en",
+            "maxCharacters": 73,
+            "fontSize": 16,
+            "lineHeight": 26.4,
+            "paragraphGap": 40,
+            "textAlign": "start"
+          }
+        ],
+        "forced": {
+          "active": true,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)"
+        }
       }
     },
     {
@@ -2493,8 +2522,8 @@
   "method": "Chrome real headless; dispositivos simulados y zoom de texto/reflujo; sin nueva tanda humana.",
   "browser": "157.0.8103.80",
   "summary": {
-    "passed": 17,
+    "passed": 18,
     "failed": 0,
-    "total": 17
+    "total": 18
   }
 }

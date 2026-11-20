@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20T10:48:41.892Z",
+  "date": "2026-11-20T11:22:00.745Z",
   "node": "v24.15.0",
   "platform": "win32",
   "playwright": "1.62.1",
@@ -41,7 +41,7 @@
         ],
         "searchRequests": 0,
         "incidentalRequests": [
-          "http://127.0.0.1:55780/img/favicon.svg"
+          "http://127.0.0.1:52016/img/favicon.svg"
         ],
         "screenshot": "02-judo.png"
       }
@@ -235,18 +235,18 @@
   "hashes": {
     "buscar.html": "f2f8b741910b0258852d788ffcce790b5808ec1f15b2c6635621353013cbfe46",
     "en/buscar.html": "0b6f4f7c0630d84cefc56e4e8f238d739805fdb6f3363b98607a3ec2d6eb3e20",
-    "css/styles.css": "2ab9d980a30f78c08eb1084ebd3af687302bfd6a9cb1f0882068d1bd8b2ee6a4",
+    "css/styles.css": "9d7971c06e7e8a5b58bacd30f605f74383bba51b5615f55c025b4144ed52b83e",
     "js/search-core.js": "c16c65f16f56d92204e23c88610132ef2ecb8f5073d74c0edbd9233920d1fb4f",
-    "js/search-index.js": "10ad47f6399aee6cda86d4ac82499d89c8772add9ab91ab82b0958ff3f68dd6a",
+    "js/search-index.js": "b7261ce59f4eb5e2355dcb3db07625334ffa21b09140e0032f185ee9bbf44a30",
     "js/search.js": "40569d750bf56791e07b0508bb987276ab99b841eef8cbb6a1366f57c8ed0a02",
-    "scripts/build.py": "223d0e8391f8985e4adbb82beafd2038c820a11de7b21e3589c47aa16734687b",
+    "scripts/build.py": "a8fb17da22ca305834545c4d8417d019dcc9f01eec3c0931fb618f8171e9885a",
     "scripts/test-search.cjs": "ffe711b9b730499d671f32dd022ba42ef4255f5bd331bbf3104446520f2f8ddc",
     "scripts/test-search-browser.cjs": "578487a24327ff2a63947231419137a97fcef7b4ffc2c9f64c1ff463e40af58e",
     "scripts/check.py": "4bbf536b913b6779218af6b80a974e67bbd56d6c389f377e6e447217c05dfb52"
   },
   "browser": "157.0.8103.80",
   "requestsDuringSearch": [
-    "http://127.0.0.1:55780/img/favicon.svg"
+    "http://127.0.0.1:52016/img/favicon.svg"
   ],
   "summary": {
     "passed": 21,

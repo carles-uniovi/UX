@@ -194,6 +194,45 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.
       await snapshot('04-texto-200.png');
       return { reflow: '320x256 equivale a 1280px al 400%, no zoom nativo', textZoom: '200%' };
     });
+    await check('Lectura: líneas de hasta 80 caracteres, espaciado y colores del usuario', async () => {
+      await page.setViewportSize({ width: 1366, height: 900 });
+      const measured = [];
+      for (const name of ['lectura.html', 'en/lectura.html']) {
+        await go(name);
+        const metrics = await page.evaluate(() => {
+          const lengths = [];
+          for (const p of document.querySelectorAll('.reading p')) {
+            const lines = new Map(), walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+            let node;
+            while ((node = walker.nextNode())) for (let i = 0; i < node.textContent.length; i++) {
+              const range = document.createRange(); range.setStart(node, i); range.setEnd(node, i + 1);
+              const box = range.getBoundingClientRect();
+              if (box.width < .1) continue;
+              const y = Math.round(box.top); lines.set(y, (lines.get(y) || '') + node.textContent[i]);
+            }
+            lengths.push(...Array.from(lines.values(), text => text.trim().length));
+          }
+          const s = getComputedStyle(document.querySelector('.reading p'));
+          return { language: document.documentElement.lang, maxCharacters: Math.max(...lengths),
+            fontSize: parseFloat(s.fontSize), lineHeight: parseFloat(s.lineHeight),
+            paragraphGap: parseFloat(s.marginBottom), textAlign: s.textAlign };
+        });
+        assert(metrics.maxCharacters <= 80, `${name}: ${metrics.maxCharacters} caracteres`);
+        assert(metrics.lineHeight >= 1.5 * metrics.fontSize);
+        assert(metrics.paragraphGap >= 1.5 * metrics.lineHeight);
+        assert.notEqual(metrics.textAlign, 'justify'); measured.push(metrics);
+      }
+      try {
+        await page.emulateMedia({ forcedColors: 'active' });
+        const forced = await page.evaluate(() => ({ active: matchMedia('(forced-colors: active)').matches,
+          color: getComputedStyle(document.documentElement).color, background: getComputedStyle(document.documentElement).backgroundColor }));
+        assert(forced.active); assert.notEqual(forced.color, forced.background);
+        await fs.mkdir(path.join(root, 'docs/accesibilidad/manual'), { recursive: true });
+        await page.screenshot({ path: path.join(root, 'docs/accesibilidad/manual/10-colores-forzados.png') });
+        await fs.writeFile(path.join(root, 'docs/accesibilidad/manual/longitud-lineas-lectura-final.json'), JSON.stringify({ measured, forced }, null, 2));
+        return { measured, forced };
+      } finally { await page.emulateMedia({ forcedColors: 'none' }); }
+    });
     await check('Auditoría axe de las 18 páginas en ambos temas', async () => {
       await page.setViewportSize({ width: 1366, height: 900 });
       for (const theme of ['light', 'dark']) for (const name of pages) {
