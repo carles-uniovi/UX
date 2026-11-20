@@ -144,7 +144,8 @@ def build(lang):
     background = jump_links([('formacion', t('Formación', 'Education')), ('proyectos', t('Proyectos', 'Projects')), ('experiencia', t('Experiencia', 'Experience'))])
     background += f'<section aria-labelledby="formacion"><h2 id="formacion">{t("Formación académica", "Education")}</h2><div class="timeline">'
     for anchor, logo, university, degree, status, text in schools:
-        background += f'<section class="education" aria-labelledby="{anchor}"><div class="university-logo"><img src="{prefix}img/trayectoria/{logo}.svg" width="160" height="112" alt="{escape(university)}" loading="lazy"></div><div><p class="eyebrow">{university}</p><h3 id="{anchor}">{degree}</h3><p class="study-status">{status}</p><p>{text}</p></div></section>'
+        # El nombre de la universidad ya aparece en texto junto al logotipo.
+        background += f'<section class="education" aria-labelledby="{anchor}"><div class="university-logo"><img src="{prefix}img/trayectoria/{logo}.svg" width="160" height="112" alt="" loading="lazy"></div><div><p class="eyebrow">{university}</p><h3 id="{anchor}">{degree}</h3><p class="study-status">{status}</p><p>{text}</p></div></section>'
         record('trayectoria', anchor, degree + ' · ' + university, status + ' ' + text)
     background += '</div></section>'
     project = t('Este sitio es mi proyecto para aplicar lo aprendido en el máster y mejorar la experiencia de usuario.', 'This website is my project for applying what I have learned in the master’s programme and improving the user experience.')
@@ -168,14 +169,18 @@ def build(lang):
             for item in cards:
                 anchor, title, image, text, *media = item
                 title, text = choose(title), choose(text)
-                content += f'<article class="card" aria-labelledby="{anchor}"><img class="card-image" src="{prefix}img/{image_dir}/{escape(image)}" alt="{escape(title)}" width="480" height="320" loading="lazy" decoding="async"><div class="card-body"><h3 id="{anchor}">{escape(title)}</h3><p>{escape(text)}</p>'
+                # La ilustración es decorativa: título y descripción contienen
+                # la información de la tarjeta, sin lectura duplicada del nombre.
+                content += f'<article class="card" aria-labelledby="{anchor}"><img class="card-image" src="{prefix}img/{image_dir}/{escape(image)}" alt="" width="480" height="320" loading="lazy" decoding="async"><div class="card-body"><h3 id="{anchor}">{escape(title)}</h3><p>{escape(text)}</p>'
                 extra = ''
                 if media:
                     source, media_title = media
                     media_title = choose(media_title)
                     youtube = source.startswith('https://www.youtube.com/watch?v=')
                     video = youtube or source.endswith('.mp4')
-                    play_label = (t('Ver', 'Watch') if video else t('Escuchar', 'Listen to')) + ': ' + media_title
+                    # Identifica cada destino incluso fuera del contexto de la
+                    # tarjeta (listado de enlaces de un lector de pantalla).
+                    play_label = t('Ver tráiler: ', 'Watch trailer: ') + title if video else t('Escuchar: ', 'Listen to: ') + media_title
                     # El enlace funciona por sí solo. JS lo mejora con un diálogo;
                     # el reproductor no ocupa espacio dentro de la tarjeta.
                     href = source if youtube else prefix + 'docs/media/' + quote(source)
@@ -189,7 +194,7 @@ def build(lang):
 
     hobbies = categories('hobbies', HOBBIES, 'hobbies')
     interests = categories('intereses', INTERESTS, 'intereses')
-    contact = '<div class="contact-grid">'
+    contact = '<p class="contact-intro">' + t('Puedes escribirme al correo personal o al universitario. Pulsa la dirección para abrir tu aplicación de correo, o usa el botón para copiarla.', 'You can contact me at my personal or university email address. Select an address to open your email app, or use its button to copy it.') + '</p><div class="contact-grid">'
     for key, title, email, profile in [('personal', t('Personal', 'Personal'), 'carlesvallgar@gmail.com', 'CarlesVall'), ('universidad', t('Universidad', 'University'), 'UO319242@uniovi.es', 'carles-uniovi')]:
         email_label = t('Correo personal', 'Personal email') if key == 'personal' else t('Correo universitario', 'University email')
         github_label = t('GitHub personal', 'Personal GitHub') if key == 'personal' else t('GitHub de la Universidad', 'University GitHub')
@@ -227,8 +232,8 @@ def build(lang):
         sitemap += '</ul></section>'
     sitemap += '</div><p><a href="buscar.html">' + t('Buscar en todo el sitio', 'Search the whole site') + '</a> · <a href="lectura.html">' + labels['lectura'] + '</a></p>'
 
-    search = f'''<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="{t('Buscar contenido', 'Search content')}"><label for="query">{t('¿Qué te gustaría encontrar?', 'What would you like to find?')}</label><div><input id="query" type="search" enterkeyhint="search" autocomplete="off" name="q" maxlength="160" aria-describedby="search-hint" placeholder="{t('Por ejemplo: judo, Robe, Ingeniería Web', 'For example: judo, Robe, Web Engineering')}"><button type="submit">{labels['buscar']}</button><button class="secondary search-clear" type="button" hidden>{t("Limpiar", "Clear")}</button></div></form><p id="search-hint">{t('Busca por palabras, con o sin tildes. Puedes combinar varias.', 'Search for words, with or without accents. You can combine several.')}</p><noscript><p class="callout">{t('El buscador necesita JavaScript. Puedes encontrar todo el contenido en el', 'Search needs JavaScript. You can find all content in the')} <a href="mapa.html">{labels['mapa']}</a> {t('o en la', 'or the')} <a href="lectura.html">{labels['lectura'].lower()}</a>.</p></noscript><p id="search-status" tabindex="-1" role="status" aria-live="polite" aria-atomic="true"></p><ol id="search-results" class="search-results"></ol><div id="search-empty" hidden><p>{t('Prueba con una palabra más general o revisa la escritura.', 'Try a more general word or check the spelling.')}</p><a href="mapa.html">{labels['mapa']}</a></div>'''
-    examples = [('judo', 'Judo'), (t('musica', 'music'), t('Música', 'Music')), (t('correo', 'email'), t('Contacto', 'Contact'))]
+    search = f'''<form class="search-form search-large" action="buscar.html" method="get" role="search" aria-label="{t('Buscar contenido', 'Search content')}"><label for="query">{t('¿Qué te gustaría encontrar?', 'What would you like to find?')}</label><div><input id="query" type="search" enterkeyhint="search" autocomplete="off" name="q" maxlength="160" aria-describedby="search-hint" placeholder="{t('Por ejemplo: judo, Robe, Ingeniería Web', 'For example: judo, Robe, Web Engineering')}"><button type="submit">{labels['buscar']}</button><button class="secondary search-clear" type="button" hidden>{t("Limpiar", "Clear")}</button></div></form><p id="search-hint">{t('Busca por palabras, con o sin tildes. Puedes combinar varias.', 'Search for words, with or without accents. You can combine several.')}</p><noscript><p class="callout">{t('El buscador necesita JavaScript. Puedes encontrar todo el contenido en el', 'Search needs JavaScript. You can find all content in the')} <a href="mapa.html">{labels['mapa']}</a> {t('o en la', 'or the')} <a href="lectura.html">{labels['lectura'].lower()}</a>.</p></noscript><p id="search-status" tabindex="-1" role="status" aria-live="polite" aria-atomic="true"></p><div id="search-results" hidden></div><div id="search-empty" hidden><p>{t('Prueba con una palabra más general o revisa la escritura.', 'Try a more general word or check the spelling.')}</p><a href="mapa.html">{labels['mapa']}</a></div>'''
+    examples = [('judo', 'Judo'), (t('musica', 'music'), t('Música', 'Music')), (t('correo', 'email'), t('Buscar correo', 'Find email'))]
     search += '<nav class="search-examples" aria-label="' + t('Ideas para buscar', 'Search ideas') + '"><span>' + t('Prueba con:', 'Try:') + '</span>' + ''.join(f'<a href="buscar.html?q={quote(query)}">{label}</a>' for query, label in examples) + '</nav>'
     content = {'index': home, 'trayectoria': background, 'hobbies': hobbies, 'intereses': interests, 'contacto': contact, 'ayuda': help_content, 'mapa': sitemap, 'buscar': search}
 
@@ -287,7 +292,7 @@ def build(lang):
                 self.output.append(escape(data))
 
     reading = '<div class="reading">'
-    reading += jump_links([(f'leer-{page}', labels[page]) for page in PAGES[:5]])
+    reading += jump_links([(f'leer-{page}', t('Leer: ', 'Read: ') + labels[page]) for page in PAGES[:5]])
     for page in PAGES[:5]:
         parser = ReadingParser(page)
         # Se omiten los accesos de la portada porque el índice de lectura ya los cubre.
@@ -319,7 +324,7 @@ def build(lang):
 <link rel="canonical" href="{PUBLIC_URL}{'en/' if en else ''}{path}"><link rel="alternate" hreflang="es" href="{PUBLIC_URL}{path}"><link rel="alternate" hreflang="en" href="{PUBLIC_URL}en/{path}"><link rel="icon" href="{prefix}img/favicon.svg" type="image/svg+xml">
 <script src="{prefix}js/theme.js"></script><script src="{prefix}js/site.js" defer></script>{search_scripts}<link rel="stylesheet" href="{prefix}css/styles.css"></head>
 <body><a class="skip-link" href="#contenido">{t('Saltar al contenido', 'Skip to content')}</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span><span>Carles<span class="brand-surname"> Valladares</span><span class="visually-hidden"> · {t("Inicio", "Home")}</span></span></a><div class="navigation" id="navigation"><nav class="primary-nav" aria-label="{t('Navegación principal', 'Main navigation')}">{nav}</nav></div><div class="header-tools"><a class="icon-control labeled-control" href="buscar.html" title="{labels['buscar']}">{icon('search')}<span>{labels['buscar']}</span></a><a class="language-switch" href="{alternate}" lang="{'es' if en else 'en'}" hreflang="{'es' if en else 'en'}" aria-label="{'ES: Español' if en else 'EN: English'}" title="{'Español' if en else 'English'}">{'ES' if en else 'EN'}</a><button class="theme-toggle icon-control" type="button" aria-pressed="false" title="{t('Activar modo oscuro', 'Enable dark mode')}" hidden><span aria-hidden="true">◐</span><span class="visually-hidden">{t('Modo oscuro', 'Dark mode')}</span></button><button class="menu-toggle icon-control labeled-control" type="button" aria-expanded="true" aria-controls="navigation" aria-label="{t('Menú', 'Menu')}" title="{t('Menú', 'Menu')}" hidden>{icon('menu')}<span>{t("Menú", "Menu")}</span></button></div></div></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="monogram" aria-hidden="true">cv<span>.</span></span><span>Carles<span class="brand-surname"> Valladares</span><span class="visually-hidden"> · {t("Inicio", "Home")}</span></span></a><div class="navigation" id="navigation"><nav class="primary-nav" aria-label="{t('Navegación principal', 'Main navigation')}">{nav}</nav></div><div class="header-tools"><a class="icon-control labeled-control" href="buscar.html">{icon('search')}<span>{labels['buscar']}</span></a><a class="language-switch" href="{alternate}" lang="{'es' if en else 'en'}" hreflang="{'es' if en else 'en'}" aria-label="{'ES: Español' if en else 'EN: English'}" title="{'Español' if en else 'English'}">{'ES' if en else 'EN'}</a><button class="theme-toggle icon-control" type="button" aria-pressed="false" title="{t('Activar modo oscuro', 'Enable dark mode')}" hidden><span aria-hidden="true">◐</span><span class="visually-hidden">{t('Modo oscuro', 'Dark mode')}</span></button><button class="menu-toggle icon-control labeled-control" type="button" aria-expanded="true" aria-controls="navigation" aria-label="{t('Menú', 'Menu')}" hidden>{icon('menu')}<span>{t("Menú", "Menu")}</span></button></div></div></header>
 <main id="contenido" tabindex="-1">{breadcrumb}{page_heading}{content[page]}{media_dialog}</main>
 <footer class="site-footer"><div><strong>Carles Valladares García</strong><p class="updated">{t('Actualizado:', 'Updated:')} <time datetime="{DATE}">{t('20 de noviembre de 2026', '20 November 2026')}</time></p></div><nav aria-label="{t('Ayuda y accesibilidad', 'Help and accessibility')}">{footer_links}</nav></footer></body></html>
 '''

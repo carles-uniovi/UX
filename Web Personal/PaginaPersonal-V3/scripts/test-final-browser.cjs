@@ -48,11 +48,11 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.
     const snapshot = name => page.screenshot({ path: path.join(output, name), fullPage: true });
     await check('Buscar y Menú con texto visible y controles de 44 px', async () => {
       await page.setViewportSize({ width: 320, height: 568 }); await go('index.html');
-      for (const selector of ['.header-tools a[title="Buscar"]', '.menu-toggle', '.language-switch', '.theme-toggle']) {
+      for (const selector of ['.header-tools a[href="buscar.html"]', '.menu-toggle', '.language-switch', '.theme-toggle']) {
         const box = await page.locator(selector).boundingBox(); assert(box && box.height >= 44 && box.width >= 44);
       }
       assert.equal(await page.locator('.menu-toggle span').innerText(), 'Menú');
-      assert.equal(await page.locator('.header-tools a[title="Buscar"] span').innerText(), 'Buscar');
+      assert.equal(await page.locator('.header-tools a[href="buscar.html"] span').innerText(), 'Buscar');
       await page.getByRole('button', { name: 'Menú', exact: true }).click();
       assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'), 'true');
       assert(await page.locator('.primary-nav a').first().evaluate(n => document.activeElement === n));
@@ -148,6 +148,12 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.
     });
     await check('Diálogo multimedia: sin autoplay, Escape libera el medio y restaura foco', async () => {
       await go('intereses.html');
+      const mediaLabels = await page.locator('.media-trigger').allTextContents();
+      assert.equal(new Set(mediaLabels).size, 5, 'Cada medio tiene un propósito identificable por su enlace');
+      for (const link of await page.locator('[data-media-type="youtube"]').all()) {
+        const title = (await link.getAttribute('data-media-title')).split(' · ')[0];
+        assert((await link.innerText()).includes(title));
+      }
       const trigger = page.locator('[data-media-type="audio"]').first(); await trigger.click();
       assert(await page.locator('#media-player').evaluate(n => n.open));
       assert.equal(await page.locator('audio').getAttribute('preload'), 'none');

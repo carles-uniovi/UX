@@ -70,7 +70,8 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; cha
       const names = ['index', 'trayectoria', 'hobbies', 'intereses', 'contacto', 'ayuda', 'mapa', 'buscar', 'lectura'];
       for (const prefix of ['', '/en']) for (const name of names) {
         await go(`${prefix}/${name}.html`);
-        assert.equal(await page.locator('.header-tools a[title]').first().getAttribute('href'), 'buscar.html');
+        const searchLink = page.getByRole('link', { name: prefix ? 'Search' : 'Buscar', exact: true });
+        assert.equal(await searchLink.getAttribute('href'), 'buscar.html');
       }
       await go('/index.html');
       await page.getByRole('link', { name: 'Buscar', exact: true }).click();

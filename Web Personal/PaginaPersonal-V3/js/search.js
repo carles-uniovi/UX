@@ -22,6 +22,8 @@
       language.href = path + (query ? '?q=' + encodeURIComponent(query) : '');
     }
     results.replaceChildren();
+    // Una lista vacía no representa resultados ni debe anunciarse como tal.
+    results.hidden = true;
     empty.hidden = true;
     // Vacío o solo signos: se pide una palabra, sin mostrar todos los contenidos.
     if (!SiteSearch.tokens(query).length) {
@@ -29,6 +31,10 @@
       return;
     }
     const matches = SiteSearch.search(index, query);
+    results.hidden = matches.length === 0;
+    const list = document.createElement('ol');
+    list.className = 'search-results';
+    if (matches.length) results.append(list);
     // #search-status es una región aria-live polite en el HTML generado.
     status.textContent = english ? `${matches.length} ${matches.length === 1 ? 'result' : 'results'} for “${query}”.` : `${matches.length} ${matches.length === 1 ? 'resultado' : 'resultados'} para «${query}».`;
     empty.hidden = matches.length > 0;
@@ -49,7 +55,7 @@
       const start = Math.max(0, position - 55);
       text.textContent = (start ? '…' : '') + item.text.slice(start, start + 230) + (item.text.length > start + 230 ? '…' : '');
       li.append(category, title, text);
-      results.append(li);
+      list.append(li);
     }
   }
   // Reemplazar la consulta evita generar una entrada del historial por pulsación.

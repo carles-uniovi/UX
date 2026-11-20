@@ -61,7 +61,8 @@ p { margin: 0 0 1rem; }
 main, .header-inner, .site-footer { width: min(100% - 3rem, 72rem); margin-inline: auto; }
 main { min-height: 65vh; padding-block: 1.25rem 0; }
 main > section { margin-bottom: 3rem; }
-.reading p { max-width: 70ch; }
+.reading p { max-width: 70ch; line-height: 1.65; margin-bottom: 2.5em; }
+.contact-intro { max-width: 65ch; margin-bottom: 1.5rem; }
 .skip-link { position: fixed; top: .5rem; left: .5rem; transform: translateY(-200%); z-index: 10; background: var(--surface); color: var(--accent); border: 2px solid var(--accent); padding: .8rem 1rem; border-radius: .4rem; }
 .skip-link:focus { transform: none; }
 /* El texto queda fuera de una caja de 1 px con desbordamiento recortado.
