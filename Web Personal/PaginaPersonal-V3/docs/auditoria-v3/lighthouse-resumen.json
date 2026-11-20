@@ -3,7 +3,7 @@
     "page": "index.html",
     "device": "mobile",
     "version": "13.6.0",
-    "fetchTime": "2026-11-20T04:37:18.644Z",
+    "fetchTime": "2026-11-20T10:51:03.296Z",
     "scores": {
       "performance": 100,
       "accessibility": 100,
@@ -11,18 +11,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1007.376,
-      "largest-contentful-paint": 1353.376,
+      "first-contentful-paint": 904.6108999999999,
+      "largest-contentful-paint": 1354.6109,
       "cumulative-layout-shift": 0,
-      "total-blocking-time": 54
+      "total-blocking-time": 0
     },
     "failedAudits": [
-      {
-        "id": "max-potential-fid",
-        "title": "Max Potential First Input Delay",
-        "score": 0.96,
-        "displayValue": "100 ms"
-      },
       {
         "id": "unminified-css",
         "title": "Minify CSS",
@@ -54,11 +48,6 @@
         "displayValue": "Est savings of 3 KiB"
       },
       {
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "score": 0
-      },
-      {
         "id": "network-dependency-tree-insight",
         "title": "Network dependency tree",
         "score": 0
@@ -67,7 +56,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 300 ms"
+        "displayValue": "Est savings of 200 ms"
       }
     ]
   },
@@ -75,7 +64,7 @@
     "page": "index.html",
     "device": "desktop",
     "version": "13.6.0",
-    "fetchTime": "2026-11-20T04:37:25.120Z",
+    "fetchTime": "2026-11-20T10:51:09.910Z",
     "scores": {
       "performance": 100,
       "accessibility": 100,
@@ -83,8 +72,8 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 276.0712,
-      "largest-contentful-paint": 323.0712,
+      "first-contentful-paint": 277.3867,
+      "largest-contentful-paint": 323.3867,
       "cumulative-layout-shift": 0,
       "total-blocking-time": 0
     },
@@ -147,7 +136,7 @@
     "page": "buscar.html?q=judo",
     "device": "mobile",
     "version": "13.6.0",
-    "fetchTime": "2026-11-20T04:37:31.567Z",
+    "fetchTime": "2026-11-20T10:51:16.391Z",
     "scores": {
       "performance": 100,
       "accessibility": 100,
@@ -155,8 +144,8 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 902.5903000000001,
-      "largest-contentful-paint": 1352.5902999999998,
+      "first-contentful-paint": 902.5088000000001,
+      "largest-contentful-paint": 1352.5088,
       "cumulative-layout-shift": 0,
       "total-blocking-time": 0
     },
@@ -205,7 +194,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 230 ms"
+        "displayValue": "Est savings of 220 ms"
       }
     ]
   },
@@ -213,7 +202,7 @@
     "page": "contacto.html",
     "device": "mobile",
     "version": "13.6.0",
-    "fetchTime": "2026-11-20T04:37:37.927Z",
+    "fetchTime": "2026-11-20T10:51:22.787Z",
     "scores": {
       "performance": 100,
       "accessibility": 100,
@@ -221,18 +210,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 983.4999,
-      "largest-contentful-paint": 983.4999,
-      "cumulative-layout-shift": 0,
-      "total-blocking-time": 31
+      "first-contentful-paint": 903.3224,
+      "largest-contentful-paint": 903.3224,
+      "cumulative-layout-shift": 0.02422334784259021,
+      "total-blocking-time": 0
     },
     "failedAudits": [
-      {
-        "id": "max-potential-fid",
-        "title": "Max Potential First Input Delay",
-        "score": 0.99,
-        "displayValue": "80 ms"
-      },
       {
         "id": "unminified-css",
         "title": "Minify CSS",
@@ -255,18 +238,13 @@
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes",
         "score": 0.5,
-        "displayValue": "Est savings of 28 KiB"
+        "displayValue": "Est savings of 29 KiB"
       },
       {
         "id": "document-latency-insight",
         "title": "Document request latency",
         "score": 0.5,
         "displayValue": "Est savings of 4 KiB"
-      },
-      {
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "score": 0
       },
       {
         "id": "network-dependency-tree-insight",
@@ -277,7 +255,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 300 ms"
+        "displayValue": "Est savings of 220 ms"
       }
     ]
   }
