@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20T04:39:41.429Z",
+  "date": "2026-11-20T10:49:00.795Z",
   "tests": [
     {
       "name": "Buscar y Menú con texto visible y controles de 44 px",
@@ -115,7 +115,7 @@
         "axe": "4.14.1",
         "scans": 36,
         "violations": 0,
-        "incomplete": 120
+        "incomplete": 108
       }
     },
     {
@@ -1286,17 +1286,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -1334,17 +1323,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },
@@ -1636,17 +1614,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -1684,17 +1651,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },
@@ -1740,47 +1696,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                ".primary-nav > a[href=\"index.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"trayectoria.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"hobbies.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"intereses.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Se abre en una pestaña nueva\"]:nth-child(15)"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -1818,47 +1733,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                ".primary-nav > a[href=\"index.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"trayectoria.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"hobbies.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"intereses.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Opens in a new tab\"]:nth-child(15)"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },
@@ -2150,17 +2024,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -2198,17 +2061,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[data-youtube-id=\"g4Hbz2jLxvQ\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },
@@ -2500,17 +2352,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -2548,17 +2389,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                "a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },
@@ -2604,47 +2434,6 @@
           ]
         },
         {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                ".primary-nav > a[href=\"index.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"trayectoria.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"hobbies.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"intereses.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Se abre en una pestaña nueva\"]:nth-child(15)"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            }
-          ]
-        },
-        {
           "id": "label-content-name-mismatch",
           "nodes": [
             {
@@ -2682,47 +2471,6 @@
                 ".theme-toggle > span[aria-hidden=\"true\"]"
               ],
               "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
-            }
-          ]
-        },
-        {
-          "id": "identical-links-same-purpose",
-          "nodes": [
-            {
-              "target": [
-                ".primary-nav > a[href=\"index.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"trayectoria.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"hobbies.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"intereses.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                ".primary-nav > a[href$=\"contacto.html\"]"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
-            },
-            {
-              "target": [
-                "a[target=\"_blank\"][rel=\"noopener noreferrer\"][title=\"Opens in a new tab\"]:nth-child(15)"
-              ],
-              "failureSummary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             }
           ]
         },

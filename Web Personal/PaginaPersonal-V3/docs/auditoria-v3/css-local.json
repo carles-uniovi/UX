@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-20T04:42:57.674Z",
+  "date": "2026-11-20T08:02:13.928Z",
   "tool": "css-tree 3.2.1 (local)",
-  "sha256": "70682c2382687c688185d4c174206891c43e0e10131f4778219f37672c4df018",
-  "declarations": 607,
+  "sha256": "2ab9d980a30f78c08eb1084ebd3af687302bfd6a9cb1f0882068d1bd8b2ee6a4",
+  "declarations": 611,
   "errors": [],
   "unchecked": [
     {
@@ -134,481 +134,481 @@
     {
       "property": "background",
       "value": "var(--surface)",
-      "line": 65,
+      "line": 66,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 65,
+      "line": 66,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border",
       "value": "2px solid var(--accent)",
-      "line": 65,
+      "line": 66,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--surface)",
-      "line": 70,
+      "line": 71,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 70,
+      "line": 71,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-bottom",
       "value": "1px solid var(--border)",
-      "line": 70,
+      "line": 71,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 72,
+      "line": 73,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--accent)",
-      "line": 73,
+      "line": 74,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--on-accent)",
-      "line": 73,
+      "line": 74,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 76,
+      "line": 77,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 77,
+      "line": 78,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 77,
+      "line": 78,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 84,
+      "line": 85,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 85,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--accent)",
-      "line": 85,
+      "line": 86,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
       "line": 86,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--accent)",
+      "line": 87,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "box-shadow",
       "value": "inset 0-2px var(--accent)",
-      "line": 86,
+      "line": 87,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 89,
+      "line": 90,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 92,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--accent)",
       "line": 93,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
+      "value": "var(--accent)",
+      "line": 94,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
       "value": "var(--muted)",
-      "line": 96,
+      "line": 97,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 97,
+      "line": 98,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 102,
+      "line": 103,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 102,
+      "line": 103,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-top",
       "value": "1px solid var(--border)",
-      "line": 104,
+      "line": 105,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-top",
       "value": "2px solid var(--accent)",
-      "line": 107,
+      "line": 108,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 109,
+      "line": 110,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 111,
+      "line": 112,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-bottom",
       "value": "1px solid var(--border)",
-      "line": 112,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--muted)",
       "line": 113,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
-      "value": "var(--accent)",
+      "value": "var(--muted)",
       "line": 114,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--accent)",
+      "line": 115,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-bottom",
       "value": "1px solid var(--border)",
-      "line": 116,
+      "line": 117,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--surface)",
-      "line": 119,
+      "line": 120,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 119,
+      "line": 120,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border",
       "value": "1px solid var(--border)",
-      "line": 119,
+      "line": 120,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "box-shadow",
       "value": "var(--shadow)",
-      "line": 119,
+      "line": 120,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 122,
+      "line": 123,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border",
       "value": "1px solid var(--border)",
-      "line": 124,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "background",
-      "value": "var(--surface)",
-      "line": 124,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--text)",
-      "line": 124,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--accent)",
       "line": 125,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
-      "value": "var(--soft)",
-      "line": 126,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--accent)",
-      "line": 126,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "border",
-      "value": "1px solid var(--control)",
-      "line": 132,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "background",
       "value": "var(--surface)",
-      "line": 132,
+      "line": 125,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 132,
+      "line": 125,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--accent)",
+      "line": 126,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "background",
+      "value": "var(--soft)",
+      "line": 127,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--accent)",
+      "line": 127,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "border",
+      "value": "1px solid var(--control)",
+      "line": 133,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "background",
+      "value": "var(--surface)",
+      "line": 133,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--text)",
+      "line": 133,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "box-shadow",
       "value": "var(--shadow)",
-      "line": 132,
+      "line": 133,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-left",
       "value": "2px solid var(--border)",
-      "line": 144,
+      "line": 145,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
-      "value": "var(--accent)",
-      "line": 146,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
       "value": "var(--accent)",
       "line": 147,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
+      "value": "var(--accent)",
+      "line": 148,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
       "value": "var(--muted)",
-      "line": 150,
+      "line": 151,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--surface)",
-      "line": 151,
+      "line": 152,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 151,
+      "line": 152,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border",
       "value": "1px solid var(--border)",
-      "line": 151,
+      "line": 152,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 153,
+      "line": 154,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 153,
+      "line": 154,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-top",
       "value": "1px solid var(--border)",
-      "line": 155,
+      "line": 156,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 157,
+      "line": 158,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 162,
+      "line": 163,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 162,
+      "line": 163,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-left",
       "value": "3px solid var(--accent)",
-      "line": 162,
+      "line": 163,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 176,
+      "line": 177,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-bottom",
       "value": "1px solid var(--border)",
-      "line": 179,
+      "line": 180,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 181,
+      "line": 182,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "outline",
       "value": "2px solid var(--accent)",
-      "line": 183,
+      "line": 184,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "background",
       "value": "var(--soft)",
-      "line": 185,
+      "line": 186,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 185,
+      "line": 186,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-bottom",
       "value": "1px solid var(--border)",
-      "line": 187,
+      "line": 188,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--accent)",
-      "line": 189,
+      "line": 190,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border-top",
       "value": "1px solid var(--border)",
-      "line": 191,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--muted)",
-      "line": 191,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "color",
-      "value": "var(--text)",
       "line": 192,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--muted)",
-      "line": 195,
+      "line": 192,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
-      "value": "var(--accent)",
+      "value": "var(--text)",
+      "line": 193,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--muted)",
       "line": 196,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
-      "value": "var(--text)",
+      "value": "var(--accent)",
       "line": 197,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "max-height",
-      "value": "calc(100dvh - var(--header-height, 7rem) - 1rem)",
-      "line": 206,
-      "message": "Matching for a tree with var() is not supported"
-    },
-    {
-      "property": "background",
-      "value": "var(--surface)",
-      "line": 206,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "color",
       "value": "var(--text)",
-      "line": 206,
+      "line": 198,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "max-height",
+      "value": "calc(100dvh - var(--header-height, 7rem) - 1rem)",
+      "line": 207,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "background",
+      "value": "var(--surface)",
+      "line": 207,
+      "message": "Matching for a tree with var() is not supported"
+    },
+    {
+      "property": "color",
+      "value": "var(--text)",
+      "line": 207,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "border",
       "value": "1px solid var(--border)",
-      "line": 206,
+      "line": 207,
       "message": "Matching for a tree with var() is not supported"
     },
     {
       "property": "box-shadow",
       "value": "var(--shadow)",
-      "line": 206,
+      "line": 207,
       "message": "Matching for a tree with var() is not supported"
     }
   ],
